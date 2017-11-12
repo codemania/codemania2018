@@ -1,6 +1,7 @@
 export type Year = "2012" | "2013" | "2014" | "2015" | "2016" | "2017" | "2018";
 
 export type Speaker = {
+  id: string,
   name: string,
   twitter: string,
   bio: string,
@@ -14,14 +15,17 @@ export const speakers: Speakers = {
     displayName: "2012",
     speakers: [
       {
+        id: "aaa",
         name: "Speaker 2012 1",
         topic: "Topic 2012 1"
       },
       {
+        id: "bbb",
         name: "Speaker 2012 2",
         topic: "Topic 2012 2"
       },
       {
+        id: "ccc",
         name: "Speaker 2012 3",
         topic: "Topic 2012 3"
       }

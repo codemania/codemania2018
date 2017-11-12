@@ -1,16 +1,17 @@
 import React, { Component } from "react";
 
-import SpeakerLayout from "../components/Speaker.js";
+import SpeakerList from "../components/SpeakerList";
 import type { Year } from "../constants";
 import { speakers } from "../constants";
+import { withRouter } from 'react-router'
 
-type Props = {
-  year: Year
-};
-
-class YearLayout extends Component<Props> {
+class YearLayout extends Component {
   render() {
-    const year = speakers[this.props.year];
+    const yearId = this.props.match.params.id;
+    if(yearId == "2018") {
+            // 2018 so redirect to home!
+        window.location = "/";
+    }
     return (
       <div className="Year">
         <style jsx="true">{`
@@ -23,14 +24,8 @@ class YearLayout extends Component<Props> {
                 margin: 5px;
             }
         `}</style>
-        <ul>
-          {year.speakers.slice().map((speaker) => {
-              return (
-            <li key={speaker.name}>
-              <SpeakerLayout speaker={speaker} />
-            </li>)
-          })}
-        </ul>
+        <h2>Codemania in History: {yearId}</h2>
+        <SpeakerList year={yearId} />
       </div>
     );
   }

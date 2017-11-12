@@ -1,11 +1,16 @@
 import "./CodemaniaApp.css";
 
 import React, { Component } from "react";
+import {
+  Route,
+  BrowserRouter as Router
+} from 'react-router-dom'
 
+import Home from "../components/Home";
+import SpeakerPage from "../components/SpeakerPage"
 import type Year from "../constants";
-import YearLayout from "../components/Year.js";
-import YearSelector from "../components/YearSelector.js";
-import logo from "../images/2017/logo2.svg";
+import YearLayout from "../components/Year";
+import YearSelector from "../components/YearSelector";
 
 type CodemaniaAppState = {
   focusedYear: Year,
@@ -25,19 +30,16 @@ class CodemaniaApp extends Component<Props, SnowflakeAppState> {
 
   render() {
     return (
-      <div className="App">
-        <div className="content">
-          <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
-          </header>
-          <div className="App-intro">
-            <h1 className="oswald-bold">COMING SOON</h1>
-            <h1 className="oswald-light">23rd May 2018</h1>
+      <Router>
+        <div className="App">
+          <div className="content">
+            <Route exact path="/" component={Home}/>
+            <Route exact path="/:id" component={YearLayout}/>
+            <Route path="/speakers/:year/:speaker" component={SpeakerPage}/>
           </div>
-          <YearLayout year={this.state.focusedYear} />
+          <YearSelector setFocusedYearFn={this.setFocusedYear.bind(this)} />
         </div>
-        <YearSelector setFocusedYearFn={this.setFocusedYear.bind(this)} />
-      </div>
+      </Router>
     );
   }
 
