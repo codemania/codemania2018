@@ -20,7 +20,7 @@ class YearSelector extends Component<Props> {
                 display: inline-block;
                 margin: 0 5px;
             }
-            h2 {
+            .year-selector-button {
                 cursor: pointer;
             }
         `}</style>
@@ -29,7 +29,7 @@ class YearSelector extends Component<Props> {
           <ul>
             {years.slice().map(year => {
               return (
-                <li key={year}>
+                <li key={year} className="year-selector-button">
                   <h2
                     onClick={() => this.props.setFocusedYearFn(year)}
                   >

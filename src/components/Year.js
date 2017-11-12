@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+import SpeakerLayout from "../components/Speaker.js";
 import type { Year } from "../constants";
 import { speakers } from "../constants";
 
@@ -26,8 +27,7 @@ class YearLayout extends Component<Props> {
           {year.speakers.slice().map((speaker) => {
               return (
             <li key={speaker.name}>
-              <h2>{speaker.name}</h2>
-              <p>{speaker.topic}</p>
+              <SpeakerLayout speaker={speaker} />
             </li>)
           })}
         </ul>
