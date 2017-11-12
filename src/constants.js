@@ -2,6 +2,7 @@ export type Year = "2012" | "2013" | "2014" | "2015" | "2016" | "2017" | "2018";
 
 export const speakers: Speakers = {
   "2012": {
+    displayName: "2012",
     speakers: [
       {
         name: "Speaker 2012 1",
@@ -12,12 +13,13 @@ export const speakers: Speakers = {
         topic: "Topic 2012 2"
       },
       {
-        name: "Speaker 2012 2",
-        topic: "Topic 2012 2"
+        name: "Speaker 2012 3",
+        topic: "Topic 2012 3"
       }
     ]
   },
   "2013": {
+    displayName: "2013",
     speakers: [
       {
         name: "Speaker 2013 1",
@@ -38,6 +40,7 @@ export const speakers: Speakers = {
   "2016": {},
   "2017": {},
   "2018": {
+    displayName: "2018",
     speakers: [
       {
         name: "Speaker 2018 1",
@@ -48,8 +51,8 @@ export const speakers: Speakers = {
         topic: "Topic 2018 2"
       },
       {
-        name: "Speaker 2018 2",
-        topic: "Topic 2018 2"
+        name: "Speaker 2018 3",
+        topic: "Topic 2018 3"
       }
     ]
   }
