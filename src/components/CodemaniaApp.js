@@ -32,7 +32,7 @@ class CodemaniaApp extends Component<Props, SnowflakeAppState> {
           </header>
           <div className="App-intro">
             <h1 className="oswald-bold">COMING SOON</h1>
-            <h1 className="oswald-light">25th May 2018</h1>
+            <h1 className="oswald-light">23rd May 2018</h1>
           </div>
           <YearLayout year={this.state.focusedYear} />
         </div>
