@@ -4,8 +4,17 @@ body {
   margin: 0;
   padding: 0;
   color: #FFF;
+  font-size: 24pt;
   font-family: 'Oswald', sans-serif;
   background: #208648;
+}
+
+#root {
+  height: 100%;
+}
+
+h2 {
+  margin: 15px 0;
 }
 
 .oswald-light {

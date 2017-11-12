@@ -30,8 +30,8 @@ export const speakers: Speakers = {
         topic: "Topic 2013 2"
       },
       {
-        name: "Speaker 2013 2",
-        topic: "Topic 2013 2"
+        name: "Speaker 2013 3",
+        topic: "Topic 2013 3"
       }
     ]
   },
