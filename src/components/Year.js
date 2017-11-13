@@ -1,14 +1,11 @@
 import React, { Component } from "react";
 
 import SpeakerList from "../components/SpeakerList";
-import type { Year } from "../constants";
-import { speakers } from "../constants";
-import { withRouter } from 'react-router'
 
 class YearLayout extends Component {
-  render() {
+  render () {
     const yearId = this.props.match.params.id;
-    if(yearId == "2018") {
+    if(yearId === "2018") {
             // 2018 so redirect to home!
         window.location = "/";
     }
