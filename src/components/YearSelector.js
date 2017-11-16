@@ -14,6 +14,8 @@ class YearSelector extends Component<Props> {
         <style jsx="true">{`
             .year-selector {
                 align: left;
+                background: #ff595a;
+                color: #fff;
             }
             li {
                 list-style: none;

@@ -10,17 +10,20 @@ type Props = {
 class SpeakerList extends Component<Props> {
   render() {
     const year = speakers[this.props.year];
-    return (
-      <ul className="speaker-list">
-        {year.speakers.slice().map(speaker => {
-          return (
-            <li key={speaker.name}>
-              <SpeakerBadge speaker={speaker} year={year.displayName} />
-            </li>
-          );
-        })}
-      </ul>
-    );
+    if (year.speakers) {
+      return (
+          <ul className="speaker-list">
+            {year.speakers.slice().map(speaker => {
+              return (
+                <li key={speaker.name}>
+                  <SpeakerBadge speaker={speaker} year={year.displayName} />
+                </li>
+              );
+            })}
+          </ul>);
+    } else {
+      return (<h2>....speaker list coming soon...</h2>);
+    }
   }
 }
 
