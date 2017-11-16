@@ -14,8 +14,66 @@
 	.st7{display:inline;}
 	.st8{enable-background:new    ;}
 	.st9{clip-path:url(#SVGID_2_);}
-	.st10{font-family:'Oswald-Bold';}
+	.st10{font-family: 'Oswald', sans-serif; font-weight: 700;}
 	.st11{font-size:20.0452px;}
+	@font-face {
+		font-family: 'Oswald';
+		font-style: normal;
+		font-weight: 400;
+		src: local('Oswald Regular'), local('Oswald-Regular'), url(https://fonts.gstatic.com/s/oswald/v16/_P8jt3Y65hJ9c4AzRE0V1OvvDin1pK8aKteLpeZ5c0A.woff2) format('woff2');
+		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+	}
+	@keyframes spin {
+		0% {
+			transform:rotate(0deg);
+			transform-origin: center center;
+		}
+		100% { 
+			transform:rotate(360deg);
+			transform-origin: center center;
+		}
+	}
+	@keyframes spinccw {
+		0% {
+			transform:rotate(0deg);
+			transform-origin: center center;
+		}
+		100% { 
+			transform:rotate(-360deg);
+			transform-origin: center center;
+		}
+	}
+	@keyframes blink-close {
+		0% { opacity: 1; }
+		1% { opacity: 1; }
+		2% { opacity: 0; }
+		4% { opacity: 0; }
+		100% { opacity: 0; }
+	}
+	@keyframes blink-open {
+		0% { opacity: 0; }
+		4% { opacity: 0; }
+		5% { opacity: 1; }
+		100% { opacity: 1; }
+	}
+	#eye_2 {
+		opacity:1;
+	}
+	#eye_1 {
+		animation: blink-open 10s ease infinite;
+	}
+	#eye_2 {
+		animation: blink-close 10s ease infinite;
+	}
+	.mandala-outer {
+		animation: spin 60s linear infinite;
+	}
+	<!-- .mandala-star {
+		animation: spin 40s linear infinite;
+	} -->
+	.mandala-inner {
+		animation: spinccw 50s linear infinite;
+	}
 </style>
 <symbol  id="Feather" viewBox="-39 -25.1 78 77.7">
 	<g>
@@ -39,9 +97,9 @@
 </symbol>
 <g id="Mandala">
 	<g>
-		<polygon class="st0" points="390.9,70.6 416.5,142.5 485.4,109.8 452.7,178.7 524.6,204.3 452.7,229.9 485.4,298.8 416.5,266 
+		<polygon class="st0 mandala-star" points="390.9,70.6 416.5,142.5 485.4,109.8 452.7,178.7 524.6,204.3 452.7,229.9 485.4,298.8 416.5,266 
 			390.9,337.9 365.3,266 296.4,298.8 329.2,229.9 257.2,204.3 329.2,178.7 296.4,109.8 365.3,142.5 		"/>
-		<polygon class="st1" points="390.9,96.6 411.5,154.5 467,128.1 440.6,183.7 498.6,204.3 440.6,224.9 467,280.4 411.5,254 
+		<polygon class="st1 mandala-star" points="390.9,96.6 411.5,154.5 467,128.1 440.6,183.7 498.6,204.3 440.6,224.9 467,280.4 411.5,254 
 			390.9,311.9 370.3,254 314.8,280.4 341.2,224.9 283.2,204.3 341.2,183.7 314.8,128.1 370.3,154.5 		"/>
 		<path id="More_dots" class="st0" d="M416.6,352.9C416.5,352.9,416.5,352.9,416.6,352.9l-0.1,0c-1.8,0.3-3.6-0.9-3.9-2.7
 			c-0.3-1.8,0.9-3.5,2.7-3.9c0,0,0,0,0,0l0.1,0c1.8-0.3,3.6,0.9,3.9,2.7C419.6,350.8,418.4,352.6,416.6,352.9z M425.6,351
@@ -185,7 +243,7 @@
 			l0.1,0c1.8-0.3,3.5,1,3.8,2.8C373.9,59.6,372.7,61.2,371,61.6z M361.7,63.2c-1.8,0.3-3.5-0.8-3.9-2.6c-0.4-1.8,0.8-3.6,2.6-4
 			l0.7,3.3l-0.6-3.3c1.8-0.4,3.6,0.8,4,2.6c0.4,1.8-0.7,3.6-2.6,4C361.8,63.1,361.7,63.2,361.7,63.2
 			C361.7,63.2,361.7,63.2,361.7,63.2z"/>
-		<g>
+		<g class="mandala-inner">
 			
 				<use xlink:href="#Feather"  width="78" height="77.7" id="XMLID_31_" x="-39" y="-25.1" transform="matrix(0.7748 0.3588 0.3588 -0.7748 427.1975 119.9985)" style="overflow:visible;"/>
 			
@@ -203,7 +261,7 @@
 			
 				<use xlink:href="#Feather"  width="78" height="77.7" id="XMLID_22_" x="-39" y="-25.1" transform="matrix(0.2543 0.8151 0.8151 -0.2543 475.774 169.767)" style="overflow:visible;"/>
 		</g>
-		<g>
+		<g class="mandala-outer">
 			
 				<use xlink:href="#Feather"  width="78" height="77.7" id="XMLID_2_" x="-39" y="-25.1" transform="matrix(0.5421 0.2185 0.2185 -0.5421 458.838 53.4554)" style="overflow:visible;"/>
 			
@@ -223,7 +281,7 @@
 			
 				<use xlink:href="#Feather"  width="78" height="77.7" id="XMLID_1_" x="-39" y="-25.1" transform="matrix(0.5421 0.2185 0.2185 -0.5421 458.838 53.4554)" style="overflow:visible;"/>
 		</g>
-		<g>
+		<g class="mandala-outer">
 			
 				<use xlink:href="#jewel"  width="10" height="20" x="-5" y="-10" transform="matrix(1 0 0 -1 242.9406 199.6682)" style="overflow:visible;"/>
 			

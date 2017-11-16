@@ -37,7 +37,7 @@ class CodemaniaApp extends Component<Props, SnowflakeAppState> {
             <Route exact path="/:id" component={YearLayout}/>
             <Route path="/speakers/:year/:speaker" component={SpeakerPage}/>
           </div>
-          <YearSelector setFocusedYearFn={this.setFocusedYear.bind(this)} />
+          {/* <YearSelector setFocusedYearFn={this.setFocusedYear.bind(this)} /> */}
         </div>
       </Router>
     );

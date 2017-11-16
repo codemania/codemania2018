@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import SpeakerList from "../components/SpeakerList";
+import logo from "../images/2017/logo2.svg";
 
 class YearLayout extends Component {
   render() {
@@ -21,6 +22,9 @@ class YearLayout extends Component {
                 margin: 5px;
             }
         `}</style>
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+        </header>
         <h2>Codemania in History: {yearId}</h2>
         <SpeakerList year={yearId} />
       </div>

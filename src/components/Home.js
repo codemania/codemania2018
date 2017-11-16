@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 
+import Jaguar from "../components/Jaguar";
 import SpeakerList from "../components/SpeakerList";
 import type Year from "../constants";
-import logo from "../images/2017/logo2.svg";
 
 type CodemaniaAppState = {
   focusedYear: Year
@@ -23,14 +23,15 @@ class Home extends Component<Props, SnowflakeAppState> {
   render() {
     return (
       <div className="home">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-        </header>
-        <div className="App-intro">
+        <style jsx="true">{`
+            .Jaguar { height: 100% }
+        `}</style>
+        <Jaguar />
+        {/* <div className="App-intro">
           <h1 className="oswald-bold">COMING SOON</h1>
           <h1 className="oswald-light">23rd May 2018</h1>
         </div>
-        <SpeakerList year="2018" />
+        <SpeakerList year="2018" /> */}
       </div>
     );
   }
