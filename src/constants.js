@@ -8,7 +8,7 @@ export type Speaker = {
   image: string,
   talkTopic: string,
   talkBlurb: string
-}
+};
 
 export const speakers: Speakers = {
   "2012": {

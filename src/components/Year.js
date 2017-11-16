@@ -3,11 +3,11 @@ import React, { Component } from "react";
 import SpeakerList from "../components/SpeakerList";
 
 class YearLayout extends Component {
-  render () {
+  render() {
     const yearId = this.props.match.params.id;
-    if(yearId === "2018") {
-            // 2018 so redirect to home!
-        window.location = "/";
+    if (yearId === "2018") {
+      // 2018 so redirect to home!
+      window.location = "/";
     }
     return (
       <div className="Year">
