@@ -67,12 +67,14 @@
 	}
 	.mandala-outer {
 		animation: spin 60s linear infinite;
+		transform-box: fill-box;
 	}
 	<!-- .mandala-star {
 		animation: spin 40s linear infinite;
 	} -->
 	.mandala-inner {
 		animation: spinccw 50s linear infinite;
+		transform-box: fill-box;
 	}
 </style>
 <symbol  id="Feather" viewBox="-39 -25.1 78 77.7">
