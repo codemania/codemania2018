@@ -24,7 +24,21 @@ class Home extends Component<Props, SnowflakeAppState> {
     return (
       <div className="home">
         <style jsx="true">{`
-            .Jaguar { height: 100% }
+            .home { 
+              display: flex;
+              flex-direction: column;
+              flex: 1 0 auto;
+            }
+            @media only screen 
+            and (min-device-width : 414px) 
+            and (max-device-width : 736px) {
+                .home { 
+                  display: flex;
+                  flex-direction: row;
+                  flex: 0 1 auto;
+                  margin: auto;
+                }
+            }
         `}</style>
         <Jaguar />
         {/* <div className="App-intro">

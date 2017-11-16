@@ -1,5 +1,3 @@
-import "./CodemaniaApp.css";
-
 import React, { Component } from "react";
 import {
   Route,
@@ -32,6 +30,21 @@ class CodemaniaApp extends Component<Props, SnowflakeAppState> {
     return (
       <Router>
         <div className="App">
+          <style jsx="true">{`
+            .App {
+              text-align: center;
+              display: flex;
+              flex-direction: column;
+              height: 100%;
+            }
+            
+            .content {
+              flex: 1 0 auto;
+              display: flex;
+              background: #ff595a;
+              color: #fff;
+            }
+          `}</style>
           <div className="content">
             <Route exact path="/" component={Home}/>
             <Route exact path="/:id" component={YearLayout}/>
