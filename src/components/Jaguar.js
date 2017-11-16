@@ -13,9 +13,8 @@ class Jaguar extends Component<Props> {
             .jaguar-image {
                 height: 100%;
             }
-            @media only screen 
-            and (min-device-width : 414px) 
-            and (max-device-width : 736px) {
+            @media only screen
+            and (max-width : 700px) {
                 .Jaguar {
                     width: 100%;
                     height: auto;

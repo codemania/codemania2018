@@ -29,9 +29,8 @@ class Home extends Component<Props, SnowflakeAppState> {
               flex-direction: column;
               flex: 1 0 auto;
             }
-            @media only screen 
-            and (min-device-width : 414px) 
-            and (max-device-width : 736px) {
+            @media only screen
+            and (max-width : 700px) {
                 .home { 
                   display: flex;
                   flex-direction: row;
