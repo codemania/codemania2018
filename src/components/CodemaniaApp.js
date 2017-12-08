@@ -9,6 +9,7 @@ import SpeakerPage from "../components/SpeakerPage"
 import type Year from "../constants";
 import YearLayout from "../components/Year";
 import YearSelector from "../components/YearSelector";
+import Navbar from "../components/Navbar";
 
 type CodemaniaAppState = {
   focusedYear: Year,
@@ -45,6 +46,7 @@ class CodemaniaApp extends Component<Props, SnowflakeAppState> {
               color: #fff;
             }
           `}</style>
+          <Navbar />
           <div className="content">
             <Route exact path="/" component={Home}/>
             <Route exact path="/:id" component={YearLayout}/>
