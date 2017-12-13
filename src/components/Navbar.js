@@ -4,8 +4,25 @@ import FontAwesome from "react-fontawesome";
 class NavComponent extends Component<Props> {
   render() {
     return (
-      <div>
+      <nav>
         <style jsx="true">{`
+          nav .navWide li, nav .navNarrow li {
+            color: #ff595a;
+            font-weight: bold;
+            display: inline-block;
+            margin: 10px;
+          }
+          nav .navNarrow li {
+            display: block;
+            line-height: 1.4em;
+          }
+          nav li a, .fa-bars {
+            color: #ff595a;
+            text-decoration: none;
+          }
+          .fa-bars {
+            margin: 2px;
+          }
           .navWide {
             display: none;
           }
@@ -35,20 +52,28 @@ class NavComponent extends Component<Props> {
 
         <div className="navWide">
           <div className="wideDiv">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
+              <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">AGENDA</a></li>
+                <li><a href="/about">ABOUT</a></li>
+                <li><a href="#">TICKETS</a></li>
+                <li><a href="#">SPONSORS</a></li>
+              </ul>
             </div>
         </div>
         <div className="navNarrow">
         <FontAwesome name='bars' onClick={this.burgerToggle} />
           <div className="narrowLinks">
-              <a href="#">NLink 1</a>
-              <a href="#">NLink 2</a>
-              <a href="#">NLink 3</a>
+            <ul>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">AGENDA</a></li>
+              <li><a href="/about">ABOUT</a></li>
+              <li><a href="#">TICKETS</a></li>
+              <li><a href="#">SPONSORS</a></li>
+            </ul>
           </div>
-      </div>
-      </div>
+        </div>
+      </nav>
     )
   }
 
