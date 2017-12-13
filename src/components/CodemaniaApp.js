@@ -22,7 +22,7 @@ const defaultState = (): CodemaniaAppState => {
   }
 }
 
-class CodemaniaApp extends Component<Props, SnowflakeAppState> {
+class CodemaniaApp extends Component<Props> {
   constructor(props: Props) {
     super(props)
     this.state = defaultState()
@@ -30,7 +30,7 @@ class CodemaniaApp extends Component<Props, SnowflakeAppState> {
 
   render() {
     return (
-      <Router history={hashHistory}>
+      <Router>
         <div className="App">
           <style jsx="true">{`
             .App {
