@@ -53,7 +53,7 @@ class NavComponent extends Component<Props> {
         <div className="navWide">
           <div className="wideDiv">
               <ul>
-                <li><a href="#">HOME</a></li>
+                <li><a href="/">HOME</a></li>
                 <li><a href="#">AGENDA</a></li>
                 <li><a href="/about">ABOUT</a></li>
                 <li><a href="#">TICKETS</a></li>
@@ -65,7 +65,7 @@ class NavComponent extends Component<Props> {
         <FontAwesome name='bars' onClick={this.burgerToggle} />
           <div className="narrowLinks">
             <ul>
-              <li><a href="#">HOME</a></li>
+              <li><a href="/">HOME</a></li>
               <li><a href="#">AGENDA</a></li>
               <li><a href="/about">ABOUT</a></li>
               <li><a href="#">TICKETS</a></li>

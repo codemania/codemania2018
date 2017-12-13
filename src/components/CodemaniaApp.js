@@ -10,6 +10,7 @@ import type Year from "../constants";
 import YearLayout from "../components/Year";
 import YearSelector from "../components/YearSelector";
 import Navbar from "../components/Navbar";
+import About from "../components/About";
 
 type CodemaniaAppState = {
   focusedYear: Year,
@@ -49,7 +50,8 @@ class CodemaniaApp extends Component<Props, SnowflakeAppState> {
           <Navbar />
           <div className="content">
             <Route exact path="/" component={Home}/>
-            <Route exact path="/:id" component={YearLayout}/>
+            <Route exact path="/about" component={About}/>
+            <Route path="/year/:id" component={YearLayout}/>
             <Route path="/speakers/:year/:speaker" component={SpeakerPage}/>
           </div>
           {/* <YearSelector setFocusedYearFn={this.setFocusedYear.bind(this)} /> */}
