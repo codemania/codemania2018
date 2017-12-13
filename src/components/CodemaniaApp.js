@@ -30,7 +30,7 @@ class CodemaniaApp extends Component<Props, SnowflakeAppState> {
 
   render() {
     return (
-      <Router>
+      <Router history={hashHistory}>
         <div className="App">
           <style jsx="true">{`
             .App {
