@@ -34,27 +34,42 @@ class CodemaniaApp extends Component<Props> {
         <div className="App">
           <style jsx="true">{`
             .App {
-              text-align: center;
               display: flex;
-              flex-direction: column;
-              height: 100%;
+              flex-flow: row wrap;
             }
-            
-            .content {
-              flex: 1 0 auto;
-              display: flex;
+            .App > * {
+              flex: 1 100%;
+            }
+            .bg {
               background: #ff595a;
-              color: #fff;
+            }
+
+            /* Medium screens */
+            @media all and (max-width: 699px) {
+              /* Hide Sidbars */
+              .sidebar { display: none; }
+            }
+
+            /* Large screens */
+            @media all and (min-width: 700px) {
+              /* We invert order of first sidebar and main
+               * And tell the main element to take 8x as much width as the other two sidebars
+               */
+              .sidebar { flex: 1 1px; display: block; }
+              .content { flex: 8 0px; }
             }
           `}</style>
           <Navbar />
-          <div className="content">
+          <sidebar class="sidebar bg"></sidebar>
+          <div className="content bg">
             <Route exact path="/" component={Home}/>
             <Route exact path="/about" component={About}/>
             <Route path="/year/:id" component={YearLayout}/>
             <Route path="/speakers/:year/:speaker" component={SpeakerPage}/>
           </div>
+          <sidebar class="sidebar bg"></sidebar>
           {/* <YearSelector setFocusedYearFn={this.setFocusedYear.bind(this)} /> */}
+          <footer class="footer bg">Footer</footer>
         </div>
       </Router>
     );

@@ -6,6 +6,10 @@ class NavComponent extends Component<Props> {
     return (
       <nav>
         <style jsx="true">{`
+          nav {
+            display: flex;
+            justify-content: start;
+          }
           nav .navWide li, nav .navNarrow li {
             color: #ff595a;
             font-weight: bold;
@@ -40,7 +44,10 @@ class NavComponent extends Component<Props> {
             clear: left;
           }
           
-          @media (min-width: 480px) {
+          @media (min-width: 600px) {
+            nav {
+              justify-content: center;
+            }
             .navWide {
               display: block;
             }
