@@ -7,8 +7,7 @@ class About extends Component {
       <div class="about">
         <style jsx="true">{`
           .about {
-            max-width: 800px;
-            margin: 0 auto;
+            margin: 10px;
           }
           h1 {
             font-size: 1.2em;
