@@ -1,7 +1,12 @@
 {
-    "root": "build/",
-    "clean_urls": false,
-    "routes": {
-      "/**": "index.html"
+  "root": "build/",
+  "clean_urls": false,
+  "routes": {
+    "/**": "index.html"
+  },
+  "headers": {
+    "/**": {
+      "Cache-Control": "no-store, no-cache"
     }
+  }
 }
