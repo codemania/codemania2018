@@ -60,16 +60,16 @@ class CodemaniaApp extends Component<Props> {
             }
           `}</style>
           <Navbar />
-          <sidebar class="sidebar bg"></sidebar>
+          <div className="sidebar bg"></div>
           <div className="content bg">
             <Route exact path="/" component={Home}/>
             <Route exact path="/about" component={About}/>
             <Route path="/year/:id" component={YearLayout}/>
             <Route path="/speakers/:year/:speaker" component={SpeakerPage}/>
           </div>
-          <sidebar class="sidebar bg"></sidebar>
-          {/* <YearSelector setFocusedYearFn={this.setFocusedYear.bind(this)} /> */}
-          <footer class="footer bg">Footer</footer>
+          <div className="sidebar bg"></div>
+          <footer className="footer bg"></footer>
+          <YearSelector setFocusedYearFn={this.setFocusedYear.bind(this)} />
         </div>
       </Router>
     );

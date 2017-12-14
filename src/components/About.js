@@ -4,7 +4,7 @@ class About extends Component {
 
   render() {
     return (
-      <div className="about">
+      <div class="about">
         <style jsx="true">{`
           .about {
             max-width: 800px;

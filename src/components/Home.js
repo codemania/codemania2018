@@ -2,24 +2,8 @@ import React, { Component } from "react";
 
 import Jaguar from "../components/Jaguar";
 import SpeakerList from "../components/SpeakerList";
-import type Year from "../constants";
-
-type CodemaniaAppState = {
-  focusedYear: Year
-};
-
-const defaultState = (): CodemaniaAppState => {
-  return {
-    focusedYear: "2018"
-  };
-};
 
 class Home extends Component<Props, SnowflakeAppState> {
-  constructor(props: Props) {
-    super(props);
-    this.state = defaultState();
-  }
-
   render() {
     return (
       <div className="home">
