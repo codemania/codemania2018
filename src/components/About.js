@@ -8,6 +8,7 @@ class About extends Component {
         <style jsx="true">{`
           .about {
             margin: 10px;
+            color: #fff
           }
           h1 {
             font-size: 1.2em;
@@ -21,10 +22,10 @@ class About extends Component {
           }
         `}</style>
         <h1>What is Codemania?</h1>
-        <p>Et consectetur occaecat ad eiusmod. Ut labore fugiat fugiat occaecat elit incididunt in et ut in. Qui anim officia fugiat mollit culpa nisi est cupidatat minim sunt est nulla ut. Cupidatat exercitation consectetur esse amet elit velit fugiat. Velit dolor veniam elit cillum est aliquip qui eu.</p>
-        <p>Reprehenderit quis dolore quis proident fugiat. Fugiat nisi amet incididunt do sit irure laboris ad consectetur. Enim do sit ut laborum sint eiusmod eiusmod.</p>
-        <p>Nisi ex incididunt minim nulla id qui ea quis ut labore laboris dolore sint. In velit enim est qui consectetur veniam. Non id eiusmod ipsum mollit do sit voluptate mollit excepteur aliquip incididunt. Laboris mollit elit ea magna irure. Aliqua est id labore ipsum aute laborum cupidatat. Ut enim adipisicing veniam irure nisi Lorem nisi consequat nostrud sit nulla. Eiusmod nulla sunt sunt do id amet reprehenderit mollit culpa velit et exercitation.</p>
-        <p>Nulla excepteur incididunt aliquip magna officia ullamco exercitation. Commodo nisi ut velit id aliqua ullamco. Est sint qui et ut nostrud labore laboris in duis. Veniam fugiat dolor do do ullamco ullamco nulla ad fugiat mollit in amet laborum ea. Excepteur sunt non tempor et non amet ea reprehenderit cillum nostrud pariatur velit.</p>
+        <p>Codemania is back and better than ever: a full day of information and inspiration from software practitioners at the top of their game. <a href="/agenda" class="hilite">Codemania conference</a> will be held at the luxurious Langham Hotel on Friday April 28th.</p>
+        <p>Once again, you can also join our world-class speakers and an exclusive gathering of your Codemania family for the whole weekend after Codemania conference. <a href="/conversations" class="hilite">Codemania conversations</a> returns to the Waitakere Estate, deep in the heart of one of Auckland's most picturesque bush settings.</p>
+      
+        <p>Like always, Codemania is an inclusive, safe space for all to enjoy. Please have a read of our <a class="hilite" href="/coc">Code of Conduct</a>.</p>
       </div>
     );
   }

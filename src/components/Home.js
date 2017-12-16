@@ -2,13 +2,16 @@ import React, { Component } from "react";
 
 import Jaguar from "../components/Jaguar";
 import SpeakerList from "../components/SpeakerList";
+import HeaderLogo from '../components/HeaderLogo'
+import BuyTickets from '../components/BuyTickets'
 
-class Home extends Component<Props, SnowflakeAppState> {
+
+class Home extends Component {
   render() {
     return (
-      <div className="home">
+      <div className="flex-container">
         <style jsx="true">{`
-            .home {
+            .flex-container {
               width: 100%;
               display: flex;
               flex-wrap: wrap;
@@ -23,14 +26,13 @@ class Home extends Component<Props, SnowflakeAppState> {
               margin: 10px;
             }
             .logo {
-              width:600px;
-              height:200px;
-              flex: 8 0 auto;
+              flex: 7 0 200px;
+              max-width: 700px;
             }
             .buy-tickets {
-              width: 100px;
-              height: 200px;
-              flex: 2 0 auto;
+              flex: 3 0 80px;
+              padding-top: 100px;
+              max-width: 200px;
             }
             .kitty {
               width: 600px;
@@ -48,24 +50,38 @@ class Home extends Component<Props, SnowflakeAppState> {
               flex: 10 0 auto;
             }
             @media only screen
-            and (max-width : 700px) {
+            and (max-width : 600px) {
                 .home {
                   margin: auto;
+                  flex-order: row;
                 }
                 .logo, .kitty, .speaker-list, .about, .ticket-table, .sponsors, .footer {
                   width: 95%;
-                  magin: 10px auto;
+                  margin: 10px auto;
+                  flex: 10 0 auto;
+                }
+                .buy-tickets {
+                  flex: 6 0 200px;
+                  padding: 0;
+                }
+                .ticket-mobile-sidebar {
+                  flex: 2 0 auto;
+                  display: block;
                 }
             }
         `}</style>
-        <div className="logo placeholder" />
-        <div className="buy-tickets placeholder" />
+        <div className="flex-container">
+          <HeaderLogo />
+          <BuyTickets />
+        </div>
+        <div className="flex-container">
         <div className="kitty placeholder" />
         <div className="speaker-list placeholder" />
         <div className="about placeholder" />
         <div className="ticket-table placeholder" />
         <div className="sponsors placeholder" />
         <div className="footer placeholder" />
+        </div>
 
 
       </div>
