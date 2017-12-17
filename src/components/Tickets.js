@@ -12,7 +12,7 @@ class Tickets extends Component {
             font-size: 0.9em;
           }
           .tickets table td {
-            padding: 15px;
+            padding: 20px;
           }
           .tickets table tr {
             background-color: #468fa5
@@ -25,6 +25,24 @@ class Tickets extends Component {
           }
           .tickets table thead td {
             font-weight: 300;
+          }
+          .small-print {
+            text-align: right;
+            font-weight: 300;
+            margin-top: 5px;
+            padding-right: 5px;
+          }
+          @media only screen
+          and (max-width : 600px) {
+            .tickets {
+              font-size: 14pt;
+            }
+            .tickets table td {
+              padding: 10px;
+            }
+            .tickets table {
+              margin: 0 5px;
+            }
           }
         `}</style>
         <h1>Tickets</h1>
@@ -39,31 +57,32 @@ class Tickets extends Component {
           <tbody>
             <tr>
               <td>CONFERENCE</td>
-              <td width="15%">$399</td>
-              <td width="15%">$499</td>
+              <td width="15%">$450</td>
+              <td width="15%">$550</td>
             </tr>
             <tr>
               <td>CONVERSATIONS</td>
-              <td width="15%">$399</td>
-              <td width="15%">$499</td>
+              <td width="15%">$800</td>
+              <td width="15%">$900</td>
             </tr>
             <tr>
               <td>CONVERSATIONS*</td>
-              <td width="15%">$399</td>
-              <td width="15%">$499</td>
+              <td width="15%">$400</td>
+              <td width="15%">$500</td>
             </tr>
             <tr>
               <td>CONVERSATIONS OVERNIGHT</td>
-              <td width="15%">$399</td>
-              <td width="15%">$499</td>
+              <td width="15%">$1200</td>
+              <td width="15%">$1300</td>
             </tr>
             <tr>
               <td>CONVERSATIONS OVERNIGHT*</td>
-              <td width="15%">$399</td>
-              <td width="15%">$499</td>
+              <td width="15%">$1000</td>
+              <td width="15%">$1100</td>
             </tr>
           </tbody>
         </table>
+        <p className="small-print">*When purchased with a conference ticket</p>
       </div>
     );
   }
