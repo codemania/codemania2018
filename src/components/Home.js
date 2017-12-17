@@ -5,7 +5,12 @@ import SpeakerList from "../components/SpeakerList";
 import HeaderLogo from '../components/HeaderLogo'
 import BuyTickets from '../components/BuyTickets'
 import KittersPyramid from '../components/KittersPyramid'
+import About from '../components/About'
+import Tickets from '../components/Tickets'
 
+
+import team from '../images/2018/team.svg'
+import cave from '../images/2018/cave.svg'
 
 
 class Home extends Component {
@@ -40,7 +45,6 @@ class Home extends Component {
             }
             .speaker-list, .about, .ticket-table, .sponsors {
               width: 100%;
-              height: 1000px;
               flex: 10 0 auto;
             }
             .footer {
@@ -76,8 +80,10 @@ class Home extends Component {
         <div className="flex-container">
           <KittersPyramid />
           <SpeakerList year="2018" />
-          <div className="about placeholder" />
-          <div className="ticket-table placeholder" />
+          <About />
+          <div className="image-break"><img src={team} alt="Codemania team"/></div>
+          <Tickets />
+          <div className="image-break"><img src={cave} alt="Codemania team"/></div>
           <div className="sponsors placeholder" />
           <div className="footer placeholder" />
         </div>

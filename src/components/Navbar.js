@@ -62,8 +62,8 @@ class NavComponent extends Component<Props> {
               <ul>
                 <li><a href="/">HOME</a></li>
                 <li><a href="#">AGENDA</a></li>
-                <li><a href="/about">ABOUT</a></li>
-                <li><a href="#">TICKETS</a></li>
+                <li><a href="/#about">ABOUT</a></li>
+                <li><a href="/#tickets">TICKETS</a></li>
                 <li><a href="#">SPONSORS</a></li>
               </ul>
             </div>
@@ -74,8 +74,8 @@ class NavComponent extends Component<Props> {
             <ul>
               <li><a href="/">HOME</a></li>
               <li><a href="#">AGENDA</a></li>
-              <li><a href="/about">ABOUT</a></li>
-              <li><a href="#">TICKETS</a></li>
+              <li><a href="/#about">ABOUT</a></li>
+              <li><a href="/#tickets">TICKETS</a></li>
               <li><a href="#">SPONSORS</a></li>
             </ul>
           </div>

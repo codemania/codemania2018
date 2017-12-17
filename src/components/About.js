@@ -4,7 +4,7 @@ class About extends Component {
 
   render() {
     return (
-      <div class="about">
+      <div class="about" id="about">
         <style jsx="true">{`
           .about {
             margin: 10px;
@@ -13,15 +13,16 @@ class About extends Component {
           h1 {
             font-size: 1.2em;
             margin: 15px 0;
+            text-align: center;
           } 
           p {
             font-size: 0.9em;
             margin-bottom: 15px;
-            text-align: justify;
+            text-align: center;
             font-weight: 300;
           }
         `}</style>
-        <h1>What is Codemania?</h1>
+        <h1>About</h1>
         <p>Codemania is back and better than ever: a full day of information and inspiration from software practitioners at the top of their game. <a href="/agenda" class="hilite">Codemania conference</a> will be held at the luxurious Langham Hotel on Friday April 28th.</p>
         <p>Once again, you can also join our world-class speakers and an exclusive gathering of your Codemania family for the whole weekend after Codemania conference. <a href="/conversations" class="hilite">Codemania conversations</a> returns to the Waitakere Estate, deep in the heart of one of Auckland's most picturesque bush settings.</p>
       
