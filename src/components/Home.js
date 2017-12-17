@@ -4,6 +4,8 @@ import Jaguar from "../components/Jaguar";
 import SpeakerList from "../components/SpeakerList";
 import HeaderLogo from '../components/HeaderLogo'
 import BuyTickets from '../components/BuyTickets'
+import KittersPyramid from '../components/KittersPyramid'
+
 
 
 class Home extends Component {
@@ -19,7 +21,6 @@ class Home extends Component {
               align-items: flex-start;
               align-content: flex-start;
               margin: auto;
-              border: 1px dotted #000;
             }
             .placeholder {
               background-color: red;
@@ -35,8 +36,6 @@ class Home extends Component {
               max-width: 200px;
             }
             .kitty {
-              width: 600px;
-              height: 600px;
               flex: 6 0 auto;
             }
             .speaker-list, .about, .ticket-table, .sponsors {
@@ -75,12 +74,12 @@ class Home extends Component {
           <BuyTickets />
         </div>
         <div className="flex-container">
-        <div className="kitty placeholder" />
-        <div className="speaker-list placeholder" />
-        <div className="about placeholder" />
-        <div className="ticket-table placeholder" />
-        <div className="sponsors placeholder" />
-        <div className="footer placeholder" />
+          <KittersPyramid />
+          <SpeakerList year="2018" />
+          <div className="about placeholder" />
+          <div className="ticket-table placeholder" />
+          <div className="sponsors placeholder" />
+          <div className="footer placeholder" />
         </div>
 
 

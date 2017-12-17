@@ -12,6 +12,7 @@ class SpeakerList extends Component<Props> {
     const year = speakers[this.props.year];
     if (year.speakers) {
       return (
+        <div>
           <ul className="speaker-list">
             {year.speakers.slice().map(speaker => {
               return (
@@ -20,7 +21,9 @@ class SpeakerList extends Component<Props> {
                 </li>
               );
             })}
-          </ul>);
+          </ul>
+        </div>
+      );
     } else {
       return (<h2>....speaker list coming soon...</h2>);
     }
