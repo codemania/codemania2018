@@ -10,11 +10,6 @@ class About extends Component {
             margin: 10px;
             color: #fff
           }
-          h1 {
-            font-size: 1.2em;
-            margin: 15px 0;
-            text-align: center;
-          } 
           p {
             font-size: 0.9em;
             margin-bottom: 15px;

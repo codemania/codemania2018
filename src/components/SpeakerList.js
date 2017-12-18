@@ -13,6 +13,7 @@ class SpeakerList extends Component<Props> {
     if (year.speakers) {
       return (
         <div>
+          <h1>Speakers</h1>
           <ul className="speaker-list">
             {year.speakers.slice().map(speaker => {
               return (

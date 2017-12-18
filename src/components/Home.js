@@ -10,6 +10,7 @@ import Tickets from '../components/Tickets'
 
 import team from '../images/2018/team.svg'
 import cave from '../images/2018/cave.svg'
+import tablet from '../images/2018/tablet.svg'
 
 
 class Home extends Component {
@@ -42,6 +43,19 @@ class Home extends Component {
             .kitty {
               flex: 6 0 auto;
               margin-top: -40px;
+            }
+            h1 {
+              background-size: 200px;
+              line-height: 1.8em;
+              font-family: 'Oswald', sans-serif;
+              font-weight: bold;
+              transform: rotate(-5deg);
+              background-color: #fff;
+              width: 200px;
+              text-align: center;
+              text-transform: uppercase;
+              margin: 0 auto 50px auto;
+              color: #ff595a;
             }
             .speaker-list, .about, .ticket-table, .sponsors {
               width: 100%;
