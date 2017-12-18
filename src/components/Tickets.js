@@ -11,6 +11,9 @@ class Tickets extends Component {
             width: 100%;
             font-size: 0.9em;
           }
+          .tickets table {
+            margin: 10px;
+          }
           .tickets table td {
             padding: 20px;
           }

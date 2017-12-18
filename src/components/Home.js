@@ -87,7 +87,7 @@ class Home extends Component {
                   padding: 0;
                 }
                 .speaker-container {
-                  margin-top: -160px;
+                  margin-top: -120px;
                 }
                 .ticket-mobile-sidebar {
                   flex: 2 0 auto;
