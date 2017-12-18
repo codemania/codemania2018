@@ -41,6 +41,7 @@ class Home extends Component {
             }
             .kitty {
               flex: 6 0 auto;
+              margin-top: -40px;
             }
             .speaker-list, .about, .ticket-table, .sponsors {
               width: 100%;

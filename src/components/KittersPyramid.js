@@ -7,14 +7,12 @@ export default class KittersPyramid extends Component {
     return (
       <div className="kitty">
         <style jsx="true">{`
-          .kitty {
-            background: url(`+kitters+`) no-repeat center;
-          }
           @media only screen
           and (max-width : 600px) {
             
           }
         `}</style>
+        <img src={kitters} alt="Lava kitty" />
       </div>
     )
   }
