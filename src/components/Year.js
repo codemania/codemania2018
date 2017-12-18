@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import SpeakerList from "../components/SpeakerList";
-import logo from "../images/2017/logo2.svg";
+import logo from "../images/2018/logo-cm.svg";
 
 class YearLayout extends Component {
   render() {
@@ -21,6 +21,7 @@ class YearLayout extends Component {
                 display: inline-block;
                 margin: 5px;
             }
+
         `}</style>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
