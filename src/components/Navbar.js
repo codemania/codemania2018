@@ -61,10 +61,10 @@ class NavComponent extends Component<Props> {
           <div className="wideDiv">
               <ul>
                 <li><a href="/">HOME</a></li>
-                <li><a href="#">AGENDA</a></li>
+                <li><a href="/agenda">AGENDA</a></li>
                 <li><a href="/#about">ABOUT</a></li>
                 <li><a href="/#tickets">TICKETS</a></li>
-                <li><a href="#">SPONSORS</a></li>
+                <li><a href="/#sponsors">SPONSORS</a></li>
               </ul>
             </div>
         </div>
@@ -73,10 +73,10 @@ class NavComponent extends Component<Props> {
           <div className="narrowLinks">
             <ul>
               <li><a href="/">HOME</a></li>
-              <li><a href="#">AGENDA</a></li>
+              <li><a href="/agenda">AGENDA</a></li>
               <li><a href="/#about">ABOUT</a></li>
               <li><a href="/#tickets">TICKETS</a></li>
-              <li><a href="#">SPONSORS</a></li>
+              <li><a href="/#sponsors">SPONSORS</a></li>
             </ul>
           </div>
         </div>

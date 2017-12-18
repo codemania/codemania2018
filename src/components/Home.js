@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 
-import Jaguar from "../components/Jaguar";
 import SpeakerList from "../components/SpeakerList";
 import HeaderLogo from '../components/HeaderLogo'
 import BuyTickets from '../components/BuyTickets'
