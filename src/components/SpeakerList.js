@@ -59,7 +59,7 @@ class SpeakerList extends Component<Props> {
         </div>
           );
     } else {
-      return (<h2>....speaker list coming soon...</h2>);
+      return (<h2>Sorry, we can't find a speakerlist for {year.displayName}</h2>);
     }
   }
 }
