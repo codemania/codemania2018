@@ -91,7 +91,7 @@ class Tickets extends Component {
             </tr>
           </tbody>
         </table>
-        <p className="small-print">*When purchased with a conference ticket</p>
+        <p className="small-print">*When purchased with a conference ticket. Earlybird ends 28th Feb 2018</p>
       </div>
     );
   }
