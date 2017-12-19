@@ -40,7 +40,7 @@ class Tickets extends Component {
           }
           @media only screen
           and (max-width : 600px) {
-            .tickets table, .tickets .small-print {
+            .tickets table, .tickets {
               font-size: 14pt;
             }
             .tickets table td {
@@ -51,6 +51,9 @@ class Tickets extends Component {
             }
             .tickets h1 {
               margin-bottom: 0;
+           }
+           .small-print {
+             font-size: small;
            }
           }
         `}</style>
