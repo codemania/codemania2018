@@ -11,6 +11,9 @@ class Tickets extends Component {
             width: 100%;
             font-size: 0.9em;
           }
+          .tickets h1 {
+             margin-bottom: -40px;
+          }
           .tickets table {
             margin: 10px;
           }
@@ -18,10 +21,10 @@ class Tickets extends Component {
             padding: 20px;
           }
           .tickets table tr {
-            background-color: #468fa5
+            background-color: rgba(0,193,222,.7);
           }
           .tickets table tr:nth-child(even) {
-            background-color: #006a9a
+            background-color: rgba(0,101,161,.8);
           }
           .tickets table thead tr {
             background-color: transparent
@@ -46,6 +49,9 @@ class Tickets extends Component {
             .tickets table {
               margin: 0 5px;
             }
+            .tickets h1 {
+              margin-bottom: 0;
+           }
           }
         `}</style>
         <h1>Tickets</h1>

@@ -6,6 +6,7 @@ import BuyTickets from '../components/BuyTickets'
 import KittersPyramid from '../components/KittersPyramid'
 import About from '../components/About'
 import Tickets from '../components/Tickets'
+import Sponsors from '../components/Sponsors'
 
 
 import team from '../images/2018/team.svg'
@@ -63,6 +64,15 @@ class Home extends Component {
             .speaker-container {
               margin-top: -300px;
             }
+            .team {
+              width: 800px;
+              height: 600px;
+              margin-top: -50px;
+            }
+            .cave {
+              width: 500px;
+              height: 500px;
+            }
             .footer {
               width: 100%;
               height: 200px;
@@ -77,7 +87,7 @@ class Home extends Component {
                 .flex-container {
                   width: 100%;
                 }
-                .logo, .kitty, .speaker-list, .about, .ticket-table, .sponsors, .footer {
+                .logo, .kitty {
                   width: 95%;
                   margin: 10px auto;
                   flex: 10 0 auto;
@@ -96,6 +106,15 @@ class Home extends Component {
                   flex: 2 0 auto;
                   display: block;
                 }
+                .image-break {
+                  width: 100%;
+                  text-align: center;
+                }
+                .team, .cave {
+                  width: 80%;
+                  height: auto;
+                  margin: 0 auto;
+                }
             }
         `}</style>
         <div className="flex-container">
@@ -108,11 +127,10 @@ class Home extends Component {
         <div className="flex-container">
           <SpeakerList year="2018" />
           <About />
-          <div className="image-break"><img src={team} alt="Codemania team" /></div>
+          <div className="image-break"><img className="team" src={team} alt="Codemania team" /></div>
           <Tickets />
-          <div className="image-break"><img src={cave} alt="Codemania team" /></div>
-          <div className="sponsors placeholder" />
-          <div className="footer placeholder" />
+          <div className="image-break"><img className="cave" src={cave} alt="Codemania cave" /></div>
+          <Sponsors />
         </div>
 
 

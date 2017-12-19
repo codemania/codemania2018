@@ -17,6 +17,51 @@
 	.st10{fill:none;stroke:#FFFFFF;stroke-width:0.75;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st11{fill:none;stroke:#FFFFFF;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st12{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;}
+	@keyframes float {
+		0% {
+			transform: translatey(0px);
+		}
+		50% {
+			transform: translatey(-20px);
+		}
+		100% {
+			transform: translatey(0px);
+		}
+	}
+	@keyframes pulse1 {
+		0% {
+			transform: scale(1);
+		}
+		50% {
+			transform: scale(1.1);
+			transform-origin: 50% 50%;
+		}
+		100% {
+			transform: scale(1);
+		}
+	}
+	@keyframes pulse2 {
+		0% {
+			transform: scale(1);
+		}
+		50% {
+			transform: scale(1.05);
+			transform-origin: 50% 50%;
+		}
+		100% {
+			transform: scale(1);
+		}
+	}
+	.floater {
+		transform: translatey(0px);
+		animation: float 6s ease-in-out infinite;
+	}
+	.pulser {
+		animation: pulse1 4s ease-in-out infinite;
+	}
+	.pulser2 {
+		animation: pulse2 5s ease-in-out infinite;
+	}
 </style>
 <g id="Leave_bot">
 	<path class="st0" d="M182.1,141.6c-0.2-0.1-0.3-0.1-0.5-0.2c0.3,0.6,0.6,1.1,0.9,1.7C182.4,142.6,182.3,142.1,182.1,141.6z"/>
@@ -1323,7 +1368,7 @@
 		c0-0.2,0.1-0.5,0.3-0.7c1.1-1.8,2.2-3.7,3.2-5.6c0.7-1.2,1.3-2.4,1.8-3.7c0.3-0.9,0.6-1.9,1-2.8c0.4-1,1.1-2,1.8-2.8
 		c0.4-0.4,0.6-0.6,1.2-0.5C294.9,146.5,295.4,146.8,295.8,147.2z"/>
 </g>
-<g id="Focus_1_">
+<g id="Focus_1_" class="floater">
 	<polygon class="st6" points="237.4,173.2 263.1,166 289.3,168 309.9,193.7 312.2,212.7 301.7,232.3 282.5,250.6 248.3,244.5 
 		233.1,229.5 226.2,201.3 	"/>
 	<g>
@@ -1378,13 +1423,13 @@
 		<polygon class="st4" points="303.1,204.7 292.3,217.7 301.8,204.7 297.2,194 		"/>
 	</g>
 	<path class="st5" d="M241.1,189.1c0,0-2.3,3.6,1.3,7.1c0,0,1.7-2,0.3-4.3C241.2,189.7,241.1,189.1,241.1,189.1z"/>
-	<polygon class="st9" points="235,169.4 263.7,161.3 292.9,163.6 315.9,192.3 318.5,213.6 306.8,235.4 285.3,255.9 247,249.1 
+	<polygon class="st9 pulser2" points="235,169.4 263.7,161.3 292.9,163.6 315.9,192.3 318.5,213.6 306.8,235.4 285.3,255.9 247,249.1 
 		230.1,232.4 222.4,200.8 	"/>
-	<polygon class="st10" points="232.8,166.8 262.7,158.4 293,160.8 317,190.7 319.7,212.7 307.5,235.5 285.2,256.7 245.4,249.7 
+	<polygon class="st10 pulser" points="232.8,166.8 262.7,158.4 293,160.8 317,190.7 319.7,212.7 307.5,235.5 285.2,256.7 245.4,249.7 
 		227.7,232.3 219.8,199.4 	"/>
-	<polygon class="st11" points="233.9,160.1 264.7,151.8 295.8,154.7 320,185.7 322.5,208.4 309.7,231.6 286.5,253.1 245.7,245.4 
+	<polygon class="st11 pulser2" points="233.9,160.1 264.7,151.8 295.8,154.7 320,185.7 322.5,208.4 309.7,231.6 286.5,253.1 245.7,245.4 
 		227.8,227.2 220.1,193.4 	"/>
-	<polygon class="st12" points="226.4,159.6 257.7,149.9 289.7,151.7 315.6,183.1 319,206.6 306.7,231.3 283.7,254.5 241.6,247.9 
+	<polygon class="st12 pulser" points="226.4,159.6 257.7,149.9 289.7,151.7 315.6,183.1 319,206.6 306.7,231.3 283.7,254.5 241.6,247.9 
 		222.5,229.7 213.4,194.8 	"/>
 </g>
 </svg>
