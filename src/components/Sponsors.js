@@ -72,19 +72,19 @@ class Sponsors extends Component {
         <ul className="sponsor-logos">
           <li>
             <a target="_blank" rel="noopener noreferrer" href="https://pushpay.com">
-              <img src={pushpay} />
+              <img src={pushpay} alt="Pushpay" />
             </a>
           </li>
           <li>
             <a target="_blank" rel="noopener noreferrer" href="http://www.aucklandnz.com/ateed/">
-              <img src={ateed} />
+              <img src={ateed} alt="ATEED" />
             </a>
           </li>
         </ul>
         <ul className="friend-logos">
           <li>
             <a target="_blank" rel="noopener noreferrer" href="http://yowconference.com.au/">
-              <img src={yow} />
+              <img src={yow} alt="Yow" />
             </a>
           </li>
         </ul>
