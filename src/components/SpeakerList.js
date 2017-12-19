@@ -31,10 +31,17 @@ class SpeakerList extends Component<Props> {
               flex-wrap: wrap;
               justify-content: center;
             }
+            .speaker-list li {
+              width: 20%;
+            }
             @media only screen
             and (max-width : 600px) {
               .speaker-list {
                 width: 100%;
+                margin-bottom: 100px;
+              }
+              .speaker-list li {
+                width: 40%;
               }
             }
             `}

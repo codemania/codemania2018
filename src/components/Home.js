@@ -41,7 +41,7 @@ class Home extends Component {
             }
             .kitty {
               flex: 6 0 auto;
-              margin-top: -40px;
+              margin-top: -80px;
             }
             h1 {
               background-size: 200px;
@@ -81,6 +81,9 @@ class Home extends Component {
                   width: 95%;
                   margin: 10px auto;
                   flex: 10 0 auto;
+                }
+                h1 {
+                  margin: 0 auto 40px auto;
                 }
                 .buy-tickets {
                   flex: 6 0 200px;
