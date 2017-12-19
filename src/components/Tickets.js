@@ -74,23 +74,23 @@ class Tickets extends Component {
             </tr>
             <tr>
               <td>CONVERSATIONS</td>
+              <td width="15%">$700</td>
               <td width="15%">$800</td>
-              <td width="15%">$900</td>
             </tr>
             <tr>
               <td>CONVERSATIONS*</td>
-              <td width="15%">$400</td>
               <td width="15%">$500</td>
+              <td width="15%">$600</td>
             </tr>
             <tr>
               <td>CONVERSATIONS OVERNIGHT</td>
+              <td width="15%">$1100</td>
               <td width="15%">$1200</td>
-              <td width="15%">$1300</td>
             </tr>
             <tr>
               <td>CONVERSATIONS OVERNIGHT*</td>
+              <td width="15%">$900</td>
               <td width="15%">$1000</td>
-              <td width="15%">$1100</td>
             </tr>
           </tbody>
         </table>
