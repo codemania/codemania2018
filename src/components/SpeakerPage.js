@@ -11,10 +11,22 @@ class SpeakerPage extends Component {
     return (
       <div className="speaker-page">
         <style jsx="true">{`
-            
+          .speaker-page {
+            color: #fff;
+          }
+          .speaker-page h2 {
+            text-transform: uppercase;
+            font-weight: bold;
+          }
+          .speaker-page p {
+             margin: 10px 0;
+          }
         `}</style>
         <h2>{speaker.name}</h2>
-        <p>{speaker.topic}</p>
+        <p>{speaker.bio}</p>
+        <p><a href={'https://twitter.com/'+speaker.twitter} target="_blank">@{speaker.twitter}</a></p>
+        <p>{speaker.talkTopic}</p>
+        <p>{speaker.talkBlurb}</p>
       </div>
     );
   }

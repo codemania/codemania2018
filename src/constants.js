@@ -395,64 +395,106 @@ export const speakers: Speakers = {
     displayName: "2018",
     speakers: [
       {
-        id: "josh-long",
-        name: "Josh Long",
-        topic: "Coming Soon..."
-      },
-      {
-        id: "katie-bell",
-        name: "Katie Bell",
-        topic: "Coming Soon..."
-      },
-      {
-        id: "mark-young",
-        name: "Mark Young",
-        topic: "Coming Soon..."
-      },
-      {
         id: "rich-campbell",
         name: "Rich Campbell",
-        topic: "Coming Soon..."
+        twitter: "richcampbell",
+        bio: "Harnessing his ADD for the Forces of Good",
+        talkTopic: "The Moon: Gateway to the Solar System",
+        talkBlurb: `In 1972, the last human to walk on the Moon headed back to Earth. Is it time to go back? Join Richard Campbell as he explores the potential of a return of humans to the Moon. Much has been learned about the Moon since the Apollo missions, and interest in the Moon as a place of science, exploration and learning is growing. The Moon can be a catalyst for humankind traveling the solar system - it's time to go back!
+
+        Richard Campbell is a technology entrepreneur and the co-host of the .NET Rocks, a software development podcast. His Geek Out series (http://geekout.show) on .NET Rocks explores a large variety of technology topics including aerospace, alternative energy and whatever other cool technology catches his imagination. He also the chairman of Humanitarian Toolbox (http://htbox.org) a charity that builds open source software for disaster relief organizations.`
       },
       {
         id: "erin-mckean",
         name: "Erin McKean",
-        topic: "Coming Soon..."
+        twitter: "emckean",
+        bio: "IBM & Wordnik",
+        talkTopic: "Build an API in 20 Minutes with LoopBack",
+        talkBlurb: `Using LoopBack, an open-source framework for generating REST APIs with Node, you can build a full set of CRUD endpoints in 20 minutes. Then you can spend your time adding custom endpoints, user authentication, pre- and post-DB hooks, and a lot more! LoopBack works with just about any database you care to name (Mongo, MySQL, PostGRES, Elasticsearch, Cassandra ...) and also has OpenAPI spec support!`
       },
       {
         id: "jana-beck",
         name: "Jana Beck",
-        topic: "Coming Soon..."
+        twitter: "iPancreas",
+        bio: "dataviz eng @ Stitch Fix",
+        talkTopic: "Escaping the diving bell",
+        talkBlurb: `Imagine that you’re locked-in, unable to communicate except by blinking a single functional eye. Your only method of communication is to watch (and listen) as a helper reads through a list of all the letters of the alphabet. When you want to select a letter, you blink. Can you imagine this? Can we do more than imagine it? On the modern web with its wide variety of tools, we can! Using React and WebGazer.js (an open-source eye-tracking library for the web), we can approximate this communication technique, the method that Jean-Dominique Bauby used to compose his best-selling memoir *The Diving Bell and the Butterfly*.`
       },
       {
         id: "christine-yen",
         name: "Christine Yen",
-        topic: "Coming Soon..."
+        twitter: "cyen",
+        bio: "Honeycomb Co-founder",
+        talkTopic: "Observability and the Development Process",
+        talkBlurb: `Historically, monitoring has been thought of as an afterthought of the software development cycle: something owned by the ops side of the room. But instead of trying to predict the various ways something might go sideways right before release and crafting dashboards to prepare, what might it look like to use answers about our system to figure out what to build, and how to build it, and whom for?
+
+        Observability is the practice of understanding the internal state of a system via knowledge of its external outputs -- and is something that should be built into the process of crafting software from the very beginning.
+        
+        In this talk, we'll discuss what this might look like in practice by using Honeycomb as a case study: how we rely on visibility into our system to inform planning during the development process, to observe the impact of new changes during and after release, and, of course, debug. We'll start by describing the problems faced by a SaaS platform like ours, then run through some specific instrumentation practices that we love and have used successfully to gain the visibility we need into our system’s day-to-day operations.`
       },
       {
         id: "patima-tantiprasut",
         name: "Patima Tantiprasut",
-        topic: "Coming Soon..."
-      },
-      {
-        id: "speaker-9",
-        name: "Speaker 9",
-        topic: "Coming Soon..."
+        twitter: "the_patima",
+        bio: "Amplifier of people",
+        talkTopic: "The art of giving a damn, and also not",
+        talkBlurb: `We hold an immense amount of power over the projects we work on. Seldom do we realise the influence that we have, and not to mention, the impact that we can have on the team members around us and also the people who use the products we work on.
+
+        With great power, comes great responsibility.
+        
+        It’s easy to get lost in the code and forget to ask the questions to understand the context of the task that you’re working on. Do you know the why behind what you’re doing? Do you give a damn? What’s your butterfly effect? 
+        
+        In this talk, we’ll explore areas that we can improve on which can also contribute to building better products, career progression, positive team culture, adding more value to projects, job satisfaction, making a difference and possibly, just maybe, giving a damn.`
       },
       {
         id: "dean-demaret",
         name: "Dean Demaret",
-        topic: "Coming Soon..."
+        twitter: "",
+        bio: "Data @ Xero",
+        talkTopic: "Is 10 years too old to start with Machine Learning?",
+        talkBlurb: `Doing things with Machine Learning is quite popular these days. But before you can actually implement an ML solution to a problem in production, there might be a few things you need to do first. Getting access to data, trying out different experiments, putting something in front of the customer and trying to get feedback, iterating, getting an actual data pipeline going, ...
+
+        Things that are easy on your local computer when you are doing the standard Udemy Machine Learning tutorial might become a lot harder when your million records of data is spread accross a couple hundred databases, you have to take latency into account, the network sometimes fails, your application is distrubuted.
+        
+        Xero started implementing its first Data Engineering feature a year ago and this talk will be about all the things that I've personally learned along the way.`
       },
       {
         id: "sacha-judd",
         name: "Sacha Judd",
-        topic: "Coming Soon..."
+        twitter: "szechuan",
+        bio: "Managing Director, Hoku Group",
+        talkTopic: "Superfan!",
+        talkBlurb: "What crowdsourced Norwegian subtitles, distributed radio requests, and fair trade chocolate frogs can teach us about building excellent and ethical software."
       },
       {
         id: "rands",
         name: "Michael Lopp",
-        topic: "Coming Soon..."
+        twitter: "rands",
+        bio: "VP Engineering @ Slack",
+        talkTopic: "The Second Act",
+        talkBlurb: `In order to be a historic company, you need your culture to evolve.
+        Michael Lopp is a Silicon Valley-based engineering leader who builds both people and product at companies such as Borland, Netscape, Palantir, Pinterest, and Apple. While he's not worrying about staying relevant, he writes about pens, bridges, people, leadership, and werewolves at the popular weblog, Rands in Repose. He works as the VP of Engineering at Slack in San Francisco where he’s furiously working on helping teams reinvent work.
+        
+        Michael has written two books. His first book "Managing Humans, 3rd Edition" is a popular guide to the art of engineering leadership and clearly explains that while you be will rewarded for what you build, you will only be successful because of your people. His second book "Being Geek" is a career handbook for geeks and nerds alike.
+        
+        Michael mountain bikes, tinkers with drones, and drinks red wine in the redwoods of Northern California whenever he can because staying sane is more important than staying busy."`
+      },
+      {
+        id: "josh-long",
+        name: "Josh Long",
+        twitter: "starbuxman",
+        talkTopic: "Coming Soon..."
+      },
+      {
+        id: "katie-bell",
+        name: "Katie Bell",
+        talkTopic: "Coming Soon..."
+      },
+      {
+        id: "mark-young",
+        name: "Mark Young",
+        twitter: "kiwidev",
+        talkTopic: "Coming Soon..."
       },
     ]
   }
