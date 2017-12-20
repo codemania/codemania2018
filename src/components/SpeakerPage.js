@@ -54,6 +54,9 @@ class SpeakerPage extends Component {
             margin-bottom: 1em;
             line-height: 1.1em;
           }
+          .talk-details p b {
+            text-transform: uppercase;
+          }
           .speaker-byline p a:hover {
             text-decoration: underline;
           }
@@ -81,8 +84,8 @@ class SpeakerPage extends Component {
             <p><a href={'https://twitter.com/' + speaker.twitter} target="_blank">@{speaker.twitter}</a></p>
           </div>
           <div class="talk-details">
-            <p>{speaker.talkTopic}</p>
-            <p>{speaker.talkBlurb}</p>
+            <p><b>{speaker.talkTopic}</b></p>
+            <div dangerouslySetInnerHTML={{__html: speaker.talkBlurb}}/>
           </div>
         </div>
       </div>
