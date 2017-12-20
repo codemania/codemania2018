@@ -7,9 +7,22 @@
 	.st0{fill:#0065A1;}
 	.st1{fill:#00C1DE;}
 	.st2{fill:#FFFFFF;}
+	@keyframes spin {
+		0% {
+			transform:rotate(0deg);
+			transform-origin: center center;
+		}
+		100% { 
+			transform:rotate(-360deg);
+			transform-origin: center center;
+		}
+	}
+	.spinner {
+		animation: spin 120s linear infinite;
+	}
 </style>
 <circle id="Circle" class="st0" cx="69.6" cy="69.7" r="66.5"/>
-<path id="Tetra" class="st1" d="M127.8,51.9L98.8,15.8l-36.7-2.9L26.1,23.1L10.3,62.5l9.6,39.7l21.3,21.1l48.1,8.5l26.9-25.6
+<path id="Tetra" class="st1 spinner" d="M127.8,51.9L98.8,15.8l-36.7-2.9L26.1,23.1L10.3,62.5l9.6,39.7l21.3,21.1l48.1,8.5l26.9-25.6
 	l14.8-27.5L127.8,51.9z M125.6,51.6c0.3,0.4-2.6,10.2-2.6,10.2l-20.2-32.4l-2-7.3C100.8,22.1,125.3,51.2,125.6,51.6z M100.6,31.4
 	c0,0,19.2,35.5,19.6,35.7C120.6,67.2,94,97.6,94,97.6L51.3,80L60,34.7C60,34.7,99.8,31.4,100.6,31.4z M62.7,15.5L95,17.4l1.7,8.2
 	l-41.1,4.1l-19.2-7.2L62.7,15.5z M19.1,84.4l-6-21.6l14.9-36c0.9,0.7,26,7.5,25.7,7.9c-0.3,0.4-9.6,46.8-9.6,46.8L19.1,84.4z
