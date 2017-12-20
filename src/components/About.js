@@ -17,7 +17,7 @@ class About extends Component {
             font-weight: 300;
             line-height: 1.1em;
           }
-          .about p a {
+          .about p a, .about .hilite {
             color: #ffcd00;
             text-decoration:  none;
           }
@@ -34,8 +34,8 @@ class About extends Component {
             }
         `}</style>
         <h1>About</h1>
-        <p>Codemania is back and better than ever: a full day of information and inspiration from software practitioners at the top of their game. <a href="/agenda">Codemania conference</a> will be held at the luxurious Langham Hotel on Friday April 28th.</p>
-        <p>Once again, you can also join our world-class speakers and an exclusive gathering of your Codemania family for the whole weekend after Codemania conference. <a href="/conversations">Codemania conversations</a> returns to the Waitakere Estate, deep in the heart of one of Auckland's most picturesque bush settings.</p>
+        <p>For seven years running, <span className="hilite">Codemania</span> is Auckland's premier conference for software developers, with fantastic speakers from around New Zealand and the world. Join us during TechWeek on <span className="hilite">Wednesday May 23rd, 2018</span> for a full day of information and inspiration from software practitioners at the top of their game.</p> 
+        <p>If one day is not enough for you, you can also join our world-class speakers and an exclusive gathering of your Codemania friends for two further days after the conference. <span className="hilite">Codemania Conversations</span> returns to the Waitakere Estate, deep in the heart of one of Auckland's most picturesque bush settings. This two-day unconference (with optional dinner and accomodation) is an opportunity for you to create your own agenda, and spend quality time with our speakers.</p>
 
         <p>Like always, Codemania is an inclusive, safe space for all to enjoy. Please have a read of our <a href="/coc">Code of Conduct</a>.</p>
       </div>
