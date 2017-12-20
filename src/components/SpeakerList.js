@@ -25,14 +25,15 @@ class SpeakerList extends Component<Props> {
               width: 100%;
             }
             .speaker-list {
-              width: 600px;
+              width: 800px;
               margin: 0 auto 250px auto;
               display: flex;
               flex-wrap: wrap;
               justify-content: center;
             }
             .speaker-list li {
-              width: 20%;
+              width: 25%;
+              margin: 0;
             }
             @media only screen
             and (max-width : 600px) {
@@ -42,6 +43,7 @@ class SpeakerList extends Component<Props> {
               }
               .speaker-list li {
                 width: 40%;
+                margin: 10px;
               }
             }
             `}
