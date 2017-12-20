@@ -59,8 +59,14 @@ class Sponsors extends Component {
                 display: flex;
                 flex-direction: column;
               }
+              .sponsors {
+                text-align: center;
+              }
+              .sponsors li {
+                margin: 0;
+              }
               .sponsors li img {
-                width: 100%;
+                width: 70%;
                 height: auto;
               }
               .friend-logos li img {

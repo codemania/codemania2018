@@ -57,10 +57,6 @@ class Home extends Component {
               margin: 0 auto 75px auto;
               color: #ff595a;
             }
-            .speaker-list, .about, .ticket-table, .sponsors {
-              width: 100%;
-              flex: 10 0 auto;
-            }
             .speaker-container {
               margin-top: -300px;
             }
@@ -69,9 +65,14 @@ class Home extends Component {
               height: 600px;
               margin-top: -50px;
             }
+            .tickets {
+              z-index: 10;
+            }
             .cave {
-              width: 500px;
-              height: 500px;
+              width: 700px;
+              height: 700px;
+              margin-top: -150px;
+              z-index: -10;
             }
             .footer {
               width: 100%;
