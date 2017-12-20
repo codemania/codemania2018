@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ReactImageFallback from "react-image-fallback";
 
 import { speakers } from "../constants";
 
@@ -8,7 +9,12 @@ class SpeakerPage extends Component {
     var speakerId = this.props.match.params.speaker;
     console.log(speakerId);
     var speaker = speakers[yearId].speakers.find((s) => s.id === speakerId);
-    const speakerImage = require("../images/2018/speakers/" + speaker.id + ".png")
+    var speakerImage
+    try {
+      speakerImage = require("../images/2018/speakers/" + speaker.id + ".png")
+    } catch(err) {
+      speakerImage = require("../images/2018/speakers/blank.png")
+    }
     return (
       <div className="speaker-page">
         <style jsx="true">{`
