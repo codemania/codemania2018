@@ -11,6 +11,7 @@ import YearLayout from "../components/Year";
 import YearSelector from "../components/YearSelector";
 import Navbar from "../components/Navbar";
 import About from "../components/About";
+import CodeOfConduct from "./CodeOfConduct";
 
 type CodemaniaAppState = {
   focusedYear: Year,
@@ -64,6 +65,7 @@ class CodemaniaApp extends Component<Props> {
           <div className="content bg">
             <Route exact path="/" component={Home}/>
             <Route exact path="/about" component={About}/>
+            <Route exact path="/coc" component={CodeOfConduct}/>
             <Route path="/year/:id" component={YearLayout}/>
             <Route path="/speakers/:year/:speaker" component={SpeakerPage}/>
           </div>
