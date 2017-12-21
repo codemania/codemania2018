@@ -8,7 +8,8 @@ class About extends Component {
         <style jsx="true">{`
           .about {
             margin: 10px;
-            color: #fff
+            color: #fff;
+            z-index: 10;
           }
           .about p {
             font-size: 0.9em;

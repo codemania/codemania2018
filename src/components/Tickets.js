@@ -33,10 +33,11 @@ class Tickets extends Component {
             font-weight: 300;
           }
           .small-print {
-            text-align: right;
+            text-align: left;
             font-weight: 300;
             margin-top: 5px;
-            padding-right: 5px;
+            padding-left: 25px;
+            color: rgba(0,101,161,.8);
           }
           @media only screen
           and (max-width : 600px) {
