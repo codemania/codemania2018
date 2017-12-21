@@ -395,7 +395,7 @@ export const speakers: Speakers = {
     displayName: "2018",
     speakers: [
       {
-        id: "rich-campbell",
+        id: "richard",
         name: "Rich Campbell",
         twitter: "richcampbell",
         bio: "Harnessing his ADD for the Forces of Good",
@@ -404,7 +404,7 @@ export const speakers: Speakers = {
         <p>Richard Campbell is a technology entrepreneur and the co-host of the .NET Rocks, a software development podcast. His Geek Out series (http://geekout.show) on .NET Rocks explores a large variety of technology topics including aerospace, alternative energy and whatever other cool technology catches his imagination. He also the chairman of Humanitarian Toolbox (http://htbox.org) a charity that builds open source software for disaster relief organizations.</p>`
       },
       {
-        id: "erin-mckean",
+        id: "erin",
         name: "Erin McKean",
         twitter: "emckean",
         bio: "IBM & Wordnik",
@@ -412,7 +412,7 @@ export const speakers: Speakers = {
         talkBlurb: `<p>Using LoopBack, an open-source framework for generating REST APIs with Node, you can build a full set of CRUD endpoints in 20 minutes. Then you can spend your time adding custom endpoints, user authentication, pre- and post-DB hooks, and a lot more! LoopBack works with just about any database you care to name (Mongo, MySQL, PostGRES, Elasticsearch, Cassandra ...) and also has OpenAPI spec support!</p>`
       },
       {
-        id: "jana-beck",
+        id: "jana",
         name: "Jana Beck",
         twitter: "iPancreas",
         bio: "dataviz eng @ Stitch Fix",
@@ -420,7 +420,7 @@ export const speakers: Speakers = {
         talkBlurb: `<p>Imagine that you’re locked-in, unable to communicate except by blinking a single functional eye. Your only method of communication is to watch (and listen) as a helper reads through a list of all the letters of the alphabet. When you want to select a letter, you blink. Can you imagine this? Can we do more than imagine it? On the modern web with its wide variety of tools, we can! Using React and WebGazer.js (an open-source eye-tracking library for the web), we can approximate this communication technique, the method that Jean-Dominique Bauby used to compose his best-selling memoir *The Diving Bell and the Butterfly*.</p>`
       },
       {
-        id: "christine-yen",
+        id: "christine",
         name: "Christine Yen",
         twitter: "cyen",
         bio: "Honeycomb Co-founder",
@@ -432,7 +432,7 @@ export const speakers: Speakers = {
         <p>In this talk, we'll discuss what this might look like in practice by using Honeycomb as a case study: how we rely on visibility into our system to inform planning during the development process, to observe the impact of new changes during and after release, and, of course, debug. We'll start by describing the problems faced by a SaaS platform like ours, then run through some specific instrumentation practices that we love and have used successfully to gain the visibility we need into our system’s day-to-day operations.</p>`
       },
       {
-        id: "patima-tantiprasut",
+        id: "patima",
         name: "Patima Tantiprasut",
         twitter: "the_patima",
         bio: "Amplifier of people",
@@ -446,7 +446,7 @@ export const speakers: Speakers = {
         <p>In this talk, we’ll explore areas that we can improve on which can also contribute to building better products, career progression, positive team culture, adding more value to projects, job satisfaction, making a difference and possibly, just maybe, giving a damn.</p>`
       },
       {
-        id: "dean-demaret",
+        id: "dean",
         name: "Dean Demaret",
         twitter: "",
         bio: "Data @ Xero",
@@ -458,7 +458,7 @@ export const speakers: Speakers = {
         <p>Xero started implementing its first Data Engineering feature a year ago and this talk will be about all the things that I've personally learned along the way.</p>`
       },
       {
-        id: "sacha-judd",
+        id: "sacha",
         name: "Sacha Judd",
         twitter: "szechuan",
         bio: "Managing Director, Hoku Group",
@@ -466,7 +466,7 @@ export const speakers: Speakers = {
         talkBlurb: "<p>What crowdsourced Norwegian subtitles, distributed radio requests, and fair trade chocolate frogs can teach us about building excellent and ethical software.</p>"
       },
       {
-        id: "rands",
+        id: "micheal",
         name: "Michael Lopp",
         twitter: "rands",
         bio: "VP Engineering @ Slack",

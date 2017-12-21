@@ -28,8 +28,7 @@ class About extends Component {
             and (max-width : 600px) {
               .about p {
                 font-size: 16pt;
-                margin: 0 20px 15px 20px;
-                text-align: justify;
+                margin: 0 10px 15px 10px;
               }
             }
         `}</style>

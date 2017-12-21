@@ -116,6 +116,10 @@ class Home extends Component {
                   height: auto;
                   margin: 0 auto;
                 }
+                .cave {
+                  width: 95%;
+                  margin-top: -50px;
+                }
             }
         `}</style>
         <div className="flex-container">
