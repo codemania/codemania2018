@@ -14,29 +14,32 @@ class YearSelector extends Component<Props> {
         <style jsx="true">{`
             .year-selector {
                 align: left;
-                background: #ff595a;
-                color: #fff;
+                background: #fff;
+                color: #ff595a;
+                display: flex;
+                justify-content: center;
             }
             li {
                 list-style: none;
                 display: inline-block;
                 margin: 0 5px;
+                font-weight: bold;
+                margin: 10px;
             }
             li a {
                 text-decoration: none;
-                color: #fff;
+                color: #ff595a;
             }
             .year-selector-button {
                 cursor: pointer;
             }
         `}</style>
         <div className="year-selector">
-          <p>Nostalgia:</p>
           <ul>
             {years.slice().map(year => {
               return (
                 <li key={year} className="year-selector-button">
-                  <a href={"/"+year}>{year}</a>
+                  <a href={"/year/"+year}>{year}</a>
                 </li>
               );
             })}

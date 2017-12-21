@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import SpeakerList from "../components/SpeakerList";
-import logo from "../images/2017/logo2.svg";
+import logo from "../images/2018/logo-cm.svg";
 
 class YearLayout extends Component {
   render() {
@@ -15,12 +15,25 @@ class YearLayout extends Component {
         <style jsx="true">{`
             .Year {
                 margin: 10px;
+                text-align: center;
+            }
+            .Year h2 {
+              color: #fff;
+              text-transform: uppercase;
+              font-weight: bold;
+              font-size: 1.2em;
+              margin-top: -30px;
+              margin-bottom: 30px;
+            }
+            .Year h1 {
+              display: none;
             }
             li {
                 list-style: none;
                 display: inline-block;
                 margin: 5px;
             }
+
         `}</style>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />

@@ -1,50 +1,144 @@
 import React, { Component } from "react";
 
-import Jaguar from "../components/Jaguar";
 import SpeakerList from "../components/SpeakerList";
-import type Year from "../constants";
+import HeaderLogo from '../components/HeaderLogo'
+import BuyTickets from '../components/BuyTickets'
+import KittersPyramid from '../components/KittersPyramid'
+import About from '../components/About'
+import Tickets from '../components/Tickets'
+import Sponsors from '../components/Sponsors'
 
-type CodemaniaAppState = {
-  focusedYear: Year
-};
 
-const defaultState = (): CodemaniaAppState => {
-  return {
-    focusedYear: "2018"
-  };
-};
+import team from '../images/2018/team.svg'
+import cave from '../images/2018/cave.svg'
 
-class Home extends Component<Props, SnowflakeAppState> {
-  constructor(props: Props) {
-    super(props);
-    this.state = defaultState();
-  }
 
+class Home extends Component {
   render() {
     return (
-      <div className="home">
+      <div className="flex-container">
         <style jsx="true">{`
-            .home { 
+            .flex-container {
+              width: 1000px;
               display: flex;
-              flex-direction: column;
-              flex: 1 0 auto;
+              flex-wrap: wrap;
+              justify-content: center;
+              align-items: flex-start;
+              align-content: flex-start;
+              margin: auto;
+            }
+            .placeholder {
+              background-color: red;
+              margin: 10px;
+            }
+            .logo {
+              flex: 7 0 200px;
+              max-width: 700px;
+            }
+            .buy-tickets {
+              flex: 3 0 80px;
+              padding-top: 100px;
+              max-width: 200px;
+            }
+            .kitty {
+              flex: 6 0 auto;
+              margin-top: -80px;
+            }
+            h1 {
+              background-size: 200px;
+              line-height: 1.8em;
+              font-family: 'Oswald', sans-serif;
+              font-weight: bold;
+              transform: rotate(-5deg);
+              background-color: #fff;
+              width: 200px;
+              text-align: center;
+              text-transform: uppercase;
+              margin: 0 auto 75px auto;
+              color: #ff595a;
+            }
+            .speaker-container {
+              margin-top: -300px;
+            }
+            .team {
+              width: 800px;
+              height: 600px;
+              margin-top: -50px;
+            }
+            .tickets {
+              z-index: 10;
+            }
+            .cave {
+              width: 700px;
+              height: 700px;
+              margin-top: -150px;
+              z-index: -10;
+            }
+            .footer {
+              width: 100%;
+              height: 200px;
+              flex: 10 0 auto;
             }
             @media only screen
-            and (max-width : 700px) {
-                .home { 
-                  display: flex;
-                  flex-direction: row;
-                  flex: 0 1 auto;
+            and (max-width : 600px) {
+                .home {
                   margin: auto;
+                  flex-order: row;
+                }
+                .flex-container {
+                  width: 100%;
+                }
+                .logo, .kitty {
+                  width: 95%;
+                  margin: 10px auto;
+                  flex: 10 0 auto;
+                }
+                h1 {
+                  margin: 0 auto 40px auto;
+                }
+                .buy-tickets {
+                  flex: 6 0 200px;
+                  padding: 0;
+                }
+                .speaker-container {
+                  margin-top: -120px;
+                }
+                .ticket-mobile-sidebar {
+                  flex: 2 0 auto;
+                  display: block;
+                }
+                .image-break {
+                  width: 100%;
+                  text-align: center;
+                }
+                .team, .cave {
+                  width: 80%;
+                  height: auto;
+                  margin: 0 auto;
+                }
+                .cave {
+                  width: 95%;
+                  margin-top: -50px;
                 }
             }
         `}</style>
-        <Jaguar />
-        {/* <div className="App-intro">
-          <h1 className="oswald-bold">COMING SOON</h1>
-          <h1 className="oswald-light">23rd May 2018</h1>
+        <div className="flex-container">
+          <HeaderLogo />
+          <BuyTickets />
         </div>
-        <SpeakerList year="2018" /> */}
+        <div className="flex-container">
+          <KittersPyramid />
+        </div>
+        <div className="flex-container">
+          <SpeakerList year="2018" />
+          <About />
+          <div className="image-break"><img className="team" src={team} alt="Codemania team" /></div>
+          <Tickets />
+          <div className="image-break"><img className="cave" src={cave} alt="Codemania cave" /></div>
+          <Sponsors />
+        </div>
+
+
       </div>
     );
   }
