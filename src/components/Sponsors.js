@@ -34,7 +34,7 @@ class Sponsors extends Component {
             height: 60px;
           }
           .sponsors p {
-            font-size: small;
+            font-size: medium;
             margin-bottom: 15px;
             text-align: center;
             font-weight: 300;

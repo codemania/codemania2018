@@ -12,6 +12,7 @@ import YearSelector from "../components/YearSelector";
 import Navbar from "../components/Navbar";
 import About from "../components/About";
 import CodeOfConduct from "./CodeOfConduct";
+import Agenda from "./Agenda";
 
 type CodemaniaAppState = {
   focusedYear: Year,
@@ -66,6 +67,7 @@ class CodemaniaApp extends Component<Props> {
             <Route exact path="/" component={Home}/>
             <Route exact path="/about" component={About}/>
             <Route exact path="/coc" component={CodeOfConduct}/>
+            <Route exact path="/agenda" component={Agenda}/>
             <Route path="/year/:id" component={YearLayout}/>
             <Route path="/speakers/:year/:speaker" component={SpeakerPage}/>
           </div>
