@@ -35,7 +35,6 @@ class Agenda extends Component {
           }
           .agenda-header h2 {
             color: #ffcd00;
-            
           }
           .agenda p {
             font-size: smaller;
@@ -56,6 +55,9 @@ class Agenda extends Component {
               }
               .agenda h1 {
                 font-size: 1.4em;
+              }
+              .agenda-header h1 {
+                font-size: 0.9em;
               }
             }
         `}</style>
