@@ -395,13 +395,17 @@ export const speakers: Speakers = {
     displayName: "2018",
     speakers: [
       {
-        id: "richard",
-        name: "Rich Campbell",
-        twitter: "richcampbell",
-        bio: "Harnessing his ADD for the Forces of Good",
-        talkTopic: "The Moon: Gateway to the Solar System",
-        talkBlurb: `<p>In 1972, the last human to walk on the Moon headed back to Earth. Is it time to go back? Join Richard Campbell as he explores the potential of a return of humans to the Moon. Much has been learned about the Moon since the Apollo missions, and interest in the Moon as a place of science, exploration and learning is growing. The Moon can be a catalyst for humankind traveling the solar system - it's time to go back!</p>
-        <p>Richard Campbell is a technology entrepreneur and the co-host of the .NET Rocks, a software development podcast. His Geek Out series (http://geekout.show) on .NET Rocks explores a large variety of technology topics including aerospace, alternative energy and whatever other cool technology catches his imagination. He also the chairman of Humanitarian Toolbox (http://htbox.org) a charity that builds open source software for disaster relief organizations.</p>`
+        id: "micheal",
+        name: "Michael Lopp",
+        twitter: "rands",
+        bio: "VP Engineering @ Slack",
+        talkTopic: "The Second Act",
+        talkBlurb: `<p>In order to be a historic company, you need your culture to evolve.</p>
+        <p>Michael Lopp is a Silicon Valley-based engineering leader who builds both people and product at companies such as Borland, Netscape, Palantir, Pinterest, and Apple. While he's not worrying about staying relevant, he writes about pens, bridges, people, leadership, and werewolves at the popular weblog, Rands in Repose. He works as the VP of Engineering at Slack in San Francisco where he’s furiously working on helping teams reinvent work.</p>
+
+        <p>Michael has written two books. His first book "Managing Humans, 3rd Edition" is a popular guide to the art of engineering leadership and clearly explains that while you be will rewarded for what you build, you will only be successful because of your people. His second book "Being Geek" is a career handbook for geeks and nerds alike.</p>
+
+        <p>Michael mountain bikes, tinkers with drones, and drinks red wine in the redwoods of Northern California whenever he can because staying sane is more important than staying busy.</p>`
       },
       {
         id: "erin",
@@ -412,14 +416,6 @@ export const speakers: Speakers = {
         talkBlurb: `<p>Using LoopBack, an open-source framework for generating REST APIs with Node, you can build a full set of CRUD endpoints in 20 minutes. Then you can spend your time adding custom endpoints, user authentication, pre- and post-DB hooks, and a lot more! LoopBack works with just about any database you care to name (Mongo, MySQL, PostGRES, Elasticsearch, Cassandra ...) and also has OpenAPI spec support!</p>`
       },
       {
-        id: "jana",
-        name: "Jana Beck",
-        twitter: "iPancreas",
-        bio: "dataviz eng @ Stitch Fix",
-        talkTopic: "Escaping the diving bell",
-        talkBlurb: `<p>Imagine that you’re locked-in, unable to communicate except by blinking a single functional eye. Your only method of communication is to watch (and listen) as a helper reads through a list of all the letters of the alphabet. When you want to select a letter, you blink. Can you imagine this? Can we do more than imagine it? On the modern web with its wide variety of tools, we can! Using React and WebGazer.js (an open-source eye-tracking library for the web), we can approximate this communication technique, the method that Jean-Dominique Bauby used to compose his best-selling memoir *The Diving Bell and the Butterfly*.</p>`
-      },
-      {
         id: "christine",
         name: "Christine Yen",
         twitter: "cyen",
@@ -428,8 +424,25 @@ export const speakers: Speakers = {
         talkBlurb: `<p>Historically, monitoring has been thought of as an afterthought of the software development cycle: something owned by the ops side of the room. But instead of trying to predict the various ways something might go sideways right before release and crafting dashboards to prepare, what might it look like to use answers about our system to figure out what to build, and how to build it, and whom for?</p>
 
         <p>Observability is the practice of understanding the internal state of a system via knowledge of its external outputs -- and is something that should be built into the process of crafting software from the very beginning.</p>
-        
+
         <p>In this talk, we'll discuss what this might look like in practice by using Honeycomb as a case study: how we rely on visibility into our system to inform planning during the development process, to observe the impact of new changes during and after release, and, of course, debug. We'll start by describing the problems faced by a SaaS platform like ours, then run through some specific instrumentation practices that we love and have used successfully to gain the visibility we need into our system’s day-to-day operations.</p>`
+      },
+      {
+        id: "richard",
+        name: "Rich Campbell",
+        twitter: "richcampbell",
+        bio: "Harnessing his ADD for the Forces of Good",
+        talkTopic: "The Moon: Gateway to the Solar System",
+        talkBlurb: `<p>In 1972, the last human to walk on the Moon headed back to Earth. Is it time to go back? Join Richard Campbell as he explores the potential of a return of humans to the Moon. Much has been learned about the Moon since the Apollo missions, and interest in the Moon as a place of science, exploration and learning is growing. The Moon can be a catalyst for humankind traveling the solar system - it's time to go back!</p>
+        <p>Richard Campbell is a technology entrepreneur and the co-host of the .NET Rocks, a software development podcast. His Geek Out series (http://geekout.show) on .NET Rocks explores a large variety of technology topics including aerospace, alternative energy and whatever other cool technology catches his imagination. He also the chairman of Humanitarian Toolbox (http://htbox.org) a charity that builds open source software for disaster relief organizations.</p>`
+      },
+      {
+        id: "jana",
+        name: "Jana Beck",
+        twitter: "iPancreas",
+        bio: "dataviz eng @ Stitch Fix",
+        talkTopic: "Escaping the diving bell",
+        talkBlurb: `<p>Imagine that you’re locked-in, unable to communicate except by blinking a single functional eye. Your only method of communication is to watch (and listen) as a helper reads through a list of all the letters of the alphabet. When you want to select a letter, you blink. Can you imagine this? Can we do more than imagine it? On the modern web with its wide variety of tools, we can! Using React and WebGazer.js (an open-source eye-tracking library for the web), we can approximate this communication technique, the method that Jean-Dominique Bauby used to compose his best-selling memoir *The Diving Bell and the Butterfly*.</p>`
       },
       {
         id: "patima",
@@ -464,19 +477,6 @@ export const speakers: Speakers = {
         bio: "Managing Director, Hoku Group",
         talkTopic: "Superfan!",
         talkBlurb: "<p>What crowdsourced Norwegian subtitles, distributed radio requests, and fair trade chocolate frogs can teach us about building excellent and ethical software.</p>"
-      },
-      {
-        id: "micheal",
-        name: "Michael Lopp",
-        twitter: "rands",
-        bio: "VP Engineering @ Slack",
-        talkTopic: "The Second Act",
-        talkBlurb: `<p>In order to be a historic company, you need your culture to evolve.</p>
-        <p>Michael Lopp is a Silicon Valley-based engineering leader who builds both people and product at companies such as Borland, Netscape, Palantir, Pinterest, and Apple. While he's not worrying about staying relevant, he writes about pens, bridges, people, leadership, and werewolves at the popular weblog, Rands in Repose. He works as the VP of Engineering at Slack in San Francisco where he’s furiously working on helping teams reinvent work.</p>
-        
-        <p>Michael has written two books. His first book "Managing Humans, 3rd Edition" is a popular guide to the art of engineering leadership and clearly explains that while you be will rewarded for what you build, you will only be successful because of your people. His second book "Being Geek" is a career handbook for geeks and nerds alike.</p>
-        
-        <p>Michael mountain bikes, tinkers with drones, and drinks red wine in the redwoods of Northern California whenever he can because staying sane is more important than staying busy.</p>`
       },
       {
         id: "josh-long",
