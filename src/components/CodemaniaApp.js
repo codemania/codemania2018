@@ -71,7 +71,7 @@ class CodemaniaApp extends Component<Props> {
           </div>
           <div className="sidebar bg"></div>
           <footer className="footer bg"></footer>
-          <YearSelector setFocusedYearFn={this.setFocusedYear.bind(this)} />
+          {/* <YearSelector setFocusedYearFn={this.setFocusedYear.bind(this)} /> */}
         </div>
       </Router>
     );

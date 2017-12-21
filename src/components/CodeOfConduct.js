@@ -48,9 +48,6 @@ class CodeOfConduct extends Component {
               .coc h1 {
                 font-size: 1.4em;
               }
-              .coc p {
-                text-align: justify;
-              }
               .signatories {
                 display: inline-block;
               }
