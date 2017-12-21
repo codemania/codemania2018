@@ -47,6 +47,7 @@ class SpeakerList extends Component<Props> {
               .speaker-list {
                 width: 100%;
                 margin-bottom: 100px;
+                padding-bottom: 50px;
               }
               .speaker-list li {
                 width: 40%;
