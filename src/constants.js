@@ -474,7 +474,7 @@ export const speakers: Speakers = {
         id: "sacha",
         name: "Sacha Judd",
         twitter: "szechuan",
-        bio: "Managing Director, Hoku Group",
+        bio: "MD @ Hoku Group",
         talkTopic: "Superfan!",
         talkBlurb: "<p>What crowdsourced Norwegian subtitles, distributed radio requests, and fair trade chocolate frogs can teach us about building excellent and ethical software.</p>"
       },
