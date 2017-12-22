@@ -476,7 +476,8 @@ export const speakers: Speakers = {
         twitter: "szechuan",
         bio: "MD @ Hoku Group",
         talkTopic: "Superfan!",
-        talkBlurb: "<p>What crowdsourced Norwegian subtitles, distributed radio requests, and fair trade chocolate frogs can teach us about building excellent and ethical software.</p>"
+        talkBlurb: `<p>What crowdsourced Norwegian subtitles, distributed radio requests, and fair trade chocolate frogs can teach us about building excellent and ethical software.</p>
+        <p>Sacha runs the Hoku Group, a family office combining private investments, early-stage tech ventures and a non-profit foundation. She is the co-host of Refactor (a series of events around diversity in technology), and Flounders’ Club (a network for early-stage company founders). She also spends a confusing amount of time explaining why Harry Styles might be the answer to everything.</p>`
       },
       {
         id: "josh-long",
