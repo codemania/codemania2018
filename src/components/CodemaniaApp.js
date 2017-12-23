@@ -8,7 +8,7 @@ import Home from "../components/Home";
 import SpeakerPage from "../components/SpeakerPage"
 import type Year from "../constants";
 import YearLayout from "../components/Year";
-import YearSelector from "../components/YearSelector";
+//import YearSelector from "../components/YearSelector";
 import Navbar from "../components/Navbar";
 import About from "../components/About";
 import CodeOfConduct from "./CodeOfConduct";
