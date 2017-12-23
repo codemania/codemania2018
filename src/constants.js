@@ -488,6 +488,7 @@ export const speakers: Speakers = {
       {
         id: "katie-bell",
         name: "Katie Bell",
+        twitter: "notsolonecoder",
         talkTopic: "Coming Soon..."
       },
       {
