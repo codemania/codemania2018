@@ -20,9 +20,6 @@ export default class BuyTickets extends Component {
           }
           @media only screen
           and (max-width : 600px) {
-            .buy-tickets {
-              margin-top: -60px;
-            }
             .ticket-mobile-sidebar {
               display: block;
             }

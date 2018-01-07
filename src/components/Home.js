@@ -134,7 +134,6 @@ class Home extends Component {
           <About />
           <div className="image-break"><img className="team" src={team} alt="Codemania team" /></div>
           <Tickets />
-          <BuyTickets />
           <div className="image-break"><img className="cave" src={cave} alt="Codemania cave" /></div>
           <Sponsors />
         </div>

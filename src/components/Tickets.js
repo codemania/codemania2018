@@ -16,9 +16,13 @@ class Tickets extends Component {
           }
           .tickets table {
             margin: 10px;
+            cursor: pointer;
           }
           .tickets table td {
             padding: 20px;
+          }
+          .tickets table td:hover {
+            text-decoration: underline;
           }
           .tickets table tr {
             background-color: rgba(0,193,222,.7);
@@ -59,7 +63,7 @@ class Tickets extends Component {
           }
         `}</style>
         <h1>Tickets</h1>
-        <table>
+        <table onClick={this.handleTicketClick.bind(this)}>
           <thead>
             <tr>
               <td></td>
@@ -98,6 +102,10 @@ class Tickets extends Component {
         <p className="small-print">*When purchased with a conference ticket. Earlybird ends 28th Feb 2018</p>
       </div>
     );
+  }
+
+  handleTicketClick() {
+    window.location = "https://codemania-2018.lilregie.com";
   }
 }
 
