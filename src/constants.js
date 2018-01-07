@@ -437,8 +437,8 @@ export const speakers: Speakers = {
         <p>Richard Campbell is a technology entrepreneur and the co-host of the .NET Rocks, a software development podcast. His Geek Out series (http://geekout.show) on .NET Rocks explores a large variety of technology topics including aerospace, alternative energy and whatever other cool technology catches his imagination. He also the chairman of Humanitarian Toolbox (http://htbox.org) a charity that builds open source software for disaster relief organizations.</p>`
       },
       {
-        id: "jana",
-        name: "Jana Beck",
+        id: "tammy",
+        name: "Tammy Butow",
         twitter: "tammybutow",
         bio: "Principal SRE @ Gremlin",
         talkTopic: "TBC",
@@ -446,8 +446,8 @@ export const speakers: Speakers = {
         <p>Co-Founder of <a href="http://twitter.com/GirlGeekAcademy">@GirlGeekAcademy</a>. A global movement to teach 1 million women technical skills by 2025.</p>`
       },
       {
-        id: "tammy",
-        name: "Tammy Butow",
+        id: "jana",
+        name: "Jana Beck",
         twitter: "iPancreas",
         bio: "dataviz eng @ Stitch Fix",
         talkTopic: "Escaping the diving bell",
