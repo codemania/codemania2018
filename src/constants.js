@@ -401,7 +401,7 @@ export const speakers: Speakers = {
         bio: "VP Engineering @ Slack",
         talkTopic: "The Second Act",
         talkBlurb: `<p>In order to be a historic company, you need your culture to evolve.</p>
-        <p>Michael Lopp is a Silicon Valley-based engineering leader who builds both people and product at companies such as Borland, Netscape, Palantir, Pinterest, and Apple. While he's not worrying about staying relevant, he writes about pens, bridges, people, leadership, and werewolves at the popular weblog, Rands in Repose. He works as the VP of Engineering at Slack in San Francisco where he’s furiously working on helping teams reinvent work.</p>
+        <p>Michael Lopp is a Silicon Valley-based engineering leader who builds both people and product at companies such as Borland, Netscape, Palantir, Pinterest, and Apple. While he's not worrying about staying relevant, he writes about pens, bridges, people, leadership, and werewolves at the popular weblog, <a href="http://randsinrepose.com/">Rands in Repose</a>. He works as the VP of Engineering at Slack in San Francisco where he’s furiously working on helping teams reinvent work.</p>
 
         <p>Michael has written two books. His first book "Managing Humans, 3rd Edition" is a popular guide to the art of engineering leadership and clearly explains that while you be will rewarded for what you build, you will only be successful because of your people. His second book "Being Geek" is a career handbook for geeks and nerds alike.</p>
 
@@ -434,7 +434,7 @@ export const speakers: Speakers = {
         bio: "Harnessing his ADD for the Forces of Good",
         talkTopic: "The Moon: Gateway to the Solar System",
         talkBlurb: `<p>In 1972, the last human to walk on the Moon headed back to Earth. Is it time to go back? Join Richard Campbell as he explores the potential of a return of humans to the Moon. Much has been learned about the Moon since the Apollo missions, and interest in the Moon as a place of science, exploration and learning is growing. The Moon can be a catalyst for humankind traveling the solar system - it's time to go back!</p>
-        <p>Richard Campbell is a technology entrepreneur and the co-host of the .NET Rocks, a software development podcast. His Geek Out series (http://geekout.show) on .NET Rocks explores a large variety of technology topics including aerospace, alternative energy and whatever other cool technology catches his imagination. He also the chairman of Humanitarian Toolbox (http://htbox.org) a charity that builds open source software for disaster relief organizations.</p>`
+        <p>Richard Campbell is a technology entrepreneur and the co-host of the .NET Rocks, a software development podcast. His <a href="http://geekout.show">Geek Out</a> series on .NET Rocks explores a large variety of technology topics including aerospace, alternative energy and whatever other cool technology catches his imagination. He also the chairman of <a href="http://htbox.org">Humanitarian Toolbox</a> a charity that builds open source software for disaster relief organizations.</p>`
       },
       {
         id: "tammy",
@@ -442,7 +442,7 @@ export const speakers: Speakers = {
         twitter: "tammybutow",
         bio: "Principal SRE @ Gremlin",
         talkTopic: "TBC",
-        talkBlurb: `<p>Principal Site Reliability Engineer <a href="http://twitter.com/GremlinInc">@GremlinInc</a> http://gremlin.com  | Chaos Engineering | Australian | Previously <a href="http://twitter.com/DigitalOcean">@DigitalOcean</a> <a href="http://twitter.com/Dropbox">@Dropbox</a> <a href="http://twitter.com/NAB">@NAB</a></p>
+        talkBlurb: `<p>Principal Site Reliability Engineer <a href="http://twitter.com/GremlinInc">@GremlinInc</a> | Chaos Engineering | Australian | Previously <a href="http://twitter.com/DigitalOcean">@DigitalOcean</a> <a href="http://twitter.com/Dropbox">@Dropbox</a> <a href="http://twitter.com/NAB">@NAB</a></p>
         <p>Co-Founder of <a href="http://twitter.com/GirlGeekAcademy">@GirlGeekAcademy</a>. A global movement to teach 1 million women technical skills by 2025.</p>`
       },
       {
@@ -492,7 +492,12 @@ export const speakers: Speakers = {
         id: "josh-long",
         name: "Josh Long",
         twitter: "starbuxman",
-        talkTopic: "Coming Soon..."
+        bio: "Developer Advocate @ Pivotal",
+        talkTopic: "Cloud Native Java",
+        talkBlurb: `<p>"It is not necessary to change. Survival is not mandatory." -W. Edwards Deming</p>
+        <p>Work takes time to flow through an organization and ultimately be deployed to production where it captures value. It’s critical to reduce time-to-production. Software - for many organizations and industries - is a competitive advantage.</p>
+        <p>Organizations break their larger software ambitions into smaller, independently deployable, feature -centric batches of work - microservices. In order to reduce the round-trip between stations of work, organizations collapse or consolidate as much of them as possible and automate the rest; developers and operations beget “devops,” cloud-based services and platforms (like Cloud Foundry) automate operations work and break down the need for ITIL tickets and change management boards.</p>
+        <p>But velocity, for velocity’s sake, is dangerous. Microservices invite architectural complexity that few are prepared to address. In this talk, we’ll look at how high performance organizations like Ticketmaster, Alibaba, and Netflix make short work of that complexity with Spring Boot and Spring Cloud.</p>`
       },
       {
         id: "katie-bell",

@@ -12,7 +12,7 @@ class SpeakerPage extends Component {
     try {
       speakerImage = require("../images/2018/speakers/round/" + speaker.id + ".png")
     } catch(err) {
-      speakerImage = null
+      speakerImage = require("../images/2018/speakers/round/default.png")
     }
     return (
       <div className="speaker-page">
@@ -56,6 +56,13 @@ class SpeakerPage extends Component {
           }
           .talk-details p b {
             text-transform: uppercase;
+          }
+          .talk-details p a, .talk-details .hilite {
+            color: #ffcd00;
+            text-decoration:  none;
+          }
+          .talk-details p a:hover {
+            text-decoration:  underline;
           }
           .speaker-byline p a:hover {
             text-decoration: underline;
