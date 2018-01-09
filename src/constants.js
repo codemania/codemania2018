@@ -489,7 +489,7 @@ export const speakers: Speakers = {
         <p>Sacha runs the Hoku Group, a family office combining private investments, early-stage tech ventures and a non-profit foundation. She is the co-host of Refactor (a series of events around diversity in technology), and Flounders’ Club (a network for early-stage company founders). She also spends a confusing amount of time explaining why Harry Styles might be the answer to everything.</p>`
       },
       {
-        id: "josh-long",
+        id: "josh",
         name: "Josh Long",
         twitter: "starbuxman",
         bio: "Developer Advocate @ Pivotal",
