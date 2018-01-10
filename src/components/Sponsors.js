@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import pushpay from "../images/sponsors/logo_pushpay.png"
 import ateed from "../images/sponsors/logo_ateed.png"
+import gentrack from "../images/sponsors/logo_gentrack.png"
 import yow from "../images/sponsors/logo_yow.png"
 
 class Sponsors extends Component {
@@ -21,17 +22,17 @@ class Sponsors extends Component {
             text-align: center;
           }
           .sponsor-logos, .friend-logos {
-            width: 80%;
+            width: 100%;
             display: flex;
-            flex: row wrap;
             margin: 20px auto;
-            justify-content: center;
+            justify-content: space-around;
           }
           .sponsors li img {
-            height: 110px;
+            width: 280px;
+            vertical-align: middle;
           }
           .friend-logos li img {
-            height: 60px;
+            width: 150px;
           }
           .sponsors p {
             font-size: medium;
@@ -50,6 +51,11 @@ class Sponsors extends Component {
           }
           .sponsors p a:hover {
             text-decoration:  underline;
+          }
+          .image-aligner {
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
           }
 
           @media only screen
@@ -77,13 +83,21 @@ class Sponsors extends Component {
         `}</style>
         <ul className="sponsor-logos">
           <li>
+            <span class="image-aligner"></span>
             <a target="_blank" rel="noopener noreferrer" href="https://pushpay.com">
               <img src={pushpay} alt="Pushpay" />
             </a>
           </li>
           <li>
+            <span class="image-aligner"></span>
             <a target="_blank" rel="noopener noreferrer" href="http://www.aucklandnz.com/ateed/">
               <img src={ateed} alt="ATEED" />
+            </a>
+          </li>
+          <li>
+            <span class="image-aligner"></span>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.gentrack.com/">
+              <img src={gentrack} alt="Gentrack" />
             </a>
           </li>
         </ul>
