@@ -401,7 +401,7 @@ export const speakers: Speakers = {
         bio: "VP Engineering @ Slack",
         talkTopic: "The Second Act",
         talkBlurb: `<p>In order to be a historic company, you need your culture to evolve.</p>
-        <hr/><p>Michael Lopp is a Silicon Valley-based engineering leader who builds both people and product at companies such as Borland, Netscape, Palantir, Pinterest, and Apple. While he's not worrying about staying relevant, he writes about pens, bridges, people, leadership, and werewolves at the popular weblog, <a href="http://randsinrepose.com/">Rands in Repose</a>. He works as the VP of Engineering at Slack in San Francisco where he’s furiously working on helping teams reinvent work.</p>
+        <hr/> <p>Michael Lopp is a Silicon Valley-based engineering leader who builds both people and product at companies such as Borland, Netscape, Palantir, Pinterest, and Apple. While he's not worrying about staying relevant, he writes about pens, bridges, people, leadership, and werewolves at the popular weblog, <a href="http://randsinrepose.com/">Rands in Repose</a>. He works as the VP of Engineering at Slack in San Francisco where he’s furiously working on helping teams reinvent work.</p>
 
         <p>Michael has written two books. His first book "Managing Humans, 3rd Edition" is a popular guide to the art of engineering leadership and clearly explains that while you be will rewarded for what you build, you will only be successful because of your people. His second book "Being Geek" is a career handbook for geeks and nerds alike.</p>
 
@@ -514,10 +514,15 @@ export const speakers: Speakers = {
         talkTopic: "Coming Soon..."
       },
       {
-        id: "mark-young",
+        id: "mark",
         name: "Mark Young",
         twitter: "kiwidev",
-        talkTopic: "Coming Soon..."
+        bio: "Engineer @ Microsoft",
+        talkTopic: "The Tentative Mud-tender",
+        talkBlurb: `<p>While we might dream of electric sheep, shiny structures and perfectly maintainable systems sometimes it feels like we’re stuck tip-toeing on the edge of an abyss prodding a distant pile of mud with a fragile stick. But often too much tiptoeing leads to nothing being accomplished and lots of developer frustration. How can we shape this slightly whiffy ball to our will, understand it, extend it or replace it? How can we stay sane during the process?</p>
+
+        <p>Wearing a DevTest hat and donning some mighty Fred Dagg gumboots, I’ll wade through some stories and share some of the techniques that have helped me retain my developer mojo. We’ll look at approaches and tools for faster and more efficient integration, component and unit testing and how these have not only increased team buy-in but enabled safe rewriting without customer interruption.</p>
+        `
       },
     ]
   }
