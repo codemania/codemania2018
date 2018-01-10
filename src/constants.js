@@ -401,7 +401,7 @@ export const speakers: Speakers = {
         bio: "VP Engineering @ Slack",
         talkTopic: "The Second Act",
         talkBlurb: `<p>In order to be a historic company, you need your culture to evolve.</p>
-        <p>Michael Lopp is a Silicon Valley-based engineering leader who builds both people and product at companies such as Borland, Netscape, Palantir, Pinterest, and Apple. While he's not worrying about staying relevant, he writes about pens, bridges, people, leadership, and werewolves at the popular weblog, <a href="http://randsinrepose.com/">Rands in Repose</a>. He works as the VP of Engineering at Slack in San Francisco where he’s furiously working on helping teams reinvent work.</p>
+        <hr/><p>Michael Lopp is a Silicon Valley-based engineering leader who builds both people and product at companies such as Borland, Netscape, Palantir, Pinterest, and Apple. While he's not worrying about staying relevant, he writes about pens, bridges, people, leadership, and werewolves at the popular weblog, <a href="http://randsinrepose.com/">Rands in Repose</a>. He works as the VP of Engineering at Slack in San Francisco where he’s furiously working on helping teams reinvent work.</p>
 
         <p>Michael has written two books. His first book "Managing Humans, 3rd Edition" is a popular guide to the art of engineering leadership and clearly explains that while you be will rewarded for what you build, you will only be successful because of your people. His second book "Being Geek" is a career handbook for geeks and nerds alike.</p>
 
@@ -434,7 +434,7 @@ export const speakers: Speakers = {
         bio: "Harnessing his ADD for the Forces of Good",
         talkTopic: "The Moon: Gateway to the Solar System",
         talkBlurb: `<p>In 1972, the last human to walk on the Moon headed back to Earth. Is it time to go back? Join Richard Campbell as he explores the potential of a return of humans to the Moon. Much has been learned about the Moon since the Apollo missions, and interest in the Moon as a place of science, exploration and learning is growing. The Moon can be a catalyst for humankind traveling the solar system - it's time to go back!</p>
-        <p>Richard Campbell is a technology entrepreneur and the co-host of the .NET Rocks, a software development podcast. His <a href="http://geekout.show">Geek Out</a> series on .NET Rocks explores a large variety of technology topics including aerospace, alternative energy and whatever other cool technology catches his imagination. He also the chairman of <a href="http://htbox.org">Humanitarian Toolbox</a> a charity that builds open source software for disaster relief organizations.</p>`
+        <hr/><p>Richard Campbell is a technology entrepreneur and the co-host of the .NET Rocks, a software development podcast. His <a href="http://geekout.show">Geek Out</a> series on .NET Rocks explores a large variety of technology topics including aerospace, alternative energy and whatever other cool technology catches his imagination. He also the chairman of <a href="http://htbox.org">Humanitarian Toolbox</a> a charity that builds open source software for disaster relief organizations.</p>`
       },
       {
         id: "tammy",
@@ -465,7 +465,15 @@ export const speakers: Speakers = {
         
         <p>It’s easy to get lost in the code and forget to ask the questions to understand the context of the task that you’re working on. Do you know the why behind what you’re doing? Do you give a damn? What’s your butterfly effect? </p>
         
-        <p>In this talk, we’ll explore areas that we can improve on which can also contribute to building better products, career progression, positive team culture, adding more value to projects, job satisfaction, making a difference and possibly, just maybe, giving a damn.</p>`
+        <p>In this talk, we’ll explore areas that we can improve on which can also contribute to building better products, career progression, positive team culture, adding more value to projects, job satisfaction, making a difference and possibly, just maybe, giving a damn.</p>
+        
+        <hr/>
+        <p>Patima is the newly appointed Head of Product at Seven West Media.</p>
+
+        <p>Prior to this, she led the team at Perth-based award winning digital agency, Bam Creative between 2005 to 2017. She was appointed as a Director and Studio Manager at the agency in 2010, a role in which she received recognition for as a finalist in the 2015 Telstra Business Women's Awards.</p>
+        <p>With over 15 years' worth of experience in the web industry, she's worn many hats as a designer, front end developer, project manager, creative director, brand director, digital strategist, meetup organiser, conference organiser, speaker and people leader.</p>
+        <p>Her other accolades extend to co-founding employee engagement startup, 6Q, and also Mixin, a not-for-profit community organisation at which she is also a Director of. </p>
+        <p>She was also on the national committee for the Australian Web Industry Association where she hosted a monthly community meetup for 18 months in addition to creating a national roadshow initiative for professional development called Localhost.</p>`
       },
       {
         id: "dean",
@@ -486,7 +494,7 @@ export const speakers: Speakers = {
         bio: "MD @ Hoku Group",
         talkTopic: "Superfan!",
         talkBlurb: `<p>What crowdsourced Norwegian subtitles, distributed radio requests, and fair trade chocolate frogs can teach us about building excellent and ethical software.</p>
-        <p>Sacha runs the Hoku Group, a family office combining private investments, early-stage tech ventures and a non-profit foundation. She is the co-host of Refactor (a series of events around diversity in technology), and Flounders’ Club (a network for early-stage company founders). She also spends a confusing amount of time explaining why Harry Styles might be the answer to everything.</p>`
+        <hr/><p>Sacha runs the Hoku Group, a family office combining private investments, early-stage tech ventures and a non-profit foundation. She is the co-host of Refactor (a series of events around diversity in technology), and Flounders’ Club (a network for early-stage company founders). She also spends a confusing amount of time explaining why Harry Styles might be the answer to everything.</p>`
       },
       {
         id: "josh",
