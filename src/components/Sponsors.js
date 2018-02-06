@@ -3,6 +3,8 @@ import React, { Component } from "react";
 import pushpay from "../images/sponsors/logo_pushpay.png"
 import ateed from "../images/sponsors/logo_ateed.png"
 import gentrack from "../images/sponsors/logo_gentrack.png"
+import xero from "../images/sponsors/logo_xero.svg"
+import vend from "../images/sponsors/logo_vend.svg"
 import yow from "../images/sponsors/logo_yow.png"
 
 class Sponsors extends Component {
@@ -21,18 +23,33 @@ class Sponsors extends Component {
             width: 200px;
             text-align: center;
           }
-          .sponsor-logos, .friend-logos {
+          .sponsor-logos {
             width: 100%;
             display: flex;
             margin: 20px auto;
-            justify-content: space-around;
+            justify-content: center;
+            flex-wrap: wrap;
+          }
+          .sponsors li {
+            flex: 0 1 25%;
+            text-align: center;
           }
           .sponsors li img {
-            width: 280px;
+            width: 300px;
+            max-height: 150px;
             vertical-align: middle;
           }
-          .friend-logos li img {
+          .sponsor-logos--silver li img {
+            width: 250px;
+            max-height: 100px;
+          }
+          .sponsor-logos--standard li img {
             width: 150px;
+            max-height: 50px;
+          }
+          .sponsor-logos--friends li img {
+            width: 80px;
+            max-height: 40px;
           }
           .sponsors p {
             font-size: medium;
@@ -70,39 +87,52 @@ class Sponsors extends Component {
               }
               .sponsors li {
                 margin: 0;
+                margin-bottom: 10px;
               }
               .sponsors li img {
-                width: 70%;
-                height: auto;
-              }
-              .friend-logos li img {
-                width: 50%;
                 height: auto;
               }
             }
         `}</style>
-        <ul className="sponsor-logos">
+        <ul className="sponsor-logos sponsor-logos--gold">
           <li>
             <span class="image-aligner"></span>
             <a target="_blank" rel="noopener noreferrer" href="https://pushpay.com">
               <img src={pushpay} alt="Pushpay" />
             </a>
           </li>
+        </ul>
+        <ul className="sponsor-logos sponsor-logos--silver">
           <li>
             <span class="image-aligner"></span>
             <a target="_blank" rel="noopener noreferrer" href="http://www.aucklandnz.com/ateed/">
               <img src={ateed} alt="ATEED" />
             </a>
           </li>
+        </ul>
+        <ul className="sponsor-logos sponsor-logos--standard">
           <li>
             <span class="image-aligner"></span>
             <a target="_blank" rel="noopener noreferrer" href="https://www.gentrack.com/">
               <img src={gentrack} alt="Gentrack" />
             </a>
           </li>
-        </ul>
-        <ul className="friend-logos">
           <li>
+            <span class="image-aligner"></span>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.xero.com/">
+              <img src={xero} alt="Xero" />
+            </a>
+          </li>
+          <li>
+            <span class="image-aligner"></span>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.vendhq.com/careers">
+              <img src={vend} alt="Vend" />
+            </a>
+          </li>
+        </ul>
+        <ul className="sponsor-logos sponsor-logos--friends">
+          <li>
+            <span class="image-aligner"></span>
             <a target="_blank" rel="noopener noreferrer" href="http://yowconference.com.au/">
               <img src={yow} alt="Yow" />
             </a>
