@@ -476,18 +476,6 @@ export const speakers: Speakers = {
         <p>She was also on the national committee for the Australian Web Industry Association where she hosted a monthly community meetup for 18 months in addition to creating a national roadshow initiative for professional development called Localhost.</p>`
       },
       {
-        id: "dean",
-        name: "Dean Demaret",
-        twitter: "",
-        bio: "Data @ Xero",
-        talkTopic: "Is 10 years too old to start with Machine Learning?",
-        talkBlurb: `<p>Doing things with Machine Learning is quite popular these days. But before you can actually implement an ML solution to a problem in production, there might be a few things you need to do first. Getting access to data, trying out different experiments, putting something in front of the customer and trying to get feedback, iterating, getting an actual data pipeline going, ...</p>
-
-        <p>Things that are easy on your local computer when you are doing the standard Udemy Machine Learning tutorial might become a lot harder when your million records of data is spread accross a couple hundred databases, you have to take latency into account, the network sometimes fails, your application is distrubuted.</p>
-        
-        <p>Xero started implementing its first Data Engineering feature a year ago and this talk will be about all the things that I've personally learned along the way.</p>`
-      },
-      {
         id: "sacha",
         name: "Sacha Judd",
         twitter: "szechuan",
