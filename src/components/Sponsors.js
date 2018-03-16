@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import pushpay from "../images/sponsors/logo_pushpay.png"
+import myob from "../images/sponsors/logo_myob.png"
 import ateed from "../images/sponsors/logo_ateed.png"
 import gentrack from "../images/sponsors/logo_gentrack.png"
 import xero from "../images/sponsors/logo_xero.svg"
@@ -99,6 +100,12 @@ class Sponsors extends Component {
             <span class="image-aligner"></span>
             <a target="_blank" rel="noopener noreferrer" href="https://pushpay.com">
               <img src={pushpay} alt="Pushpay" />
+            </a>
+          </li>
+          <li>
+            <span class="image-aligner"></span>
+            <a target="_blank" rel="noopener noreferrer" href="https://myob.com/nz">
+              <img src={myob} alt="MYOB" />
             </a>
           </li>
         </ul>
