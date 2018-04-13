@@ -7,6 +7,7 @@ import gentrack from "../images/sponsors/logo_gentrack.png"
 import xero from "../images/sponsors/logo_xero.svg"
 import vend from "../images/sponsors/logo_vend.svg"
 import yow from "../images/sponsors/logo_yow.png"
+import fraedom from "../images/sponsors/logo_fraedom.png"
 
 class Sponsors extends Component {
 
@@ -41,11 +42,11 @@ class Sponsors extends Component {
             vertical-align: middle;
           }
           .sponsor-logos--silver li img {
-            width: 250px;
+            width: 200px;
             max-height: 100px;
           }
           .sponsor-logos--standard li img {
-            width: 150px;
+            width: 100px;
             max-height: 50px;
           }
           .sponsor-logos--friends li img {
@@ -114,6 +115,12 @@ class Sponsors extends Component {
             <span class="image-aligner"></span>
             <a target="_blank" rel="noopener noreferrer" href="http://www.aucklandnz.com/ateed/">
               <img src={ateed} alt="ATEED" />
+            </a>
+          </li>
+          <li>
+            <span class="image-aligner"></span>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.fraedom.com/jobs/">
+              <img src={fraedom} alt="Fraedom" />
             </a>
           </li>
         </ul>
