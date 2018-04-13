@@ -485,15 +485,14 @@ export const speakers: Speakers = {
         <hr/><p>Sacha runs the Hoku Group, a family office combining private investments, early-stage tech ventures and a non-profit foundation. She is the co-host of Refactor (a series of events around diversity in technology), and Flounders’ Club (a network for early-stage company founders). She also spends a confusing amount of time explaining why Harry Styles might be the answer to everything.</p>`
       },
       {
-        id: "josh",
-        name: "Josh Long",
-        twitter: "starbuxman",
-        bio: "Developer Advocate @ Pivotal",
-        talkTopic: "Cloud Native Java",
-        talkBlurb: `<p>"It is not necessary to change. Survival is not mandatory." -W. Edwards Deming</p>
-        <p>Work takes time to flow through an organization and ultimately be deployed to production where it captures value. It’s critical to reduce time-to-production. Software - for many organizations and industries - is a competitive advantage.</p>
-        <p>Organizations break their larger software ambitions into smaller, independently deployable, feature -centric batches of work - microservices. In order to reduce the round-trip between stations of work, organizations collapse or consolidate as much of them as possible and automate the rest; developers and operations beget “devops,” cloud-based services and platforms (like Cloud Foundry) automate operations work and break down the need for ITIL tickets and change management boards.</p>
-        <p>But velocity, for velocity’s sake, is dangerous. Microservices invite architectural complexity that few are prepared to address. In this talk, we’ll look at how high performance organizations like Ticketmaster, Alibaba, and Netflix make short work of that complexity with Spring Boot and Spring Cloud.</p>`
+        id: "karl",
+        name: "Karl von Randow",
+        twitter: "avon",
+        bio: "Cactuslab",
+        talkTopic: "The Story of Charles on iOS",
+        talkBlurb: `<p>Many of the apps we develop access APIs over the internet. Charles Proxy running on the desktop lets you capture the HTTP and HTTPS traffic from mobile devices, so you can debug faults and measure the performance of your mobile apps. This is especially important for mobile apps where network traffic is often slow and sometimes expensive. At CodeMania 2018, Karl–the creator of Charles Proxy–will introduce Charles for iOS, a new app that enables you to capture and inspect network traffic on your iOS device. This talk will include local landmarks, an origin story, nostalgia, and some of Karl’s favourite passages of code from this new app.</p>
+        <hr/>
+        <p>Karl started boutique Auckland web design studio Cactuslab with Matthew Buchanan just after the turn of the century. Cactuslab specialises in intelligent, beautiful, human-centred practical solutions on web and mobile. Karl has also created a number of iOS apps, including Camera+ and Vee for Video; Karl is co-founder of Letterboxd—a social website and apps for movie lovers—but before all of this he created Charles Proxy: a much loved tool for debugging networking calls in applications on Windows, macOS and Linux.</p>`
       },
       {
         id: "katie-bell",
