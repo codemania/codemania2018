@@ -446,6 +446,14 @@ export const speakers: Speakers = {
         <p>Co-Founder of <a href="http://twitter.com/GirlGeekAcademy">@GirlGeekAcademy</a>. A global movement to teach 1 million women technical skills by 2025.</p>`
       },
       {
+        id: "buzzy",
+        name: "Richard Busby",
+        twitter: "buzzynz",
+        bio: "Architect @ AWS",
+        talkTopic: "Container Automation, Security, and Monitoring on AWS",
+        talkBlurb: `<p>In this session Buzzy will talk about the deployment, security, and operationalisation of software platforms using Docker containers on AWS, with real world examples. Learn how to handle security and vulnerability assessments, optimise your containers for size and speed, handle automated deployments with no downtime, and monitor running systems to ensure stability.</p>`
+      },
+      {
         id: "jana",
         name: "Jana Beck",
         twitter: "iPancreas",
