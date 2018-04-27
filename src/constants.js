@@ -451,7 +451,9 @@ export const speakers: Speakers = {
         twitter: "buzzynz",
         bio: "Architect @ AWS",
         talkTopic: "Container Automation, Security, and Monitoring on AWS",
-        talkBlurb: `<p>In this session Buzzy will talk about the deployment, security, and operationalisation of software platforms using Docker containers on AWS, with real world examples. Learn how to handle security and vulnerability assessments, optimise your containers for size and speed, handle automated deployments with no downtime, and monitor running systems to ensure stability.</p>`
+        talkBlurb: `<p>In this session Buzzy will talk about the deployment, security, and operationalisation of software platforms using Docker containers on AWS, with real world examples. Learn how to handle security and vulnerability assessments, optimise your containers for size and speed, handle automated deployments with no downtime, and monitor running systems to ensure stability.</p>
+        <hr />
+        <p>Richard “Buzzy” Busby is a Principal Solutions Architect at Amazon Web Services, based in Wellington. He works with AWS customers all over New Zealand, from small start-ups to large established organisations, helping them use AWS services to reach global audiences. Over the last twenty years he’s worked for a number of software companies in New Zealand and the UK. He started in Technical Support and spent a lot of time fixing broken things before realising that the real fun is in helping customers avoid problems in the first place. On the weekend he can usually be found playing outdoor games with his kids, mountain biking, or working on his house - all neverending projects.</p>`
       },
       {
         id: "jana",
