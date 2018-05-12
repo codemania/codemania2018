@@ -395,7 +395,7 @@ export const speakers: Speakers = {
     displayName: "2018",
     speakers: [
       {
-        id: "micheal",
+        id: "michael",
         name: "Michael Lopp",
         twitter: "rands",
         bio: "VP Engineering @ Slack",
