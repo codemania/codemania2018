@@ -239,7 +239,7 @@ class Agenda extends Component {
                 </td>
                 <td colspan="2">
                   <p class="speaker"><a href="/speakers/2018/christine">Christine Yen</a></p>
-                  <p>OBSERVABILITY AND THE DEVELOPMENT PROCES</p>
+                  <p>OBSERVABILITY AND THE DEVELOPMENT PROCESS</p>
                 </td>
               </tr>
               <tr>
