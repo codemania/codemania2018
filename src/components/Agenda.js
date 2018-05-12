@@ -135,7 +135,7 @@ class Agenda extends Component {
                   <p class="time">08.45</p>
                 </td>
                 <td colSpan="2">
-                  <p class="non-speaker">Opening notes</p>
+                  <p class="non-speaker">OPENING NOTES</p>
                 </td>
                 
               </tr>
@@ -162,7 +162,7 @@ class Agenda extends Component {
                   <p class="time">10.40</p>
                 </td>
                 <td colSpan="2">
-                  <p class="non-speaker">Morning tea</p>
+                  <p class="non-speaker">MORNING TEAM</p>
                 </td>
               </tr>
               <tr>
@@ -175,7 +175,7 @@ class Agenda extends Component {
                 </td>
                 <td>
                   <p class="speaker"><a href="/speakers/2018/erin">Erin McKean</a></p>
-                  <p>BUILD AN API IN 20 MINUTES <br />WITH LOOPBACK</p>
+                  <p>BUILD AN API IN 20 MINUTES WITH LOOPBACK</p>
                 </td>
               </tr>
               <tr>
@@ -230,7 +230,7 @@ class Agenda extends Component {
                   <p class="time">15.30</p>
                 </td>
                 <td colspan="2">
-                  <p class="non-speaker">Afternoon tea</p>
+                  <p class="non-speaker">AFTERNOON TEA</p>
                 </td>
               </tr>
               <tr>
@@ -248,7 +248,7 @@ class Agenda extends Component {
                 </td>
                 <td colspan="2">
                   <p class="speaker"><a href="/speakers/2018/richard">Rich Campbell</a></p>
-                  <p>THE MOON: GATEWAY TO <br />THE SOLAR SYSTEM</p>
+                  <p>THE MOON: GATEWAY TO THE SOLAR SYSTEM</p>
                 </td>
               </tr>
               <tr>
@@ -256,7 +256,7 @@ class Agenda extends Component {
                   <p class="time">17.40</p>
                 </td>
                 <td colspan="2">
-                  <p class="non-speaker">Closing NOTES</p>
+                  <p class="non-speaker">CLOSING NOTES</p>
                 </td>
               </tr>
             </tbody>
