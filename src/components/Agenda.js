@@ -162,7 +162,7 @@ class Agenda extends Component {
                   <p class="time">10.40</p>
                 </td>
                 <td colSpan="2">
-                  <p class="non-speaker">MORNING TEAM</p>
+                  <p class="non-speaker">MORNING TEA</p>
                 </td>
               </tr>
               <tr>
