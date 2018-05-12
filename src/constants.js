@@ -508,7 +508,11 @@ export const speakers: Speakers = {
         id: "katie-bell",
         name: "Katie Bell",
         twitter: "notsolonecoder",
-        talkTopic: "Coming Soon..."
+        talkTopic: "Kubernetes: Distributed systems made easy(-ier)",
+        talkBlurb: `<p>Kubernetes lets developers deploy their services, not caring which machines they'll run on or how many replicas to run. Each service can be deployed and scaled independently, with Kubernetes clustering them together to get the most out of the CPU and memory that you're paying for. Thanks to Google's Kubernetes Engine and AWS EKS, Kubernetes is becoming easier and easier to use and is rapidly gaining adoption.</p>
+        <p>From the perspective of a developer who doesn't have a large ops team helping them, we'll see how to deploy a Kubernetes service with all the trimmings necessary for production. In particular, we'll explore health checking, service discovery, and autoscaling. This isn't a sales pitch though, so we'll also look at what kinds of services aren't suited to Kubernetes and some pitfalls to avoid.</p>
+        <hr/>
+        <p>Katie is a Lead Engineer at Campaign Monitor, where she's working on a bunch of things, one of which is adopting Kubernetes. Before that she was a full-stack developer at Grok Learning, bringing the joys of programming to masses of high school kids. More relevant to this talk though, is that she also spent six years working at Google, first a software engineer then as a site reliability engineer. There she worked with Borg, the internal platform which powers Google and was the inspiration for Kubernetes. After experiencing Borg's power and pitfalls at scale, she's keen to see where Kubernetes takes the industry.</p>`
       },
       {
         id: "mark",
