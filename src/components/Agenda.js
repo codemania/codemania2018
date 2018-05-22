@@ -184,7 +184,7 @@ class Agenda extends Component {
                 </td>
                 <td>
                   <p class="speaker"><a href="/speakers/2018/tammy">Tammy Butow</a></p>
-                  <p>TBC</p>
+                  <p>HOW TO ESTABLISH AN INCIDENT MANAGEMENT PROGRAM</p>
                 </td>
                 <td>
                   <p class="speaker"><a href="/speakers/2018/jana">Jana Beck</a></p>
