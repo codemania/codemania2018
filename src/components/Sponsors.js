@@ -126,7 +126,7 @@ class Sponsors extends Component {
           </li>
           <li>
             <span class="image-aligner"></span>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.fraedom.com/jobs/">
+            <a target="_blank" rel="noopener noreferrer" href="https://msdn.microsoft.com/en-nz/">
               <img src={microsoft} alt="Microsoft" />
             </a>
           </li>
