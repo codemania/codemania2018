@@ -8,6 +8,7 @@ import xero from "../images/sponsors/logo_xero.svg"
 import vend from "../images/sponsors/logo_vend.svg"
 import yow from "../images/sponsors/logo_yow.png"
 import fraedom from "../images/sponsors/logo_fraedom.png"
+import microsoft from "../images/sponsors/logo_microsoft.png"
 
 class Sponsors extends Component {
 
@@ -121,6 +122,12 @@ class Sponsors extends Component {
             <span class="image-aligner"></span>
             <a target="_blank" rel="noopener noreferrer" href="https://www.fraedom.com/jobs/">
               <img src={fraedom} alt="Fraedom" />
+            </a>
+          </li>
+          <li>
+            <span class="image-aligner"></span>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.fraedom.com/jobs/">
+              <img src={microsoft} alt="Microsoft" />
             </a>
           </li>
         </ul>
