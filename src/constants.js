@@ -441,7 +441,7 @@ export const speakers: Speakers = {
         name: "Tammy Butow",
         twitter: "tammybutow",
         bio: "Principal SRE @ Gremlin",
-        talkTopic: "TBC",
+        talkTopic: "How to establish an incident management program",
         talkBlurb: `<p>Principal Site Reliability Engineer <a href="http://twitter.com/GremlinInc">@GremlinInc</a> | Chaos Engineering | Australian | Previously <a href="http://twitter.com/DigitalOcean">@DigitalOcean</a> <a href="http://twitter.com/Dropbox">@Dropbox</a> <a href="http://twitter.com/NAB">@NAB</a></p>
         <p>Co-Founder of <a href="http://twitter.com/GirlGeekAcademy">@GirlGeekAcademy</a>. A global movement to teach 1 million women technical skills by 2025.</p>`
       },
