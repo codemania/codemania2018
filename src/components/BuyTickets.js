@@ -27,7 +27,7 @@ export default class BuyTickets extends Component {
         `}</style>
         <div className="ticket-mobile-sidebar"></div>
         <div className="buy-tickets-image">
-          <a href="https://codemania-2018.lilregie.com/"><img src={tickets} alt="Buy Tickets Link" /></a>
+          <a href="https://codemania-2019.lilregie.com/"><img src={tickets} alt="Buy Tickets Link" /></a>
         </div>
         <div className="ticket-mobile-sidebar"></div>
       </div>

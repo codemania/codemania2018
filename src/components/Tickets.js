@@ -99,13 +99,13 @@ class Tickets extends Component {
             </tr>
           </tbody>
         </table>
-        <p className="small-print">*When purchased with a conference ticket. Earlybird ends 28th Feb 2018</p>
+        <p className="small-print">*When purchased with a conference ticket. Earlybird ends 3rd March 2019</p>
       </div>
     );
   }
 
   handleTicketClick() {
-    window.location = "https://codemania-2018.lilregie.com";
+    window.location = "https://codemania-2019.lilregie.com";
   }
 }
 
