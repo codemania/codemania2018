@@ -13,6 +13,7 @@ import Navbar from "../components/Navbar";
 import About from "../components/About";
 import CodeOfConduct from "./CodeOfConduct";
 import Agenda from "./Agenda";
+import Placeholder from "./Placeholder";
 
 type CodemaniaAppState = {
   focusedYear: Year,
@@ -61,10 +62,10 @@ class CodemaniaApp extends Component<Props> {
               .content { flex: 8 0px; }
             }
           `}</style>
-          <Navbar />
+          {/* <Navbar /> */}
           <div className="sidebar bg"></div>
           <div className="content bg">
-            <Route exact path="/" component={Home}/>
+            <Route exact path="/" component={Placeholder}/>
             <Route exact path="/about" component={About}/>
             <Route exact path="/coc" component={CodeOfConduct}/>
             <Route exact path="/agenda" component={Agenda}/>
