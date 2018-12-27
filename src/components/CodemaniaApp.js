@@ -21,7 +21,7 @@ type CodemaniaAppState = {
 
 const defaultState = (): CodemaniaAppState => {
   return {
-    focusedYear: "2018"
+    focusedYear: "2019"
   }
 }
 
@@ -44,7 +44,7 @@ class CodemaniaApp extends Component<Props> {
               flex: 1 100%;
             }
             .bg {
-              background: #ff595a;
+              background: rgb(255,143,0);
             }
 
             /* Medium screens */
@@ -65,7 +65,7 @@ class CodemaniaApp extends Component<Props> {
           {/* <Navbar /> */}
           <div className="sidebar bg"></div>
           <div className="content bg">
-            <Route exact path="/" component={Placeholder}/>
+            <Route exact path="/" component={Home}/>
             <Route exact path="/about" component={About}/>
             <Route exact path="/coc" component={CodeOfConduct}/>
             <Route exact path="/agenda" component={Agenda}/>

@@ -18,16 +18,9 @@ class SpeakerList extends Component<Props> {
       return (
         <div className="speaker-container">
           <style jsx="true">{`
-            .speaker-container {
-              background: 
-                url("`+bottomPyramid+`") no-repeat bottom center,
-                url("`+leaves+`") no-repeat top center;
-              background-size: 80%;
-              width: 100%;
-            }
             .speaker-list {
               width: 800px;
-              margin: 0 auto 250px auto;
+              margin: 0 auto;
               display: flex;
               flex-wrap: wrap;
               justify-content: center;
@@ -38,16 +31,8 @@ class SpeakerList extends Component<Props> {
             }
             @media only screen
             and (max-width : 600px) {
-              .speaker-container {
-                background: 
-                  url("`+bottomPyramid+`") no-repeat bottom center,
-                  url("`+repeatLeaves+`") repeat-y top center;
-                background-size: 100%;
-              }
               .speaker-list {
                 width: 100%;
-                margin-bottom: 100px;
-                padding-bottom: 50px;
               }
               .speaker-list li {
                 width: 40%;

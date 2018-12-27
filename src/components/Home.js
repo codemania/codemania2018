@@ -3,14 +3,15 @@ import React, { Component } from "react";
 import SpeakerList from "../components/SpeakerList";
 import HeaderLogo from '../components/HeaderLogo'
 import BuyTickets from '../components/BuyTickets'
-import KittersPyramid from '../components/KittersPyramid'
+import Intro from '../components/Intro'
 import About from '../components/About'
 import Tickets from '../components/Tickets'
 import Sponsors from '../components/Sponsors'
 
 
-import team from '../images/2018/team.svg'
-import cave from '../images/2018/cave.svg'
+import lost from '../images/2019/lost.svg'
+import saved from '../images/2019/saved.svg'
+import winning from '../images/2019/winning.svg'
 
 
 class Home extends Component {
@@ -40,7 +41,7 @@ class Home extends Component {
               padding-top: 100px;
               max-width: 200px;
             }
-            .kitty {
+            .intro {
               flex: 6 0 auto;
               margin-top: -80px;
             }
@@ -58,20 +59,27 @@ class Home extends Component {
               color: #ff595a;
             }
             .speaker-container {
-              margin-top: -300px;
+              margin-top: -100px;
             }
-            .team {
-              width: 800px;
-              height: 600px;
-              margin-top: -50px;
+            .lost {
+              width: 1200px;
+              height: 400px;
+              margin-top: -40px;
             }
             .tickets {
               z-index: 10;
             }
-            .cave {
-              width: 700px;
+            .saved {
+              width: 900px;
               height: 700px;
               margin-top: -150px;
+              z-index: -10;
+            }
+            .winning {
+              width: 900px;
+              height: 600px;
+              margin-top: 0;
+              margin-bottom: -60px;
               z-index: -10;
             }
             .footer {
@@ -101,7 +109,7 @@ class Home extends Component {
                   padding: 0;
                 }
                 .speaker-container {
-                  margin-top: -120px;
+                  margin-top: -20px;
                 }
                 .ticket-mobile-sidebar {
                   flex: 2 0 auto;
@@ -111,7 +119,7 @@ class Home extends Component {
                   width: 100%;
                   text-align: center;
                 }
-                .team, .cave {
+                .lost, .saved, .winning {
                   width: 80%;
                   height: auto;
                   margin: 0 auto;
@@ -127,14 +135,15 @@ class Home extends Component {
           <BuyTickets />
         </div>
         <div className="flex-container">
-          <KittersPyramid />
+          <Intro />
         </div>
         <div className="flex-container">
-          <SpeakerList year="2018" />
+          <SpeakerList year="2019" />
+          <div className="image-break"><img className="lost" src={lost} alt="Lost" /></div>
           <About />
-          <div className="image-break"><img className="team" src={team} alt="Codemania team" /></div>
+          <div className="image-break"><img className="saved" src={saved} alt="Saved" /></div>
           <Tickets />
-          <div className="image-break"><img className="cave" src={cave} alt="Codemania cave" /></div>
+          <div className="image-break"><img className="winning" src={winning} alt="Winning" /></div>
           <Sponsors />
         </div>
 

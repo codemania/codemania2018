@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import tickets from "../images/2018/buy-tickets.svg";
+import tickets from "../images/2019/buy-tickets.svg";
 
 export default class BuyTickets extends Component {
   render() {
@@ -22,6 +22,9 @@ export default class BuyTickets extends Component {
           and (max-width : 600px) {
             .ticket-mobile-sidebar {
               display: block;
+            }
+            .buy-tickets {
+              margin-top: -50px;
             }
           }
         `}</style>

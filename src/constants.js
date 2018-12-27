@@ -526,6 +526,43 @@ export const speakers: Speakers = {
         `
       },
     ]
+  },
+  "2019": {
+    displayName: "2019",
+    speakers: [
+      {
+        id: "meriko",
+        name: "Meriko Borogove",
+        twitter: "shock",
+        bio: "TBC",
+        talkTopic: "TBC",
+        talkBlurb: `TBC`
+      },
+      {
+        id: "hadi",
+        name: "Hadi Hariri",
+        twitter: "hhariri",
+        bio: "Developer Advocacy @ JetBrains.",
+        talkTopic: "TBC",
+        talkBlurb: `TBC`
+      },
+      {
+        id: "nick",
+        name: "Nick Caldwell",
+        twitter: "nickcald",
+        bio: "Chief Product Officer at Looker",
+        talkTopic: "TBC",
+        talkBlurb: `TBC`
+      },
+      {
+        id: "holden",
+        name: "Holden Karau",
+        twitter: "holdenkarau",
+        bio: "DA @googlecloud: OSS Big Data.",
+        talkTopic: "TBC",
+        talkBlurb: `TBC`
+      }
+    ]
   }
 };
 

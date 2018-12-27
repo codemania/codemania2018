@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 
 import SpeakerList from "../components/SpeakerList";
-import logo from "../images/2018/logo-cm.svg";
+import logo from "../images/2019/logo-cm.svg";
 
 class YearLayout extends Component {
   render() {
     const yearId = this.props.match.params.id;
-    if (yearId === "2018") {
+    if (yearId === "2019") {
       // 2018 so redirect to home!
       window.location = "/";
     }

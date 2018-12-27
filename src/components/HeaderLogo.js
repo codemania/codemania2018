@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import logo from "../images/2018/logo-cm.svg";
+import logo from "../images/2019/logo-cm.svg";
 
 export default class HeaderLogo extends Component {
   render() {
