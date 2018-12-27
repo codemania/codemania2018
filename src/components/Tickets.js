@@ -25,10 +25,13 @@ class Tickets extends Component {
             text-decoration: underline;
           }
           .tickets table tr {
-            background-color: rgba(0,193,222,.7);
+            background-color: rgba(255,62,0,.8);
           }
           .tickets table tr:nth-child(even) {
-            background-color: rgba(0,101,161,.8);
+            background-color: rgba(214,0,28,.8);
+          }
+          .tickets tbody tr:hover {
+            background-color: rgb(68,0,125);
           }
           .tickets table thead tr {
             background-color: transparent
@@ -41,7 +44,7 @@ class Tickets extends Component {
             font-weight: 300;
             margin-top: 5px;
             padding-left: 25px;
-            color: rgba(0,101,161,.8);
+            color: white;
           }
           @media only screen
           and (max-width : 600px) {
