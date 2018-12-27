@@ -9,9 +9,11 @@ class NavComponent extends Component<Props> {
           nav {
             display: flex;
             justify-content: start;
+            background: white;
+            width: 100%;
           }
           nav .navWide li, nav .navNarrow li {
-            color: #ff595a;
+            color: rgb(68,0,125);;
             font-weight: bold;
             display: inline-block;
             margin: 10px;
@@ -21,7 +23,7 @@ class NavComponent extends Component<Props> {
             line-height: 1.4em;
           }
           nav li a, .fa-bars {
-            color: #ff595a;
+            color: rgb(68,0,125);;
             text-decoration: none;
           }
           .fa-bars {

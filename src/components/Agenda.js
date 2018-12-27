@@ -125,9 +125,11 @@ class Agenda extends Component {
         <h1>Agenda</h1>
         <div className="agenda-header">
           <h1>Codemania Conference</h1>
-          <h2>Wednesday 23rd May 2018</h2>
+          <h2>Wednesday 15th May 2018</h2>
         </div>
-        <div id="programme-container">
+        
+        <p>Agenda TBC.</p>
+        {/*<div id="programme-container">
           <table id="programme">
             <tbody>
               <tr>
@@ -261,7 +263,7 @@ class Agenda extends Component {
               </tr>
             </tbody>
           </table>
-        </div>
+          </div>*/}
 
         <div className="agenda-header">
           <h1>Codemania Conversations</h1>

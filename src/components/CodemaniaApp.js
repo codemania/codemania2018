@@ -62,7 +62,7 @@ class CodemaniaApp extends Component<Props> {
               .content { flex: 8 0px; }
             }
           `}</style>
-          {/* <Navbar /> */}
+          <Navbar />
           <div className="sidebar bg"></div>
           <div className="content bg">
             <Route exact path="/" component={Home}/>
