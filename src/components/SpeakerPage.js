@@ -88,7 +88,7 @@ class SpeakerPage extends Component {
           <h1>{speaker.name}</h1>
           <div className="speaker-byline">
             <p>{speaker.bio}</p>
-            <p><a href={'https://twitter.com/' + speaker.twitter} target="_blank">@{speaker.twitter}</a></p>
+            <p><a href={'https://twitter.com/' + speaker.twitter} target="_blank" rel="noopener noreferrer">@{speaker.twitter}</a></p>
           </div>
           <div class="talk-details">
             <p><b>{speaker.talkTopic}</b></p>
