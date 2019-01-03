@@ -12,7 +12,7 @@ import YearLayout from "../components/Year";
 import Navbar from "../components/Navbar";
 import About from "../components/About";
 import CodeOfConduct from "./CodeOfConduct";
-import Agenda from "./Agenda";
+import Agenda from "./PlaceholderAgenda";
 import Placeholder from "./Placeholder";
 
 type CodemaniaAppState = {
