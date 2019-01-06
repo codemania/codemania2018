@@ -27,3 +27,31 @@ h2 {
   font-weight: 700;
   font-style: normal;
 }
+
+.App {
+  display: flex;
+  flex-flow: row wrap;
+}
+.App > * {
+  flex: 1 100%;
+}
+.bg {
+  background: #ff8f00;
+}
+
+
+/* Medium screens */
+@media all and (max-width: 699px) {
+  /* Hide Sidbars */
+  .sidebar { display: none; }
+}
+
+/* Large screens */
+@media all and (min-width: 700px) {
+  /* We invert order of first sidebar and main
+   * And tell the main element to take 8x as much width as the other two sidebars
+   */
+  .sidebar { flex: 1 1px; display: block; }
+  .content { flex: 8 0px; }
+}
+
