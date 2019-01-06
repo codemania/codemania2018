@@ -26,7 +26,7 @@ const defaultState = (): CodemaniaAppState => {
 }
 
 /* The 2019 page with the nav bar and the updated Home page, etc... */
-const AppDiv2019 = () => {
+const AppDiv = () => {
   return (
     <div className="App">
       <Navbar />
@@ -46,7 +46,7 @@ const AppDiv2019 = () => {
 }
 
 /* The placeholder, just with a 'buy now' table... */
-const AppDiv = () => {
+const AppDivPlaceholder = () => {
   return (
     <div className="App">
       <style jsx="true">{`
@@ -78,14 +78,14 @@ class CodemaniaApp extends Component<Props> {
     if (this.props.flags.is2019 === "true") {
       return (
         <Router>
-            <AppDiv2019 />
+            <AppDiv />
         </Router>
       );
     }
 
     return (
       <Router>
-          <AppDiv />
+          <AppDivPlaceholder />
       </Router>
     );
   }
