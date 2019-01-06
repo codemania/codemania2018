@@ -2,9 +2,7 @@ import React, { Component } from "react";
 
 import logo from "../images/2018/logo.png";
 import BuyTickets from '../components/BuyTickets'
-import About from '../components/About'
 import Tickets from '../components/Tickets'
-import Sponsors from '../components/Sponsors'
 
 
 class Placeholder extends Component {

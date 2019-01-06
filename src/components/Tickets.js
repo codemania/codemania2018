@@ -127,11 +127,6 @@ const TicketsStyle2019 = () => {
 
 
 class Tickets extends Component {
-
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div className="tickets" id="tickets">

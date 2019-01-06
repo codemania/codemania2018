@@ -3,10 +3,6 @@ import React, { Component } from "react";
 import SpeakerBadge from "../components/SpeakerBadge";
 import { speakers } from "../constants";
 
-import leaves from "../images/2018/top-leaves.svg"
-import bottomPyramid from "../images/2018/bot-pyramid.svg"
-import repeatLeaves from "../images/2018/leaves.svg"
-
 type Props = {
   year: Year
 };
