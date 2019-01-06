@@ -25,6 +25,49 @@ const defaultState = (): CodemaniaAppState => {
   }
 }
 
+/* The 2019 page with the nav bar and the updated Home page, etc... */
+const AppDiv2019 = () => {
+  return (
+    <div className="App">
+      <Navbar />
+      <div className="sidebar bg"></div>
+      <div className="content bg">
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About}/>
+        <Route exact path="/coc" component={CodeOfConduct}/>
+        <Route exact path="/agenda" component={Agenda}/>
+        <Route path="/year/:id" component={YearLayout}/>
+        <Route path="/speakers/:year/:speaker" component={SpeakerPage}/>
+      </div>
+      <div className="sidebar bg"></div>
+      <footer className="footer bg"></footer>
+    </div>
+    );
+}
+
+/* The placeholder, just with a 'buy now' table... */
+const AppDiv = () => {
+  return (
+    <div className="App">
+      <style jsx="true">{`
+            .bg {
+              background: #ff595a;
+      `}</style>
+      <div className="sidebar bg"></div>
+      <div className="content bg">
+        <Route exact path="/" component={Placeholder} />
+        <Route exact path="/about" component={About}/>
+        <Route exact path="/coc" component={CodeOfConduct}/>
+        <Route exact path="/agenda" component={Agenda}/>
+        <Route path="/year/:id" component={YearLayout}/>
+        <Route path="/speakers/:year/:speaker" component={SpeakerPage}/>
+      </div>
+      <div className="sidebar bg"></div>
+      <footer className="footer bg"></footer>
+    </div>
+    );
+}
+
 class CodemaniaApp extends Component<Props> {
   constructor(props: Props) {
     super(props)
@@ -32,50 +75,17 @@ class CodemaniaApp extends Component<Props> {
   }
 
   render() {
+    if (this.props.flags.is2019 === "true") {
+      return (
+        <Router>
+            <AppDiv2019 />
+        </Router>
+      );
+    }
+
     return (
       <Router>
-        <div className="App">
-          <style jsx="true">{`
-            .App {
-              display: flex;
-              flex-flow: row wrap;
-            }
-            .App > * {
-              flex: 1 100%;
-            }
-            .bg {
-              background: rgb(255,143,0);
-            }
-
-            /* Medium screens */
-            @media all and (max-width: 699px) {
-              /* Hide Sidbars */
-              .sidebar { display: none; }
-            }
-
-            /* Large screens */
-            @media all and (min-width: 700px) {
-              /* We invert order of first sidebar and main
-               * And tell the main element to take 8x as much width as the other two sidebars
-               */
-              .sidebar { flex: 1 1px; display: block; }
-              .content { flex: 8 0px; }
-            }
-          `}</style>
-          <Navbar />
-          <div className="sidebar bg"></div>
-          <div className="content bg">
-            <Route exact path="/" component={Home}/>
-            <Route exact path="/about" component={About}/>
-            <Route exact path="/coc" component={CodeOfConduct}/>
-            <Route exact path="/agenda" component={Agenda}/>
-            <Route path="/year/:id" component={YearLayout}/>
-            <Route path="/speakers/:year/:speaker" component={SpeakerPage}/>
-          </div>
-          <div className="sidebar bg"></div>
-          <footer className="footer bg"></footer>
-          {/* <YearSelector setFocusedYearFn={this.setFocusedYear.bind(this)} /> */}
-        </div>
+          <AppDiv />
       </Router>
     );
   }
