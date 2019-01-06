@@ -11,6 +11,10 @@ class NavComponent extends Component<Props> {
             justify-content: start;
             background: white;
             width: 100%;
+            position: fixed;
+            padding: 0 0 0.3em 0;
+            z-index: 999;
+            opacity: 0.9;
           }
           nav .navWide li, nav .navNarrow li {
             color: rgb(68,0,125);;
