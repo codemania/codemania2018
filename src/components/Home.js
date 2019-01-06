@@ -142,7 +142,7 @@ class Home extends Component {
           <div className="image-break"><img className="lost" src={lost} alt="Lost" /></div>
           <About />
           <div className="image-break"><img className="saved" src={saved} alt="Saved" /></div>
-          <Tickets />
+          <Tickets is2019="true" />
           <div className="image-break"><img className="winning" src={winning} alt="Winning" /></div>
           <Sponsors />
         </div>

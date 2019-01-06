@@ -1,11 +1,69 @@
 import React, { Component } from "react";
 
-class Tickets extends Component {
+const TicketsStyle = () => {
+  return (
+    <style jsx="true">{`
+          .tickets {
+            color: #fff;
+            width: 100%;
+            font-size: 0.9em;
+          }
+          .tickets h1 {
+             margin-bottom: -40px;
+          }
+          .tickets table {
+            margin: 10px;
+            cursor: pointer;
+          }
+          .tickets table td {
+            padding: 20px;
+          }
+          .tickets table td:hover {
+            text-decoration: underline;
+          }
+          .tickets table tr {
+            background-color: rgba(0,193,222,.7);
+          }
+          .tickets table tr:nth-child(even) {
+            background-color: rgba(0,101,161,.8);
+          }
+          .tickets table thead tr {
+            background-color: transparent
+          }
+          .tickets table thead td {
+            font-weight: 300;
+          }
+          .small-print {
+            text-align: left;
+            font-weight: 300;
+            margin-top: 5px;
+            padding-left: 25px;
+            color: rgba(0,101,161,.8);
+          }
+          @media only screen
+          and (max-width : 600px) {
+            .tickets table, .tickets {
+              font-size: 14pt;
+            }
+            .tickets table td {
+              padding: 10px;
+            }
+            .tickets table {
+              margin: 0 5px;
+            }
+            .tickets h1 {
+              margin-bottom: 0;
+           }
+           .small-print {
+             font-size: small;
+           }
+          }
+      `}</style>);
+}
 
-  render() {
-    return (
-      <div className="tickets" id="tickets">
-        <style jsx="true">{`
+const TicketsStyle2019 = () => {
+  return (
+    <style jsx="true">{`
           .tickets {
             color: #fff;
             width: 100%;
@@ -64,7 +122,20 @@ class Tickets extends Component {
              font-size: small;
            }
           }
-        `}</style>
+      `}</style>);
+}
+
+
+class Tickets extends Component {
+
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return (
+      <div className="tickets" id="tickets">
+        {this.props.is2019 === "true" ? <TicketsStyle2019 /> : <TicketsStyle />}
         <h1>Tickets</h1>
         <table onClick={this.handleTicketClick.bind(this)}>
           <thead>
