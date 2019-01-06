@@ -12,7 +12,7 @@ import YearLayout from "../components/Year";
 import Navbar from "../components/Navbar";
 import About from "../components/About";
 import CodeOfConduct from "./CodeOfConduct";
-import Agenda from "./PlaceholderAgenda";
+import Agenda from "./Agenda";
 import Placeholder from "./Placeholder";
 
 type CodemaniaAppState = {
@@ -35,7 +35,7 @@ const AppDiv2019 = () => {
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About}/>
         <Route exact path="/coc" component={CodeOfConduct}/>
-        <Route exact path="/agenda" component={Agenda}/>
+        <Route exact path="/agenda" render={(props) => (<Agenda is2019="true"/>)} />
         <Route path="/year/:id" component={YearLayout}/>
         <Route path="/speakers/:year/:speaker" component={SpeakerPage}/>
       </div>
@@ -58,7 +58,7 @@ const AppDiv = () => {
         <Route exact path="/" component={Placeholder} />
         <Route exact path="/about" component={About}/>
         <Route exact path="/coc" component={CodeOfConduct}/>
-        <Route exact path="/agenda" component={Agenda}/>
+        <Route exact path="/agenda" render={(props) => (<Agenda is2019="false"/>)} />
         <Route path="/year/:id" component={YearLayout}/>
         <Route path="/speakers/:year/:speaker" component={SpeakerPage}/>
       </div>
