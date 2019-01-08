@@ -542,7 +542,7 @@ export const speakers: Speakers = {
         id: "hadi",
         name: "Hadi Hariri",
         twitter: "hhariri",
-        bio: "Developer Advocacy @ JetBrains.",
+        bio: "Developer Advocacy @ JetBrains",
         talkTopic: "TBC",
         talkBlurb: `TBC`
       },
@@ -558,7 +558,7 @@ export const speakers: Speakers = {
         id: "holden",
         name: "Holden Karau",
         twitter: "holdenkarau",
-        bio: "DA @googlecloud: OSS Big Data.",
+        bio: "DA @googlecloud: OSS Big Data",
         talkTopic: "TBC",
         talkBlurb: `TBC`
       }
