@@ -562,6 +562,14 @@ export const speakers: Speakers = {
         bio: "DA @googlecloud: OSS Big Data",
         talkTopic: "TBC",
         talkBlurb: `TBC`
+      },
+      {
+        id: "test",
+        name: "Test Speaker",
+        twitter: "nzben",
+        bio: "React cache busting",
+        talkTopic: "TBC",
+        talkBlurb: `TBC`
       }
     ]
   }
