@@ -100,13 +100,13 @@ class Sponsors extends Component {
         <a className="anchor" id="sponsors-anchor"></a>
         <ul className="sponsor-logos sponsor-logos--gold">
           <li>
-            <span class="image-aligner"></span>
+            <span className="image-aligner"></span>
             <a target="_blank" rel="noopener noreferrer" href="https://pushpay.com">
               <img src={pushpay} alt="Pushpay" />
             </a>
           </li>
           <li>
-            <span class="image-aligner"></span>
+            <span className="image-aligner"></span>
             <a target="_blank" rel="noopener noreferrer" href="https://myob.com/nz">
               <img src={myob} alt="MYOB" />
             </a>
@@ -114,19 +114,19 @@ class Sponsors extends Component {
         </ul>
         <ul className="sponsor-logos sponsor-logos--silver">
           <li>
-            <span class="image-aligner"></span>
+            <span className="image-aligner"></span>
             <a target="_blank" rel="noopener noreferrer" href="http://www.aucklandnz.com/ateed/">
               <img src={ateed} alt="ATEED" />
             </a>
           </li>
           <li>
-            <span class="image-aligner"></span>
+            <span className="image-aligner"></span>
             <a target="_blank" rel="noopener noreferrer" href="https://www.fraedom.com/jobs/">
               <img src={fraedom} alt="Fraedom" />
             </a>
           </li>
           <li>
-            <span class="image-aligner"></span>
+            <span className="image-aligner"></span>
             <a target="_blank" rel="noopener noreferrer" href="https://msdn.microsoft.com/en-nz/">
               <img src={microsoft} alt="Microsoft" />
             </a>
@@ -134,19 +134,19 @@ class Sponsors extends Component {
         </ul>
         <ul className="sponsor-logos sponsor-logos--standard">
           <li>
-            <span class="image-aligner"></span>
+            <span className="image-aligner"></span>
             <a target="_blank" rel="noopener noreferrer" href="https://www.gentrack.com/">
               <img src={gentrack} alt="Gentrack" />
             </a>
           </li>
           <li>
-            <span class="image-aligner"></span>
+            <span className="image-aligner"></span>
             <a target="_blank" rel="noopener noreferrer" href="https://www.xero.com/">
               <img src={xero} alt="Xero" />
             </a>
           </li>
           <li>
-            <span class="image-aligner"></span>
+            <span className="image-aligner"></span>
             <a target="_blank" rel="noopener noreferrer" href="https://www.vendhq.com/careers">
               <img src={vend} alt="Vend" />
             </a>
@@ -154,7 +154,7 @@ class Sponsors extends Component {
         </ul>
         <ul className="sponsor-logos sponsor-logos--friends">
           <li>
-            <span class="image-aligner"></span>
+            <span className="image-aligner"></span>
             <a target="_blank" rel="noopener noreferrer" href="http://yowconference.com.au/">
               <img src={yow} alt="Yow" />
             </a>

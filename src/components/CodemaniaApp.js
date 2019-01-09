@@ -12,7 +12,7 @@ import YearLayout from "../components/Year";
 import Navbar from "../components/Navbar";
 import About from "../components/About";
 import CodeOfConduct from "./CodeOfConduct";
-import Agenda from "./PlaceholderAgenda";
+import Agenda from "./Agenda";
 import Placeholder from "./Placeholder";
 
 type CodemaniaAppState = {
@@ -26,17 +26,17 @@ const defaultState = (): CodemaniaAppState => {
 }
 
 /* The 2019 page with the nav bar and the updated Home page, etc... */
-const AppDiv2019 = () => {
+const AppDiv = () => {
   return (
     <div className="App">
       <Navbar />
       <div className="sidebar bg"></div>
       <div className="content bg">
         <Route exact path="/" component={Home} />
-        <Route exact path="/about" component={About}/>
-        <Route exact path="/coc" component={CodeOfConduct}/>
-        <Route exact path="/agenda" component={Agenda}/>
-        <Route path="/year/:id" component={YearLayout}/>
+        <Route exact path="/about" component={About} />
+        <Route exact path="/coc" component={CodeOfConduct} />
+        <Route exact path="/agenda" component={Agenda} />
+        <Route path="/year/:id" component={YearLayout} />
         <Route path="/speakers/:year/:speaker" component={SpeakerPage}/>
       </div>
       <div className="sidebar bg"></div>
@@ -46,7 +46,7 @@ const AppDiv2019 = () => {
 }
 
 /* The placeholder, just with a 'buy now' table... */
-const AppDiv = () => {
+const AppDivOld = () => {
   return (
     <div className="App">
       <style jsx="true">{`
@@ -58,7 +58,7 @@ const AppDiv = () => {
         <Route exact path="/" component={Placeholder} />
         <Route exact path="/about" component={About}/>
         <Route exact path="/coc" component={CodeOfConduct}/>
-        <Route exact path="/agenda" component={Agenda}/>
+        <Route exact path="/agenda" render={(props) => (<Agenda is2019="false"/>)} />
         <Route path="/year/:id" component={YearLayout}/>
         <Route path="/speakers/:year/:speaker" component={SpeakerPage}/>
       </div>
@@ -75,17 +75,12 @@ class CodemaniaApp extends Component<Props> {
   }
 
   render() {
-    if (this.props.flags.is2019 === "true") {
-      return (
-        <Router>
-            <AppDiv2019 />
-        </Router>
-      );
-    }
-
+    var flag_is2019 = process.env.REACT_APP_FLAGS_IS2019==="true";
     return (
       <Router>
-          <AppDiv />
+        <div className="App">
+          { flag_is2019 ? <AppDiv /> : <AppDivOld /> }
+        </div>
       </Router>
     );
   }
