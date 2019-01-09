@@ -148,9 +148,9 @@ class SpeakerPage extends Component {
     var speaker = speakers[yearId].speakers.find((s) => s.id === speakerId);
     var speakerImage
     try {
-      speakerImage = require("../images/2018/speakers/round/" + speaker.id + ".png")
+      speakerImage = require("../images/2019/speakers/round/" + speaker.id + ".png")
     } catch(err) {
-      speakerImage = require("../images/2018/speakers/round/default.png")
+      speakerImage = require("../images/2019/speakers/round/default.png")
     }
     return (
       <div className="speaker-page">
