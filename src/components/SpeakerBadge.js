@@ -34,13 +34,14 @@ class SpeakerBadge extends Component<Props> {
             }
             .speaker-byline h3 {
               font-weight: bold;
-              font-size: 1.5em;
+              font-size: 1.3em;
               margin: 5px;
             }
             .speaker-byline p {
               font-weight: bold;
               font-size: 0.8em;
               text-transform: uppercase;
+              padding: 2px;
             }
             .speaker-small img {
               width: 195px;
