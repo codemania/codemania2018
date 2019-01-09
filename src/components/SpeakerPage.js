@@ -143,7 +143,7 @@ class SpeakerPage extends Component {
   render() {
     var yearId = this.props.match.params.year;
     var speakerId = this.props.match.params.speaker;
-    var is2019 = process.env.REACT_APP_FLAGS_IS2019==="true";
+    var flag_is2019 = process.env.REACT_APP_FLAGS_IS2019==="true";
 
     var speaker = speakers[yearId].speakers.find((s) => s.id === speakerId);
     var speakerImage
@@ -154,7 +154,7 @@ class SpeakerPage extends Component {
     }
     return (
       <div className="speaker-page">
-        {is2019 ? <SpeakerPageStyle /> : <SpeakerPageStyleOld />}
+        {flag_is2019 ? <SpeakerPageStyle /> : <SpeakerPageStyleOld />}
         <div className="speaker-image">
           <img src={speakerImage} alt={speaker.name} />
         </div>
