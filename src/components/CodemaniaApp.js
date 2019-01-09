@@ -33,10 +33,10 @@ const AppDiv = () => {
       <div className="sidebar bg"></div>
       <div className="content bg">
         <Route exact path="/" component={Home} />
-        <Route exact path="/about" component={About}/>
-        <Route exact path="/coc" component={CodeOfConduct}/>
-        <Route exact path="/agenda" render={(props) => (<Agenda is2019="true"/>)} />
-        <Route path="/year/:id" component={YearLayout}/>
+        <Route exact path="/about" component={About} />
+        <Route exact path="/coc" component={CodeOfConduct} />
+        <Route exact path="/agenda" component={Agenda} />
+        <Route path="/year/:id" component={YearLayout} />
         <Route path="/speakers/:year/:speaker" component={SpeakerPage}/>
       </div>
       <div className="sidebar bg"></div>
@@ -46,7 +46,7 @@ const AppDiv = () => {
 }
 
 /* The placeholder, just with a 'buy now' table... */
-const AppDivPlaceholder = () => {
+const AppDivOld = () => {
   return (
     <div className="App">
       <style jsx="true">{`
@@ -75,17 +75,12 @@ class CodemaniaApp extends Component<Props> {
   }
 
   render() {
-    if (this.props.flags.is2019 === "true") {
-      return (
-        <Router>
-            <AppDiv />
-        </Router>
-      );
-    }
-
+    var flag_is2019 = process.env.REACT_APP_FLAGS_IS2019==="true";
     return (
       <Router>
-          <AppDivPlaceholder />
+        <div className="App">
+          { flag_is2019 ? <AppDiv /> : <AppDivOld /> }
+        </div>
       </Router>
     );
   }
