@@ -249,131 +249,131 @@ const AgendaContent = () => {
         <tbody>
           <tr>
             <td>
-              <p class="time">08.45</p>
+              <p className="time">08.45</p>
             </td>
             <td colSpan="2">
-              <p class="non-speaker">OPENING NOTES</p>
+              <p className="non-speaker">OPENING NOTES</p>
             </td>
 
           </tr>
           <tr>
             <td>
-              <p class="time">09.00</p>
+              <p className="time">09.00</p>
             </td>
             <td colSpan="2">
-              <p class="speaker"><a href="/speakers/2018/michael">Keynote 1</a></p>
+              <p className="speaker"><a href="/speakers/2018/michael">Keynote 1</a></p>
               <p>TBC</p>
             </td>
           </tr>
           <tr>
             <td>
-              <p class="time">09.50</p>
+              <p className="time">09.50</p>
             </td>
             <td  colSpan="2">
-              <p class="speaker"><a href="/speakers/2018/sacha">Keynote 2</a></p>
+              <p className="speaker"><a href="/speakers/2018/sacha">Keynote 2</a></p>
               <p>TBC</p>
             </td>
           </tr>
           <tr>
             <td>
-              <p class="time">10.40</p>
+              <p className="time">10.40</p>
             </td>
             <td colSpan="2">
-              <p class="non-speaker">MORNING TEA</p>
+              <p className="non-speaker">MORNING TEA</p>
             </td>
           </tr>
           <tr>
             <td>
-              <p class="time">11.15</p>
+              <p className="time">11.15</p>
             </td>
             <td>
-              <p class="speaker"><a href="/speakers/2018/buzzy">Track 1 - 1</a></p>
+              <p className="speaker"><a href="/speakers/2018/buzzy">Track 1 - 1</a></p>
               <p>TBC</p>
             </td>
             <td>
-              <p class="speaker"><a href="/speakers/2018/erin">Track 2 - 1</a></p>
-              <p>TBC</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p class="time">12.00</p>
-            </td>
-            <td>
-              <p class="speaker"><a href="/speakers/2018/tammy">Track 1 - 2</a></p>
-              <p>TBC</p>
-            </td>
-            <td>
-              <p class="speaker"><a href="/speakers/2018/jana">Track 2 - 2</a></p>
+              <p className="speaker"><a href="/speakers/2018/erin">Track 2 - 1</a></p>
               <p>TBC</p>
             </td>
           </tr>
           <tr>
             <td>
-              <p class="time">12.45</p>
+              <p className="time">12.00</p>
+            </td>
+            <td>
+              <p className="speaker"><a href="/speakers/2018/tammy">Track 1 - 2</a></p>
+              <p>TBC</p>
+            </td>
+            <td>
+              <p className="speaker"><a href="/speakers/2018/jana">Track 2 - 2</a></p>
+              <p>TBC</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p className="time">12.45</p>
             </td>
             <td colSpan="2">
-              <p class="non-speaker">LUNCH</p>
+              <p className="non-speaker">LUNCH</p>
             </td>
           </tr>
           <tr>
             <td>
-              <p class="time">13.45</p>
+              <p className="time">13.45</p>
             </td>
             <td>
-              <p class="speaker"><a href="/speakers/2018/katie-bell">Track 1 - 3</a></p>
+              <p className="speaker"><a href="/speakers/2018/katie-bell">Track 1 - 3</a></p>
               <p>TBC</p>
             </td>
             <td>
-              <p class="speaker"><a href="/speakers/2018/mark">Track 2 - 3</a></p>
-              <p>TBC</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p class="time">14.35</p>
-            </td>
-            <td>
-              <p class="speaker"><a href="/speakers/2018/patima">Track 1 - 4</a></p>
-              <p>TBC</p>
-            </td>
-            <td>
-              <p class="speaker"><a href="/speakers/2018/karl">Track 2 - 4</a></p>
+              <p className="speaker"><a href="/speakers/2018/mark">Track 2 - 3</a></p>
               <p>TBC</p>
             </td>
           </tr>
           <tr>
             <td>
-              <p class="time">15.30</p>
+              <p className="time">14.35</p>
             </td>
-            <td colspan="2">
-              <p class="non-speaker">AFTERNOON TEA</p>
-            </td>
-          </tr>
-          <tr>
             <td>
-              <p class="time">16.00</p>
+              <p className="speaker"><a href="/speakers/2018/patima">Track 1 - 4</a></p>
+              <p>TBC</p>
             </td>
-            <td colspan="2">
-              <p class="speaker"><a href="/speakers/2018/christine">Locknote 1</a></p>
+            <td>
+              <p className="speaker"><a href="/speakers/2018/karl">Track 2 - 4</a></p>
               <p>TBC</p>
             </td>
           </tr>
           <tr>
             <td>
-              <p class="time">16.50</p>
+              <p className="time">15.30</p>
             </td>
-            <td colspan="2">
-              <p class="speaker"><a href="/speakers/2018/richard">Locknote 2</a></p>
+            <td colSpan="2">
+              <p className="non-speaker">AFTERNOON TEA</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p className="time">16.00</p>
+            </td>
+            <td colSpan="2">
+              <p className="speaker"><a href="/speakers/2018/christine">Locknote 1</a></p>
               <p>TBC</p>
             </td>
           </tr>
           <tr>
             <td>
-              <p class="time">17.40</p>
+              <p className="time">16.50</p>
             </td>
-            <td colspan="2">
-              <p class="non-speaker">CLOSING NOTES</p>
+            <td colSpan="2">
+              <p className="speaker"><a href="/speakers/2018/richard">Locknote 2</a></p>
+              <p>TBC</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p className="time">17.40</p>
+            </td>
+            <td colSpan="2">
+              <p className="non-speaker">CLOSING NOTES</p>
             </td>
           </tr>
         </tbody>
