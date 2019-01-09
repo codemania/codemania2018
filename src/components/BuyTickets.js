@@ -35,7 +35,7 @@ export default class BuyTickets extends Component {
         <div className="buy-tickets-image">
           <a href="https://codemania-2019.lilregie.com/">
           {
-            this.props.is2019 === "true"
+            this.props.is2019
               ? <img src={tickets} alt="Buy Tickets Link" />
               : <img src={tickets2018} alt="Buy Tickets Link" />
           }
