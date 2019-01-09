@@ -386,19 +386,17 @@ const AgendaContent = () => {
 class Agenda extends Component {
 
   render() {
+    var flag_is2019 = process.env.REACT_APP_FLAGS_IS2019==="true";
     return (
       <div className="agenda" id="agenda">
-      {this.props.is2019 === "true" ? <AgendaStyle /> : <AgendaStyleOld />}
+      {flag_is2019 ? <AgendaStyle /> : <AgendaStyleOld />}
         <h1>Agenda</h1>
         <div className="agenda-header">
           <h1>Codemania Conference</h1>
           <h2>Wednesday 15th May 2019</h2>
         </div>
 
-        {this.props.is2019 === "true"
-          ? <AgendaContent />
-          : <h2>2019 ROSTER TBC</h2>
-        }
+        {flag_is2019 ? <AgendaContent /> : <h2>2019 ROSTER TBC</h2>}
 
         <div className="agenda-header">
           <h1>Codemania Conversations</h1>
