@@ -131,6 +131,7 @@ class Tickets extends Component {
     return (
       <div className="tickets" id="tickets">
         {this.props.is2019 === "true" ? <TicketsStyle2019 /> : <TicketsStyle />}
+        <a class="anchor" id="tickets-anchor"></a>
         <h1>Tickets</h1>
         <table onClick={this.handleTicketClick.bind(this)}>
           <thead>

@@ -33,6 +33,7 @@ class About extends Component {
               }
             }
         `}</style>
+        <a class="anchor" id="about-anchor"></a>
         <h1>About</h1>
         <p>Now 7 years strong, <a href="/agenda">Codemania</a> is Auckland's premier conference for software developers, with fantastic speakers from New Zealand and around the world. Join us during NZ TechWeek on <span className="hilite">Wednesday May 23rd, 2018</span> for a full day of information and inspiration from software practitioners at the top of their game.</p>
         <p>If one day is not enough for you, you can also join our world-class speakers and an exclusive gathering of your Codemania friends for two further days after the conference. <a href="/agenda">Codemania Conversations</a> returns to the Waitakere Estate, deep in the heart of one of Auckland's most picturesque bush settings. This two-day unconference (with optional dinner and accommodation) is an opportunity for you to create your own agenda, and spend quality time with our speakers.</p>

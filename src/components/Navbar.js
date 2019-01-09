@@ -14,7 +14,6 @@ class NavComponent extends Component<Props> {
             position: fixed;
             padding: 0 0 0.3em 0;
             z-index: 999;
-            opacity: 0.9;
           }
           nav .navWide li, nav .navNarrow li {
             color: rgb(68,0,125);;
@@ -68,9 +67,9 @@ class NavComponent extends Component<Props> {
               <ul>
                 <li><a href="/">HOME</a></li>
                 <li><a href="/agenda">AGENDA</a></li>
-                <li><a href="/#about">ABOUT</a></li>
-                <li><a href="/#tickets">TICKETS</a></li>
-                <li><a href="/#sponsors">SPONSORS</a></li>
+                <li><a href="/#about-anchor">ABOUT</a></li>
+                <li><a href="/#tickets-anchor">TICKETS</a></li>
+                <li><a href="/#sponsors-anchor">SPONSORS</a></li>
               </ul>
             </div>
         </div>
@@ -78,11 +77,11 @@ class NavComponent extends Component<Props> {
         <FontAwesome name='bars' onClick={this.burgerToggle} />
           <div className="narrowLinks">
             <ul>
-              <li><a href="/">HOME</a></li>
-              <li><a href="/agenda">AGENDA</a></li>
-              <li><a href="/#about">ABOUT</a></li>
-              <li><a href="/#tickets">TICKETS</a></li>
-              <li><a href="/#sponsors">SPONSORS</a></li>
+              <li><a href="/" onClick={this.burgerToggle}>HOME</a></li>
+              <li><a href="/agenda" onClick={this.burgerToggle}>AGENDA</a></li>
+              <li><a href="/#about" onClick={this.burgerToggle}>ABOUT</a></li>
+              <li><a href="/#tickets" onClick={this.burgerToggle}>TICKETS</a></li>
+              <li><a href="/#sponsors" onClick={this.burgerToggle}>SPONSORS</a></li>
             </ul>
           </div>
         </div>
@@ -93,10 +92,10 @@ class NavComponent extends Component<Props> {
   burgerToggle() {
     let linksEl = document.querySelector('.narrowLinks');
     if (linksEl.style.display === 'block') {
-              linksEl.style.display = 'none';
-          } else {
-              linksEl.style.display = 'block';
-          }
+        linksEl.style.display = 'none';
+      } else {
+        linksEl.style.display = 'block';
+      }
   }
 }
 
