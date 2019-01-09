@@ -97,6 +97,7 @@ class Sponsors extends Component {
               }
             }
         `}</style>
+        <a className="anchor" id="sponsors-anchor"></a>
         <ul className="sponsor-logos sponsor-logos--gold">
           <li>
             <span className="image-aligner"></span>

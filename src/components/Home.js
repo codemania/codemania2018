@@ -28,6 +28,12 @@ class Home extends Component {
               align-content: flex-start;
               margin: auto;
             }
+            .anchor {
+              display: block;
+              position: relative;
+              top: -100px;
+              visibility: hidden;
+            }
             .placeholder {
               background-color: red;
               margin: 10px;
@@ -93,13 +99,15 @@ class Home extends Component {
                   margin: auto;
                   flex-order: row;
                 }
+                .anchor {
+                  display: inline-block;
+                }
                 .flex-container {
                   width: 100%;
                 }
                 .logo, .kitty {
                   width: 95%;
                   margin: 10px auto;
-                  flex: 10 0 auto;
                 }
                 h1 {
                   margin: 0 auto 40px auto;
