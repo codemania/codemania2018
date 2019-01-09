@@ -567,7 +567,7 @@ export const speakers: Speakers = {
         id: "test",
         name: "Test Speaker",
         twitter: "nzben",
-        bio: "Cache busting & you",
+        bio: "Cache busting should work",
         talkTopic: "TBC",
         talkBlurb: `TBC`
       }
