@@ -38,7 +38,7 @@ class About extends Component {
   render() {
     return (
       <div className="about" id="about">
-        <a class="anchor" id="about-anchor"></a>
+        <a className="anchor" id="about-anchor"></a>
         <AboutStyles />
         <h1>About</h1>
         <p>Now in its eighth year, <a href="/agenda">Codemania</a> is Auckland's premier conference for software developers, with fantastic speakers from New Zealand and around the world. Join us on <span className="hilite">Wednesday May 15th, 2019</span> for a full day of information and inspiration from software practitioners at the top of their game.</p>
