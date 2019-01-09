@@ -59,6 +59,9 @@ function registerValidSW(swUrl) {
               // It's the perfect time to display a "New content is
               // available; please refresh." message in your web app.
               console.log('New content is available; please refresh.');
+              // yuck force reload. Should probably do a nice popup or something like
+              // https://medium.com/@kellyrmilligan/create-react-app-let-your-users-know-when-the-app-has-been-updated-with-a-notification-21335d85481c
+              window.location.reload()
             } else {
               // At this point, everything has been precached.
               // It's the perfect time to display a
