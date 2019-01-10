@@ -48,7 +48,7 @@ const AppDiv = () => {
 /* The placeholder, just with a 'buy now' table... */
 const AppDivOld = () => {
   return (
-    <div className="App">
+    <div className="App bg">
       <style jsx="true">{`
             .bg {
               background: #ff595a;
