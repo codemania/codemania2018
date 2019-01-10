@@ -2,13 +2,25 @@ import React, { Component } from "react";
 
 import pushpay from "../images/sponsors/logo_pushpay.png"
 import myob from "../images/sponsors/logo_myob.png"
-import ateed from "../images/sponsors/logo_ateed.png"
-import gentrack from "../images/sponsors/logo_gentrack.png"
-import xero from "../images/sponsors/logo_xero.svg"
-import vend from "../images/sponsors/logo_vend.svg"
-import yow from "../images/sponsors/logo_yow.png"
-import fraedom from "../images/sponsors/logo_fraedom.png"
 import microsoft from "../images/sponsors/logo_microsoft.png"
+
+import xero from "../images/sponsors/logo_xero.svg"
+
+
+class SponsorBadge extends Component {
+
+  render() {
+    return (
+      <li>
+        <span className="image-aligner"></span>
+        <a target="_blank" rel="noopener noreferrer" href={this.props.href}>
+          <img src={this.props.imgSrc} alt={this.props.imgAlt} />
+        </a>
+      </li>
+    );
+  }
+
+}
 
 class Sponsors extends Component {
 
@@ -99,66 +111,18 @@ class Sponsors extends Component {
         `}</style>
         <a className="anchor" id="sponsors-anchor"></a>
         <ul className="sponsor-logos sponsor-logos--gold">
-          <li>
-            <span className="image-aligner"></span>
-            <a target="_blank" rel="noopener noreferrer" href="https://pushpay.com">
-              <img src={pushpay} alt="Pushpay" />
-            </a>
-          </li>
-          <li>
-            <span className="image-aligner"></span>
-            <a target="_blank" rel="noopener noreferrer" href="https://myob.com/nz">
-              <img src={myob} alt="MYOB" />
-            </a>
-          </li>
+          <SponsorBadge href="https://pushpay.com" imgSrc={pushpay} imgAlt="Pushpay" />
+          <SponsorBadge href="https://myob.com/nz" imgSrc={myob} imgAlt="MYOB" />
+        </ul>
+        <ul className="sponsor-logos sponsor-logos--gold">
+          <SponsorBadge href="https://msdn.microsoft.com/en-nz/" imgSrc={microsoft} imgAlt="Microsoft" />
+          <SponsorBadge href="" imgSrc="" imgAlt="Vista" />
         </ul>
         <ul className="sponsor-logos sponsor-logos--silver">
-          <li>
-            <span className="image-aligner"></span>
-            <a target="_blank" rel="noopener noreferrer" href="http://www.aucklandnz.com/ateed/">
-              <img src={ateed} alt="ATEED" />
-            </a>
-          </li>
-          <li>
-            <span className="image-aligner"></span>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.fraedom.com/jobs/">
-              <img src={fraedom} alt="Fraedom" />
-            </a>
-          </li>
-          <li>
-            <span className="image-aligner"></span>
-            <a target="_blank" rel="noopener noreferrer" href="https://msdn.microsoft.com/en-nz/">
-              <img src={microsoft} alt="Microsoft" />
-            </a>
-          </li>
+          <SponsorBadge href="" imgSrc="" imgAlt="Raygun" />
+          <SponsorBadge href="https://www.xero.com/" imgSrc={xero} imgAlt="Xero" />
         </ul>
         <ul className="sponsor-logos sponsor-logos--standard">
-          <li>
-            <span className="image-aligner"></span>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.gentrack.com/">
-              <img src={gentrack} alt="Gentrack" />
-            </a>
-          </li>
-          <li>
-            <span className="image-aligner"></span>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.xero.com/">
-              <img src={xero} alt="Xero" />
-            </a>
-          </li>
-          <li>
-            <span className="image-aligner"></span>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.vendhq.com/careers">
-              <img src={vend} alt="Vend" />
-            </a>
-          </li>
-        </ul>
-        <ul className="sponsor-logos sponsor-logos--friends">
-          <li>
-            <span className="image-aligner"></span>
-            <a target="_blank" rel="noopener noreferrer" href="http://yowconference.com.au/">
-              <img src={yow} alt="Yow" />
-            </a>
-          </li>
         </ul>
         <p>If you'd like to help sponsor New Zealand's most amazing conference for software developers, please get in touch so we can discuss options. <a href="mailto:sponsors@codemania.co.nz">sponsors@codemania.co.nz</a></p>
       </div>
