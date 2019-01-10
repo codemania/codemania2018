@@ -16,7 +16,6 @@ import winning from '../images/2019/winning.svg'
 
 class Home extends Component {
   render() {
-    var flag_is2019 = process.env.REACT_APP_FLAGS_IS2019==="true";
     return (
       <div className="flex-container">
         <style jsx="true">{`
@@ -141,7 +140,7 @@ class Home extends Component {
         `}</style>
         <div className="flex-container">
           <HeaderLogo />
-          <BuyTickets is2019={flag_is2019} />
+          <BuyTickets />
         </div>
         <div className="flex-container">
           <Intro />
@@ -151,12 +150,10 @@ class Home extends Component {
           <div className="image-break"><img className="lost" src={lost} alt="Lost" /></div>
           <About />
           <div className="image-break"><img className="saved" src={saved} alt="Saved" /></div>
-          <Tickets is2019={flag_is2019} />
+          <Tickets />
           <div className="image-break"><img className="winning" src={winning} alt="Winning" /></div>
           <Sponsors />
         </div>
-
-
       </div>
     );
   }

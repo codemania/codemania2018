@@ -143,7 +143,7 @@ class Placeholder extends Component {
           <div className="logo">
             <img src={logo} alt="Codemania Logo" />
           </div>
-          <BuyTickets is2019="false"/>
+          <BuyTickets />
         </div>
         <div className="flex-container">
           <div className="placeholder">
