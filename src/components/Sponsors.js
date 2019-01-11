@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 
-import pushpay from "../images/sponsors/logo_pushpay.png"
+import pushpay from "../images/sponsors/logo_pushpay.svg"
 import myob from "../images/sponsors/logo_myob.png"
 import microsoft from "../images/sponsors/logo_microsoft.png"
+import vista from "../images/sponsors/logo_vista.png"
 
+import raygun from "../images/sponsors/logo_raygun.png"
 import xero from "../images/sponsors/logo_xero.svg"
 
 
@@ -116,10 +118,10 @@ class Sponsors extends Component {
         </ul>
         <ul className="sponsor-logos sponsor-logos--gold">
           <SponsorBadge href="https://msdn.microsoft.com/en-nz/" imgSrc={microsoft} imgAlt="Microsoft" />
-          <SponsorBadge href="" imgSrc="" imgAlt="Vista" />
+          <SponsorBadge href="https://www.vista.co/" imgSrc="{vista}" imgAlt="Vista" />
         </ul>
         <ul className="sponsor-logos sponsor-logos--silver">
-          <SponsorBadge href="" imgSrc="" imgAlt="Raygun" />
+          <SponsorBadge href="https://raygun.com/" imgSrc={raygun} imgAlt="Raygun" />
           <SponsorBadge href="https://www.xero.com/" imgSrc={xero} imgAlt="Xero" />
         </ul>
         <ul className="sponsor-logos sponsor-logos--standard">
