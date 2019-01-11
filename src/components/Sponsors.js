@@ -48,11 +48,12 @@ class Sponsors extends Component {
             flex-wrap: wrap;
           }
           .sponsors li {
+            height: 150px;
             flex: 0 1 25%;
             text-align: center;
           }
           .sponsors li img {
-            width: 300px;
+            max-width: 300px;
             max-height: 150px;
             vertical-align: middle;
           }
@@ -91,6 +92,9 @@ class Sponsors extends Component {
             height: 100%;
             vertical-align: middle;
           }
+          .sponsor-section {
+            padding-bottom: 80px;
+          }
 
           @media only screen
             and (max-width : 600px) {
@@ -102,30 +106,32 @@ class Sponsors extends Component {
               .sponsors {
                 text-align: center;
               }
-              .sponsors li {
-                margin: 0;
-                margin-bottom: 10px;
-              }
               .sponsors li img {
                 height: auto;
               }
             }
         `}</style>
         <a className="anchor" id="sponsors-anchor"></a>
-        <ul className="sponsor-logos sponsor-logos--gold">
-          <SponsorBadge href="https://pushpay.com" imgSrc={pushpay} imgAlt="Pushpay" />
-          <SponsorBadge href="https://myob.com/nz" imgSrc={myob} imgAlt="MYOB" />
-        </ul>
-        <ul className="sponsor-logos sponsor-logos--gold">
-          <SponsorBadge href="https://msdn.microsoft.com/en-nz/" imgSrc={microsoft} imgAlt="Microsoft" />
-          <SponsorBadge href="https://www.vista.co/" imgSrc="{vista}" imgAlt="Vista" />
-        </ul>
+        <div className="sponsor-section">
+          <ul className="sponsor-logos sponsor-logos--gold">
+            <SponsorBadge href="https://pushpay.com" imgSrc={pushpay} imgAlt="Pushpay" />
+            <SponsorBadge href="https://myob.com/nz" imgSrc={myob} imgAlt="MYOB" />
+          </ul>
+          <ul className="sponsor-logos sponsor-logos--gold">
+            <SponsorBadge href="https://msdn.microsoft.com/en-nz/" imgSrc={microsoft} imgAlt="Microsoft" />
+            <SponsorBadge href="https://www.vista.co/" imgSrc={vista} imgAlt="Vista" />
+          </ul>
+        </div>
+        <div className="sponsor-section">        
         <ul className="sponsor-logos sponsor-logos--silver">
           <SponsorBadge href="https://raygun.com/" imgSrc={raygun} imgAlt="Raygun" />
           <SponsorBadge href="https://www.xero.com/" imgSrc={xero} imgAlt="Xero" />
         </ul>
-        <ul className="sponsor-logos sponsor-logos--standard">
-        </ul>
+        </div>
+        <div className="sponsor-section">
+          <ul className="sponsor-logos sponsor-logos--standard">
+          </ul>
+        </div>
         <p>If you'd like to help sponsor New Zealand's most amazing conference for software developers, please get in touch so we can discuss options. <a href="mailto:sponsors@codemania.co.nz">sponsors@codemania.co.nz</a></p>
       </div>
     );
