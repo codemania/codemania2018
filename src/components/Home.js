@@ -127,6 +127,7 @@ class Home extends Component {
                 .buy-tickets {
                   flex: 6 0 200px;
                   padding: 0;
+                  margin-top: -50px;
                 }
                 .speaker-container {
                   margin-top: -20px;

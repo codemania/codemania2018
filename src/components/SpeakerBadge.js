@@ -62,6 +62,7 @@ class SpeakerBadge extends Component<Props> {
               }
               .speaker-byline h3 {
                 font-size: 1em;
+                margin: 2px 5px 5px 5px;
               }
               .speaker-byline p {
                 font-size: 0.6em;
