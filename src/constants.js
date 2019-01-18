@@ -532,7 +532,7 @@ export const speakers: Speakers = {
     speakers: [
       {
         id: "meriko",
-        name: "Meriko Borogove",
+        name: "meriko borogove",
         twitter: "merikob",
         bio: "formerly Apple. Creator of iPhone cameras.",
         talkTopic: "Talk Topic TBC",
