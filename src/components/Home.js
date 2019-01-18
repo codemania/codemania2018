@@ -94,6 +94,18 @@ class Home extends Component {
               flex: 10 0 auto;
             }
             @media only screen
+            and (max-width : 1200px) {
+              .image-break {
+                width: 100%;
+                text-align: center;
+              }
+              .lost, .saved, .winning {
+                width: 80%;
+                height: auto;
+                margin: 0 auto;
+              }
+            }
+            @media only screen
             and (max-width : 600px) {
                 .home {
                   margin: auto;
@@ -122,15 +134,6 @@ class Home extends Component {
                 .ticket-mobile-sidebar {
                   flex: 2 0 auto;
                   display: block;
-                }
-                .image-break {
-                  width: 100%;
-                  text-align: center;
-                }
-                .lost, .saved, .winning {
-                  width: 80%;
-                  height: auto;
-                  margin: 0 auto;
                 }
                 .cave {
                   width: 95%;

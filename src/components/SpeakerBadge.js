@@ -41,7 +41,7 @@ class SpeakerBadge extends Component<Props> {
               font-weight: bold;
               font-size: 0.8em;
               text-transform: uppercase;
-              padding: 2px;
+              padding: 2px 5px;
             }
             .speaker-small img {
               width: 195px;
@@ -65,6 +65,7 @@ class SpeakerBadge extends Component<Props> {
               }
               .speaker-byline p {
                 font-size: 0.6em;
+                padding: 2px 2px;
               }
             }
         `}</style>
