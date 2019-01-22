@@ -41,8 +41,8 @@ class About extends Component {
         <a className="anchor" id="about-anchor"></a>
         <AboutStyles />
         <h1>About</h1>
-        <p>Now in its eighth year, <a href="/agenda">Codemania</a> is Auckland's premier conference for software developers, with fantastic speakers from New Zealand and around the world. Join us on <span className="hilite">Wednesday May 15th, 2019</span> for a full day of information and inspiration from software practitioners at the top of their game.</p>
-        <p>If one day is not enough for you, you can also join our world-class speakers and an exclusive gathering of your Codemania friends for two further days after the conference. <a href="/agenda">Codemania Conversations</a> returns to the Waitakere Estate, deep in the heart of one of Auckland's most picturesque bush settings. This two-day unconference is an opportunity for you to create your own agenda, and spend quality time with our speakers.</p>
+        <p>Now in its eighth year, <a href="/agenda">Codemania</a> is Auckland's premier conference for software developers, with fantastic speakers from New Zealand and around the world. Join us on <span className="hilite">Wednesday May 15th, 2019</span> at the luxurious <a href="http://www.cordishotels.com/en/auckland/">Cordis Hotel</a> for a full day of information and inspiration from software practitioners at the top of their game.</p>
+        <p>If one day is not enough for you, you can also join our world-class speakers and an exclusive gathering of your Codemania friends for two further days after the conference. <a href="/agenda">Codemania Conversations</a> returns to the <a href="https://www.heritagehotels.co.nz/waitakere-estate-auckland/">Waitakere Estate</a>, deep in the heart of one of Auckland's most picturesque bush settings. This two-day unconference is an opportunity for you to create your own agenda, and spend quality time with our speakers.</p>
 
         <p>Like always, Codemania is an inclusive, safe space for all to enjoy. Please have a read of our <a href="/coc">Code of Conduct</a>.</p>
       </div>
