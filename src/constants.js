@@ -553,13 +553,78 @@ export const speakers: Speakers = {
         twitter: "nickcald",
         bio: "Chief Product Officer at Looker",
         talkTopic: "TBC",
-        talkBlurb: `TBC`
+        talkBlurb: `<p>Nick Caldwell is the Chief Product Officer at Looker, creating a powerful platform for building modern data experiences. Prior to joining Looker he spent 2 years at Reddit as VP of Engineering, helping quintuple the engineering team while working on a bottoms-up revamp of every part of the world's 4th most popular website. He also spent 13 years at Microsoft, culminating in a role as General Manager of the Power BI product family where he rapidly transformed the company's business intelligence suite.</p><p>Nick holds a degree in computer science and electrical engineering from MIT and an MBA from UC Berkeley. He's also a board member of /dev/color, a non-profit whose mission is to maximize the impact of Black software engineers. Nick is a native of P.G. County Maryland, but is happy to call San Francisco home.</p>`
       },
       {
         id: "holden",
         name: "Holden Karau",
         twitter: "holdenkarau",
         bio: "DA @googlecloud: OSS Big Data",
+        talkTopic: "TBC",
+        talkBlurb: `TBC`
+      },
+      {
+        id: "alix",
+        name: "Alix Klingenberg",
+        twitter: "",
+        bio: "Software Developer @ Auror",
+        talkTopic: "Backends for Frontends",
+        talkBlurb: `<p>Here at Auror - a small crime-fighting startup based in Auckland - we’ve become Best Friends Forever with the Backends For Frontends approach to API design. We’ve been rebuilding our product from scratch across a web app, desktop client and cross-platform mobile app and needed to focus on developing exactly what was required to ship our rewrite in the smallest amount of time, while having flexibility to quickly adapt our front-ends as the designs matured.  We’ve been using BFFs to break up APIs based on the client experience that consumes them in order to move fast and not break things.</p><p>This talk will also cover some of the technical aspects of using the BFF approach. We’ll come to a thrilling conclusion with how we auto-generated a client-wrapper - at a level high enough that you could replicate this in your favourite language.</p>
+        <p>Alix is a software developer at Auror, an Auckland-based crime-fighting startup. She started out as a mobile developer writing Kotlin for Android, but became increasingly interested by the challenges of cloud computing, and moved to C# development, with a focus on operability and site reliability engineering. She keeps up with the mobile world by helping organise the Google Developers Group meetup in Auckland, and running DevFest AKL. She’s interested in writing scalable, operable software, and in social justice. In her spare time, she runs workshops with Ally Skills NZ and is the Women Techmakers lead for Auckland GDG.</p>`
+      },
+      {
+        id: "peterlucas",
+        name: "Peter-Lucas Jones",
+        twitter: "peterlucasjones",
+        bio: "GM @ Te Hiku Media",
+        talkTopic: "TBC",
+        talkBlurb: `TBC`
+      },
+      {
+        id: "keoni",
+        name: "Keoni Mahelona",
+        twitter: "mahelona",
+        bio: "Scientist @ Te Hiku Media",
+        talkTopic: "TBC",
+        talkBlurb: `TBC`
+      },
+      {
+        id: "evan",
+        name: "Evan Shaw",
+        twitter: "codemania",
+        bio: "Lead Engineer @ Vend",
+        talkTopic: "Open Source Rules",
+        talkBlurb: `<p>This is a story about a bug I fixed in an open source project. There will be technical details, but it's really more about adopting a growth mindset, navigating unfamiliar code bases, finding help, and touches on things that make open source great but also sometimes hard and frustrating. These things are presented as rules of open source. (The title's a pun. Get it? 😜)</p>`
+      },
+      {
+        id: "michelle",
+        name: "Michelle Burke",
+        twitter: "smrtgirl",
+        bio: "Person @ Internet",
+        talkTopic: "The road to hell is paved with good intentions: when good data scientists do bad data science",
+        talkBlurb: `<p>Algorithms, Machine Learning, and AI are the current buzzwords in the data analytics space. More and more developers are getting involved in the next level of delivering knowledge from data, but are we doing it correctly? Are we thinking about how biases in the training data sets (and the human biases that are part of the development of the algorithms) are affecting the results?</p>`
+      },
+      {
+        id: "rob",
+        name: "Rob Fonseca-Ensor",
+        twitter: "robfe",
+        bio: "Engineering Director @ Auror",
+        talkTopic: "ASTEROID TIME! When Code Evolution Isn't Enough",
+        talkBlurb: `TBC`
+      },
+      {
+        id: "tba",
+        name: "TBA",
+        twitter: "TBA",
+        bio: "More Speakers Soon!",
+        talkTopic: "TBC",
+        talkBlurb: `TBC`
+      },
+      {
+        id: "tba",
+        name: "TBA",
+        twitter: "TBA",
+        bio: "More Speakers Soon!",
         talkTopic: "TBC",
         talkBlurb: `TBC`
       }

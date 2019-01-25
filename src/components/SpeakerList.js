@@ -22,8 +22,7 @@ class SpeakerList extends Component<Props> {
               justify-content: center;
             }
             .speaker-list li {
-              width: 25%;
-              margin: 0;
+              padding: 10px;
             }
             @media only screen
             and (max-width : 600px) {
