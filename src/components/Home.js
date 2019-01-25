@@ -9,13 +9,19 @@ import Tickets from '../components/Tickets'
 import Sponsors from '../components/Sponsors'
 
 
-import lost from '../images/2019/lost.svg'
-import saved from '../images/2019/saved.svg'
-import winning from '../images/2019/winning.svg'
+import lost1 from '../images/2019/lost-1.svg'
+import saved1 from '../images/2019/saved-1.svg'
+import winning1 from '../images/2019/winning-1.svg'
+
+import lost2 from '../images/2019/lost-2.svg'
+import saved2 from '../images/2019/saved-2.svg'
+import winning2 from '../images/2019/winning-2.svg'
 
 
 class Home extends Component {
   render() {
+    console.log('Randomising gender representation...')
+    var choice = Math.floor(Math.random() * 2)+1
     return (
       <div className="flex-container">
         <style jsx="true">{`
@@ -151,11 +157,11 @@ class Home extends Component {
         </div>
         <div className="flex-container">
           <SpeakerList year="2019" />
-          <div className="image-break"><img className="lost" src={lost} alt="Lost" /></div>
+          <div className="image-break"><img className="lost" src={choice===1?lost1:lost2} alt="Lost" /></div>
           <About />
-          <div className="image-break"><img className="saved" src={saved} alt="Saved" /></div>
+          <div className="image-break"><img className="saved" src={choice===1?saved1:saved2} alt="Saved" /></div>
           <Tickets />
-          <div className="image-break"><img className="winning" src={winning} alt="Winning" /></div>
+          <div className="image-break"><img className="winning" src={choice===1?winning1:winning2} alt="Winning" /></div>
           <Sponsors />
         </div>
       </div>
