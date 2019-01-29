@@ -31,7 +31,6 @@ class SpeakerList extends Component<Props> {
               }
               .speaker-list li {
                 width: 40%;
-                margin: 10px;
               }
             }
             `}
