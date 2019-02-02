@@ -613,16 +613,24 @@ export const speakers: Speakers = {
         talkBlurb: `TBC`
       },
       {
-        id: "tba1",
-        name: "TBA1",
-        twitter: "TBA",
-        bio: "More Speakers Soon!",
+        id: "heather",
+        name: "Heather Miller",
+        twitter: "heathercmiller",
+        bio: "Professing things @ CMU",
         talkTopic: "TBC",
         talkBlurb: `TBC`
       },
       {
-        id: "tba2",
-        name: "TBA2",
+        id: "andrew",
+        name: "Andrew Harvey",
+        twitter: "mootpointer",
+        bio: "Startup Advocate @ Microsoft",
+        talkTopic: "TBC",
+        talkBlurb: `TBC`
+      },
+      {
+        id: "tba",
+        name: "TBA",
         twitter: "TBA",
         bio: "More Speakers Soon!",
         talkTopic: "TBC",
