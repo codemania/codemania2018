@@ -566,7 +566,7 @@ export const speakers: Speakers = {
       {
         id: "alix",
         name: "Alix Klingenberg",
-        twitter: "",
+        twitter: "evolutionises",
         bio: "Software Developer @ Auror",
         talkTopic: "Backends for Frontends",
         talkBlurb: `<p>Here at Auror - a small crime-fighting startup based in Auckland - we’ve become Best Friends Forever with the Backends For Frontends approach to API design. We’ve been rebuilding our product from scratch across a web app, desktop client and cross-platform mobile app and needed to focus on developing exactly what was required to ship our rewrite in the smallest amount of time, while having flexibility to quickly adapt our front-ends as the designs matured.  We’ve been using BFFs to break up APIs based on the client experience that consumes them in order to move fast and not break things.</p><p>This talk will also cover some of the technical aspects of using the BFF approach. We’ll come to a thrilling conclusion with how we auto-generated a client-wrapper - at a level high enough that you could replicate this in your favourite language.</p>
