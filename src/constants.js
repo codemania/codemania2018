@@ -589,6 +589,14 @@ export const speakers: Speakers = {
         talkBlurb: `TBC`
       },
       {
+        id: "te-hiku",
+        name: "Peter-Lucas Jones and Keoni Mahelona",
+        twitter: "TeHiku",
+        bio: "Te Hiku Media",
+        talkTopic: "TBC",
+        talkBlurb: `TBC`
+      },
+      {
         id: "evan",
         name: "Evan Shaw",
         twitter: "codemania",
@@ -629,10 +637,10 @@ export const speakers: Speakers = {
         talkBlurb: `TBC`
       },
       {
-        id: "tba",
-        name: "TBA",
-        twitter: "TBA",
-        bio: "More Speakers Soon!",
+        id: "rockbot",
+        name: "Raquel Velez",
+        twitter: "rockbot",
+        bio: "Engineering Manager @ Slack",
         talkTopic: "TBC",
         talkBlurb: `TBC`
       }

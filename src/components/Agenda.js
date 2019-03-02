@@ -99,6 +99,10 @@ const AgendaStyle = () => {
         font-size:.8em;
     }
 
+    .meriko {
+      text-transform: none;
+    }
+
     #programme .time {
         color: #fff;
         font-size:.5em;
@@ -140,7 +144,7 @@ const AgendaContent = () => {
               <p className="time">09.00</p>
             </td>
             <td colSpan="2">
-              <p className="speaker"><a href="/speakers/2018/michael">Keynote 1</a></p>
+              <p className="speaker"><a href="/speakers/2019/nick">Nick Caldwell</a></p>
               <p>TBC</p>
             </td>
           </tr>
@@ -149,7 +153,7 @@ const AgendaContent = () => {
               <p className="time">09.50</p>
             </td>
             <td  colSpan="2">
-              <p className="speaker"><a href="/speakers/2018/sacha">Keynote 2</a></p>
+              <p className="speaker"><a href="/speakers/2019/heather">Heather Miller</a></p>
               <p>TBC</p>
             </td>
           </tr>
@@ -166,11 +170,11 @@ const AgendaContent = () => {
               <p className="time">11.15</p>
             </td>
             <td>
-              <p className="speaker"><a href="/speakers/2018/buzzy">Track 1 - 1</a></p>
+              <p className="speaker"><a href="/speakers/2019/rockbot">Raquel Velez</a></p>
               <p>TBC</p>
             </td>
             <td>
-              <p className="speaker"><a href="/speakers/2018/erin">Track 2 - 1</a></p>
+              <p className="speaker"><a href="/speakers/2019/andrew">Andrew Harvey</a></p>
               <p>TBC</p>
             </td>
           </tr>
@@ -179,11 +183,11 @@ const AgendaContent = () => {
               <p className="time">12.00</p>
             </td>
             <td>
-              <p className="speaker"><a href="/speakers/2018/tammy">Track 1 - 2</a></p>
+              <p className="speaker"><a href="/speakers/2019/hadi">Hadi Hariri</a></p>
               <p>TBC</p>
             </td>
             <td>
-              <p className="speaker"><a href="/speakers/2018/jana">Track 2 - 2</a></p>
+              <p className="speaker"><a href="/speakers/2019/holden">Holden Karau</a></p>
               <p>TBC</p>
             </td>
           </tr>
@@ -200,12 +204,12 @@ const AgendaContent = () => {
               <p className="time">13.45</p>
             </td>
             <td>
-              <p className="speaker"><a href="/speakers/2018/katie-bell">Track 1 - 3</a></p>
-              <p>TBC</p>
+              <p className="speaker"><a href="/speakers/2019/michelle">Michelle Burke</a></p>
+              <p>The road to hell is paved with good intentions: when good data scientists do bad data science</p>
             </td>
             <td>
-              <p className="speaker"><a href="/speakers/2018/mark">Track 2 - 3</a></p>
-              <p>TBC</p>
+              <p className="speaker"><a href="/speakers/2019/evan">Evan Shaw</a></p>
+              <p>Open Source Rules</p>
             </td>
           </tr>
           <tr>
@@ -213,12 +217,12 @@ const AgendaContent = () => {
               <p className="time">14.35</p>
             </td>
             <td>
-              <p className="speaker"><a href="/speakers/2018/patima">Track 1 - 4</a></p>
-              <p>TBC</p>
+              <p className="speaker"><a href="/speakers/2019/rob">Rob Fonseca-Ensor</a></p>
+              <p>ASTEROID TIME! When Code Evolution Isn't Enough</p>
             </td>
             <td>
-              <p className="speaker"><a href="/speakers/2018/karl">Track 2 - 4</a></p>
-              <p>TBC</p>
+              <p className="speaker"><a href="/speakers/2019/alix">Alix Klingenberg</a></p>
+              <p>Backends for Frontends</p>
             </td>
           </tr>
           <tr>
@@ -234,7 +238,7 @@ const AgendaContent = () => {
               <p className="time">16.00</p>
             </td>
             <td colSpan="2">
-              <p className="speaker"><a href="/speakers/2018/christine">Locknote 1</a></p>
+              <p className="speaker"><a href="/speakers/2019/te-hiku">Peter-Lucas Jones and Keoni Mahelona</a></p>
               <p>TBC</p>
             </td>
           </tr>
@@ -243,7 +247,7 @@ const AgendaContent = () => {
               <p className="time">16.50</p>
             </td>
             <td colSpan="2">
-              <p className="speaker"><a href="/speakers/2018/richard">Locknote 2</a></p>
+              <p className="speaker meriko"><a href="/speakers/2019/meriko">meriko borogove</a></p>
               <p>TBC</p>
             </td>
           </tr>
