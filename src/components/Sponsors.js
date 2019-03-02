@@ -5,8 +5,10 @@ import myob from "../images/sponsors/logo_myob.png"
 import microsoft from "../images/sponsors/logo_microsoft.png"
 import vista from "../images/sponsors/logo_vista.png"
 
+import vend from "../images/sponsors/logo_vend.svg"
 import raygun from "../images/sponsors/logo_raygun.png"
 import xero from "../images/sponsors/logo_xero.svg"
+import fraedom from "../images/sponsors/logo_fraedom.png"
 
 
 class SponsorBadge extends Component {
@@ -124,8 +126,10 @@ class Sponsors extends Component {
         </div>
         <div className="sponsor-section">
         <ul className="sponsor-logos sponsor-logos--silver">
+          <SponsorBadge href="https://www.vendhq.com/" imgSrc={vend} imgAlt="Vend" />
           <SponsorBadge href="https://raygun.com/" imgSrc={raygun} imgAlt="Raygun" />
           <SponsorBadge href="https://www.xero.com/" imgSrc={xero} imgAlt="Xero" />
+          <SponsorBadge href="https://www.fraedom.com/" imgSrc={fraedom} imgAlt="Fraedom" />
         </ul>
         </div>
         <div className="sponsor-section">
