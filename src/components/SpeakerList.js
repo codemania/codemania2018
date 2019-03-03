@@ -37,7 +37,7 @@ class SpeakerList extends Component<Props> {
           </style>
           <h1>Speakers</h1>
             <ul className="speaker-list">
-              {year.speakers.slice().map(speaker => {
+              {year.speakers.slice().filter(speaker => !speaker.hideFromHomePage).map(speaker => {                
                 return (
                   <li key={speaker.name}>
                     <SpeakerBadge speaker={speaker} year={year.displayName} />

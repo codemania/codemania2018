@@ -7,7 +7,8 @@ export type Speaker = {
   bio: string,
   image: string,
   talkTopic: string,
-  talkBlurb: string
+  talkBlurb: string,
+  hideFromHomePage: boolean
 };
 
 export const speakers: Speakers = {
@@ -596,7 +597,8 @@ export const speakers: Speakers = {
         twitter: "TeHiku",
         bio: "Te Hiku Media",
         talkTopic: "TBC",
-        talkBlurb: `TBC`
+        talkBlurb: `TBC`,
+        hideFromHomePage: true
       },
       {
         id: "evan",
