@@ -178,6 +178,7 @@ class Tickets extends Component {
         <p className="small-print">*When purchased with a conference ticket. Earlybird ends 3rd March 2019</p>
         <br />
         <p className="small-print">Do you identify as belonging to an under-represented group in tech? Apply <a href="https://docs.google.com/forms/d/e/1FAIpQLSeU98HUDATgfqrlf-dMpnYfObxzq_I371zZpZUUxTiBC9CqrQ/viewform">here</a> for a scholarship</p>
+        <br />
       </div>
     );
   }
