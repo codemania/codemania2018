@@ -188,7 +188,7 @@ const AgendaContent = () => {
             </td>
             <td>
               <p className="speaker"><a href="/speakers/2019/holden">Holden Karau</a></p>
-              <p>TBC</p>
+              <p>Building End to End Machine Learning Pipeline with Kubeflow &amp; Apache Spark</p>
             </td>
           </tr>
           <tr>

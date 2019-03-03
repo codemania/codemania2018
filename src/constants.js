@@ -535,7 +535,7 @@ export const speakers: Speakers = {
         name: "meriko borogove",
         twitter: "merikob",
         bio: "Creator of iPhone Cameras. Formerly Apple.",
-        talkTopic: "Talk Topic TBC",
+        talkTopic: "TBC",
         talkBlurb: `<p>meriko spent 22 years at Apple, most recently as Senior Director of Engineering in the super-secret Special Projects Group. She did time on QuickTime and was a founding member of the iPhone team. meriko was responsible for building the iPhone camera, turning it into a must-have capability beloved by everyday people and professional photographers alike. She is passionate about human-centric technologies, products, and diverse teams that work across the intersection of hardware, software, silicon, and design.</p>
         <p>meriko advises Sense Medical, ScanLAB Projects, and resists the patriarchy at every opportunity.</p>`
       },
@@ -560,8 +560,10 @@ export const speakers: Speakers = {
         name: "Holden Karau",
         twitter: "holdenkarau",
         bio: "DA @googlecloud: OSS Big Data",
-        talkTopic: "TBC",
-        talkBlurb: `TBC`
+        talkTopic: "Building End to End Machine Learning Pipeline with Kubeflow & Apache Spark",
+        talkBlurb: `<p>Once it's time to move our machine learning beyond mnist.csv and start working on production data sets, we often find ourselves with a whole extra set of problems that we haven't been prepared for. In the "real world" most folks spend the majority of their machine learning time doing data cleaning and feature prep (yes yes I know "deep learning" is going to save us, but not if our inputs are garbage). This talk will look at how to build real world pipelines with messy data with changing schemas, all without having to sell our souls to Cthulhu&ast;.</p>
+        <p>Now while avoiding a deal with the elder gods is to be commended, the next step (often) is keeping everything up to date. As my boss once told me "Holden, Hannah Montana isn't that cool anymore, it's time to update the recommendation models."&ast; We will explore how to use Kubeflow's pipelines to automate our model updating, as well as a brief discussion about some of the potential dangers of automatically pushing new models into production and how we can solve this.</p>
+        <p>&ast; Nothing against Hannah Montana or Cthulhu intended</p>`
       },
       {
         id: "alix",
