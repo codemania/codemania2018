@@ -104,6 +104,12 @@ const TicketsStyle2019 = () => {
             padding-left: 25px;
             color: white;
           }
+
+          .small-print a {
+            color: #ffcd00;
+            text-decoration:  none;    
+          }
+
           @media only screen
           and (max-width : 600px) {
             .tickets table, .tickets {
@@ -170,6 +176,8 @@ class Tickets extends Component {
           </tbody>
         </table>
         <p className="small-print">*When purchased with a conference ticket. Earlybird ends 3rd March 2019</p>
+        <br />
+        <p className="small-print">Do you identify as belonging to an under-represented group in tech? Apply <a href="https://docs.google.com/forms/d/e/1FAIpQLSeU98HUDATgfqrlf-dMpnYfObxzq_I371zZpZUUxTiBC9CqrQ/viewform">here</a> for a scholarship</p>
       </div>
     );
   }
