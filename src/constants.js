@@ -536,7 +536,7 @@ export const speakers: Speakers = {
         name: "meriko borogove",
         twitter: "merikob",
         bio: "Creator of iPhone Cameras. Formerly Apple.",
-        talkTopic: "TBC",
+        talkTopic: "Talk Topic TBC",
         talkBlurb: `<p>meriko spent 22 years at Apple, most recently as Senior Director of Engineering in the super-secret Special Projects Group. She did time on QuickTime and was a founding member of the iPhone team. meriko was responsible for building the iPhone camera, turning it into a must-have capability beloved by everyday people and professional photographers alike. She is passionate about human-centric technologies, products, and diverse teams that work across the intersection of hardware, software, silicon, and design.</p>
         <p>meriko advises Sense Medical, ScanLAB Projects, and resists the patriarchy at every opportunity.</p>`
       },
@@ -545,15 +545,15 @@ export const speakers: Speakers = {
         name: "Hadi Hariri",
         twitter: "hhariri",
         bio: "Developer Advocacy @ JetBrains",
-        talkTopic: "TBC",
-        talkBlurb: `TBC`
+        talkTopic: "Talk Topic TBC",
+        talkBlurb: ``
       },
       {
         id: "nick",
         name: "Nick Caldwell",
         twitter: "nickcald",
         bio: "Chief Product Officer at Looker",
-        talkTopic: "TBC",
+        talkTopic: "Talk Topic TBC",
         talkBlurb: `<p>Nick Caldwell is the Chief Product Officer at Looker, creating a powerful platform for building modern data experiences. Prior to joining Looker he spent 2 years at Reddit as VP of Engineering, helping quintuple the engineering team while working on a bottoms-up revamp of every part of the world's 4th most popular website. He also spent 13 years at Microsoft, culminating in a role as General Manager of the Power BI product family where he rapidly transformed the company's business intelligence suite.</p><p>Nick holds a degree in computer science and electrical engineering from MIT and an MBA from UC Berkeley. He's also a board member of /dev/color, a non-profit whose mission is to maximize the impact of Black software engineers. Nick is a native of P.G. County Maryland, but is happy to call San Francisco home.</p>`
       },
       {
@@ -573,31 +573,31 @@ export const speakers: Speakers = {
         bio: "Software Developer @ Auror",
         talkTopic: "Backends for Frontends",
         talkBlurb: `<p>Here at Auror - a small crime-fighting startup based in Auckland - we’ve become Best Friends Forever with the Backends For Frontends approach to API design. We’ve been rebuilding our product from scratch across a web app, desktop client and cross-platform mobile app and needed to focus on developing exactly what was required to ship our rewrite in the smallest amount of time, while having flexibility to quickly adapt our front-ends as the designs matured.  We’ve been using BFFs to break up APIs based on the client experience that consumes them in order to move fast and not break things.</p><p>This talk will also cover some of the technical aspects of using the BFF approach. We’ll come to a thrilling conclusion with how we auto-generated a client-wrapper - at a level high enough that you could replicate this in your favourite language.</p>
-        <p>Alix is a software developer at Auror, an Auckland-based crime-fighting startup. She started out as a mobile developer writing Kotlin for Android, but became increasingly interested by the challenges of cloud computing, and moved to C# development, with a focus on operability and site reliability engineering. She keeps up with the mobile world by helping organise the Google Developers Group meetup in Auckland, and running DevFest AKL. She’s interested in writing scalable, operable software, and in social justice. In her spare time, she runs workshops with Ally Skills NZ and is the Women Techmakers lead for Auckland GDG.</p>`
+        <hr/><p>Alix is a software developer at Auror, an Auckland-based crime-fighting startup. She started out as a mobile developer writing Kotlin for Android, but became increasingly interested by the challenges of cloud computing, and moved to C# development, with a focus on operability and site reliability engineering. She keeps up with the mobile world by helping organise the Google Developers Group meetup in Auckland, and running DevFest AKL. She’s interested in writing scalable, operable software, and in social justice. In her spare time, she runs workshops with Ally Skills NZ and is the Women Techmakers lead for Auckland GDG.</p>`
       },
       {
         id: "peterlucas",
         name: "Peter-Lucas Jones",
         twitter: "peterlucasjones",
-        bio: "GM @ Te Hiku Media",
-        talkTopic: "TBC",
-        talkBlurb: `TBC`
+        bio: "Kaiwhakahaere @ TeHikuMedia",
+        talkTopic: "Indigenous Digital Platforms",
+        talkBlurb: `<p>Peter-Lucas Jones is an experienced broadcaster and digital content leader. He is the Kaiwhakahaere of Te Hiku Media, the Deputy Chairman of Te Whakaruruhau o Ngā Reo Irirangi Māori (National Māori Radio Network) and also the Deputy Chairman of Māori Television. Peter-Lucas is actively involved in developing solutions for indigenous data sovereignty, data collection and Māori data licensing for speech recognition technology.</p><p>Iwi Affiliations: Te Aupōuri, Ngāi Takoto, Ngāti Kahu.</p><p><i style='font-style:italic'>He iti pioke nō Rangaunu he au tōna.</i></p>`
       },
       {
         id: "keoni",
         name: "Keoni Mahelona",
         twitter: "mahelona",
-        bio: "Scientist @ Te Hiku Media",
-        talkTopic: "TBC",
-        talkBlurb: `TBC`
+        bio: "CTO @ Te Hiku Media",
+        talkTopic: "Indigenous Digital Platforms",
+        talkBlurb: `<p>How do we use technology to empower our indigenous communities while maintaining our values and tikanga? That question drives the work we do and the decisions we make. It sums up what I’ve been working on for the last 4 years - indigenous digital platforms, te reo Māori speech technologies, and the Kaitiakitanga License.</p><p><i style='font-style:italic'>He Hawaiʻi au mau a mau.</i></p>`
       },
       {
         id: "te-hiku",
         name: "Peter-Lucas Jones and Keoni Mahelona",
         twitter: "TeHiku",
         bio: "Te Hiku Media",
-        talkTopic: "TBC",
-        talkBlurb: `TBC`,
+        talkTopic: "Indigenous Digital Platforms",
+        talkBlurb: `How do we use technology to empower our indigenous communities while maintaining our values and tikanga? That question drives the work we do and the decisions we make.`,
         hideFromHomePage: true
       },
       {
@@ -612,41 +612,45 @@ export const speakers: Speakers = {
         id: "michelle",
         name: "Michelle Burke",
         twitter: "smrtgirl",
-        bio: "Person @ Internet",
+        bio: "Data Architect @ Reserve Bank of NZ",
         talkTopic: "The road to hell is paved with good intentions: when good data scientists do bad data science",
-        talkBlurb: `<p>Algorithms, Machine Learning, and AI are the current buzzwords in the data analytics space. More and more developers are getting involved in the next level of delivering knowledge from data, but are we doing it correctly? Are we thinking about how biases in the training data sets (and the human biases that are part of the development of the algorithms) are affecting the results?</p>`
+        talkBlurb: `<p>Algorithms, Machine Learning, and AI are the current buzzwords in the data analytics space. More and more developers are getting involved in the next level of delivering knowledge from data, but are we doing it correctly? Are we thinking about how biases in the training data sets (and the human biases that are part of the development of the algorithms) are affecting the results?</p>
+        <hr/><p>Michelle has been working in data longer than she'd care to admit. Her current favourite dataset is her Untappd check-ins (if you're going to invest that much in craft beer, you should get something out of it, right?)</p><p>
+        She’s worked for tiny companies and large multinationals and everything in between. She is passionate about data quality, data security, appropriate uses of information, solving business problems, and building welcoming and diverse teams.  </p>`
       },
       {
         id: "rob",
         name: "Rob Fonseca-Ensor",
         twitter: "robfe",
-        bio: "Engineering Director @ Auror",
+        bio: "Eng. Director @ Auror",
         talkTopic: "ASTEROID TIME! When Code Evolution Isn't Enough",
-        talkBlurb: `TBC`
+        talkBlurb: `<p>It’s common to wish you could just throw away a codebase that’s over a few months old (or if it’s JavaScript, a couple of days), but sometimes it really does make the most sense to start over.  
+        In 2018 Auror made the call to rebuild their entire software product from scratch. This talk will be covering how we approached that decision, how you might approach a similar decision, ways to convince other people it’s a good idea, and the saner alternatives to rewriting *everything*.</p>
+        <hr/><p>Rob loves building software systems that people love to use. His technology focus is now on cloud platforms, C#, MVC, Typescript and React. He’s been coding for the past 13 years, leading teams in Auckland, Krakow, Malta and London. In his role at Auror, he's enjoying the balance of customer-focus, technology, and team. His Patronus is Daddy Pig.</p>`
       },
       {
         id: "heather",
         name: "Heather Miller",
         twitter: "heathercmiller",
         bio: "Professing things @ CMU",
-        talkTopic: "TBC",
-        talkBlurb: `TBC`
+        talkTopic: "Talk Topic TBC",
+        talkBlurb: ``
       },
       {
         id: "andrew",
         name: "Andrew Harvey",
         twitter: "mootpointer",
-        bio: "Startup Advocate @ Microsoft",
-        talkTopic: "TBC",
-        talkBlurb: `TBC`
+        bio: "CTO in Residence – Sydney @ Microsoft",
+        talkTopic: "Talk Topic TBC",
+        talkBlurb: `<p>Andrew Harvey is CTO in Residence in Sydney for Microsoft. He works with startups of all sizes to help them scale their product and technology. Previously he has worked as CTO for CancerAid and Zova (where he won an Apple Design Award in 2016). Outside work, he rides bikes, obsesses over coffee and fulfils stereotypes.</p>`
       },
       {
         id: "rockbot",
         name: "Raquel Velez",
         twitter: "rockbot",
         bio: "Engineering Manager @ Slack",
-        talkTopic: "TBC",
-        talkBlurb: `TBC`
+        talkTopic: "Talk Topic TBC",
+        talkBlurb: `<p>Raquel Vélez is the engineering manager of the Platform App Discovery team at Slack in San Francisco, CA. Before her tenure at Slack, she was employee #1 at npm, Inc, helping the company grow to 30 people. Before that she worked at a variety of startups and institutions around the world, ranging from robotics to JavaScript. Raquel took both experiences to help found the Nodebots community, and she is a co-author of the book <a href="http://www.amazon.com/Make-JavaScript-Johnny-Five-Raspberry-BeagleBone/dp/1457186950">Make: JavaScript Robotics</a>. In her off time, you can find her sewing, driving fast cars, speaking, and hanging out with her hilarious husband and two cats dressed in dog suits.</p>`
       }
     ]
   }
