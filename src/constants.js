@@ -545,8 +545,8 @@ export const speakers: Speakers = {
         name: "Hadi Hariri",
         twitter: "hhariri",
         bio: "Developer Advocacy @ JetBrains",
-        talkTopic: "Talk Topic TBC",
-        talkBlurb: ``
+        talkTopic: "Functional Programming with Kotlin",
+        talkBlurb: `<p>In this talk we'll explain the basics of functional programming, where it fits in with the Object Orientation paradigm and how we can use functional programming in our every day work. We’ll cover important concepts in functional programming such as: Lambdas, Higher Order Functions, Partial Functions and more; seeing how we can apply these in a series of functional patterns to cut down our codebase and at the same time make sure we keep it maintainable</p>`
       },
       {
         id: "nick",

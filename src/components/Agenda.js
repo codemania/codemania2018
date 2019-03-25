@@ -184,7 +184,7 @@ const AgendaContent = () => {
             </td>
             <td>
               <p className="speaker"><a href="/speakers/2019/hadi">Hadi Hariri</a></p>
-              <p>TBC</p>
+              <p>Functional Programming with Kotlin</p>
             </td>
             <td>
               <p className="speaker"><a href="/speakers/2019/holden">Holden Karau</a></p>
