@@ -7,7 +7,7 @@ class YearLayout extends Component {
   render() {
     const yearId = this.props.match.params.id;
     if (yearId === "2019") {
-      // 2018 so redirect to home!
+      // 2019 so redirect to home!
       window.location = "/";
     }
     return (
