@@ -641,8 +641,12 @@ export const speakers: Speakers = {
         name: "Andrew Harvey",
         twitter: "mootpointer",
         bio: "CTO in Residence – Sydney @ Microsoft",
-        talkTopic: "Talk Topic TBC",
-        talkBlurb: `<p>Andrew Harvey is CTO in Residence in Sydney for Microsoft. He works with startups of all sizes to help them scale their product and technology. Previously he has worked as CTO for CancerAid and Zova (where he won an Apple Design Award in 2016). Outside work, he rides bikes, obsesses over coffee and fulfils stereotypes.</p>`
+        talkTopic: "Your Team as a Distributed System",
+        talkBlurb: `<p>As we level up in technical roles, often we find ourselve thrust into team leadership and management. This sneaks up on us and we can be left without the skills to adequately understand, engage with and lead our teams. This inevitably has a negative effect on our teams and this effect is multiplied as you scale.</p>
+        <p>What if we could reach into our toolbox that we use to understand technical problems – software architecture and distributed systems theory – to help us understand our teams? Could we learn to better manage people through this metaphor?</p>
+        <p>We will explore the dynamics of teams and how they map to our understanding of distributed systems. Using this understanding we can apply distributed systems theory to help unpick some of the dynamics of our teams and how to optimise them for scale.</p>
+        <p>From communcation to culture, we will break down the components of our distributed system and see what makes it tick using things like CAP Theorem and the 8 Fallacies of Distributed Systems. You will walk away with some tools to help understand your team, and set yourself up for successful scaling.</p>
+        <hr/><p>Andrew Harvey is CTO in Residence in Sydney for Microsoft. He works with startups of all sizes to help them scale their product and technology. Previously he has worked as CTO for CancerAid and Zova (where he won an Apple Design Award in 2016). Outside work, he rides bikes, obsesses over coffee and fulfils stereotypes.</p>`
       },
       {
         id: "rockbot",

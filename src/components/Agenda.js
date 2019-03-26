@@ -175,7 +175,7 @@ const AgendaContent = () => {
             </td>
             <td>
               <p className="speaker"><a href="/speakers/2019/andrew">Andrew Harvey</a></p>
-              <p>TBC</p>
+              <p>Your Team as a Distributed System</p>
             </td>
           </tr>
           <tr>
