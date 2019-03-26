@@ -649,8 +649,11 @@ export const speakers: Speakers = {
         name: "Raquel Velez",
         twitter: "rockbot",
         bio: "Engineering Manager @ Slack",
-        talkTopic: "Talk Topic TBC",
-        talkBlurb: `<p>Raquel Vélez is the engineering manager of the Platform App Discovery team at Slack in San Francisco, CA. Before her tenure at Slack, she was employee #1 at npm, Inc, helping the company grow to 30 people. Before that she worked at a variety of startups and institutions around the world, ranging from robotics to JavaScript. Raquel took both experiences to help found the Nodebots community, and she is a co-author of the book <a href="http://www.amazon.com/Make-JavaScript-Johnny-Five-Raspberry-BeagleBone/dp/1457186950">Make: JavaScript Robotics</a>. In her off time, you can find her sewing, driving fast cars, speaking, and hanging out with her hilarious husband and two cats dressed in dog suits.</p>`
+        talkTopic: "The Engineering of Craft",
+        talkBlurb: `<p>Consider the code you write every day: Is it engineering? Is it craft? Is it... both? Is there something we can learn by returning to our creative roots, to help us be even better engineers than we already are?</p>
+        <p>Join me as I look at engineering from a totally different angle. We’ll talk about patterns, prototypes, testing, and bug fixing... without reviewing a single line of code.</p>
+        <p>There will be puns. And pockets. And you might even walk away with a better understanding of why your pants don’t fit as well as they could!</p>
+        <hr/><p>Raquel Vélez is the engineering manager of the Platform App Discovery team at Slack in San Francisco, CA. Before her tenure at Slack, she was employee #1 at npm, Inc, helping the company grow to 30 people. Before that she worked at a variety of startups and institutions around the world, ranging from robotics to JavaScript. Raquel took both experiences to help found the Nodebots community, and she is a co-author of the book <a href="http://www.amazon.com/Make-JavaScript-Johnny-Five-Raspberry-BeagleBone/dp/1457186950">Make: JavaScript Robotics</a>. In her off time, you can find her sewing, driving fast cars, speaking, and hanging out with her hilarious husband and two cats dressed in dog suits.</p>`
       }
     ]
   }
