@@ -239,7 +239,7 @@ const AgendaContent = () => {
             </td>
             <td colSpan="2">
               <p className="speaker"><a href="/speakers/2019/te-hiku">Peter-Lucas Jones and Keoni Mahelona</a></p>
-              <p>TBC</p>
+              <p>Indigenous Digital Platforms</p>
             </td>
           </tr>
           <tr>
