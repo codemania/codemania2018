@@ -545,8 +545,8 @@ export const speakers: Speakers = {
         name: "Hadi Hariri",
         twitter: "hhariri",
         bio: "Developer Advocacy @ JetBrains",
-        talkTopic: "Talk Topic TBC",
-        talkBlurb: ``
+        talkTopic: "Functional Programming with Kotlin",
+        talkBlurb: `<p>In this talk we'll explain the basics of functional programming, where it fits in with the Object Orientation paradigm and how we can use functional programming in our every day work. We’ll cover important concepts in functional programming such as: Lambdas, Higher Order Functions, Partial Functions and more; seeing how we can apply these in a series of functional patterns to cut down our codebase and at the same time make sure we keep it maintainable</p>`
       },
       {
         id: "nick",
@@ -641,16 +641,23 @@ export const speakers: Speakers = {
         name: "Andrew Harvey",
         twitter: "mootpointer",
         bio: "CTO in Residence – Sydney @ Microsoft",
-        talkTopic: "Talk Topic TBC",
-        talkBlurb: `<p>Andrew Harvey is CTO in Residence in Sydney for Microsoft. He works with startups of all sizes to help them scale their product and technology. Previously he has worked as CTO for CancerAid and Zova (where he won an Apple Design Award in 2016). Outside work, he rides bikes, obsesses over coffee and fulfils stereotypes.</p>`
+        talkTopic: "Your Team as a Distributed System",
+        talkBlurb: `<p>As we level up in technical roles, often we find ourselve thrust into team leadership and management. This sneaks up on us and we can be left without the skills to adequately understand, engage with and lead our teams. This inevitably has a negative effect on our teams and this effect is multiplied as you scale.</p>
+        <p>What if we could reach into our toolbox that we use to understand technical problems – software architecture and distributed systems theory – to help us understand our teams? Could we learn to better manage people through this metaphor?</p>
+        <p>We will explore the dynamics of teams and how they map to our understanding of distributed systems. Using this understanding we can apply distributed systems theory to help unpick some of the dynamics of our teams and how to optimise them for scale.</p>
+        <p>From communcation to culture, we will break down the components of our distributed system and see what makes it tick using things like CAP Theorem and the 8 Fallacies of Distributed Systems. You will walk away with some tools to help understand your team, and set yourself up for successful scaling.</p>
+        <hr/><p>Andrew Harvey is CTO in Residence in Sydney for Microsoft. He works with startups of all sizes to help them scale their product and technology. Previously he has worked as CTO for CancerAid and Zova (where he won an Apple Design Award in 2016). Outside work, he rides bikes, obsesses over coffee and fulfils stereotypes.</p>`
       },
       {
         id: "rockbot",
         name: "Raquel Velez",
         twitter: "rockbot",
         bio: "Engineering Manager @ Slack",
-        talkTopic: "Talk Topic TBC",
-        talkBlurb: `<p>Raquel Vélez is the engineering manager of the Platform App Discovery team at Slack in San Francisco, CA. Before her tenure at Slack, she was employee #1 at npm, Inc, helping the company grow to 30 people. Before that she worked at a variety of startups and institutions around the world, ranging from robotics to JavaScript. Raquel took both experiences to help found the Nodebots community, and she is a co-author of the book <a href="http://www.amazon.com/Make-JavaScript-Johnny-Five-Raspberry-BeagleBone/dp/1457186950">Make: JavaScript Robotics</a>. In her off time, you can find her sewing, driving fast cars, speaking, and hanging out with her hilarious husband and two cats dressed in dog suits.</p>`
+        talkTopic: "The Engineering of Craft",
+        talkBlurb: `<p>Consider the code you write every day: Is it engineering? Is it craft? Is it... both? Is there something we can learn by returning to our creative roots, to help us be even better engineers than we already are?</p>
+        <p>Join me as I look at engineering from a totally different angle. We’ll talk about patterns, prototypes, testing, and bug fixing... without reviewing a single line of code.</p>
+        <p>There will be puns. And pockets. And you might even walk away with a better understanding of why your pants don’t fit as well as they could!</p>
+        <hr/><p>Raquel Vélez is the engineering manager of the Platform App Discovery team at Slack in San Francisco, CA. Before her tenure at Slack, she was employee #1 at npm, Inc, helping the company grow to 30 people. Before that she worked at a variety of startups and institutions around the world, ranging from robotics to JavaScript. Raquel took both experiences to help found the Nodebots community, and she is a co-author of the book <a href="http://www.amazon.com/Make-JavaScript-Johnny-Five-Raspberry-BeagleBone/dp/1457186950">Make: JavaScript Robotics</a>. In her off time, you can find her sewing, driving fast cars, speaking, and hanging out with her hilarious husband and two cats dressed in dog suits.</p>`
       }
     ]
   }

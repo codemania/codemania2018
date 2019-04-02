@@ -53,64 +53,12 @@ const CocStyle = () => {
     `}</style>);
 };
 
-const CocStyleOld = () => {
-  return (
-    <style jsx="true">{`
-      .bg {
-        background: #fff;
-      }
-      .coc {
-        color: #ff595a;
-        margin: 40px auto;
-      }
-      .coc h1 {
-        text-transform: uppercase;
-        font-weight: bold;
-        font-size: 2em;
-        margin-bottom: 20px;
-      }
-      .coc h2 {
-        background: #ff595a;
-        color: #fff;
-        text-transform: uppercase;
-        margin-bottom: 1em;
-        padding: 5px 0 25px 5px;
-        font-weight: bold;
-        font-size: 0.9em;
-        line-height: 1.1em;
-      }
-      .coc p {
-        font-size: smaller;
-        margin-bottom: 1em;
-        line-height: 1.1em;
-      }
-      .signatories {
-        display: flex;
-      }
-      .signatories p {
-        margin: 20px;
-      }
-      @media only screen
-        and (max-width : 600px) {
-          .coc {
-            margin: 10px;
-          }
-          .coc h1 {
-            font-size: 1.4em;
-          }
-          .signatories {
-            display: inline-block;
-          }
-        }
-    `}</style>);
-};
-
 class CodeOfConduct extends Component {
 
   render() {
     return (
       <div className="coc" id="coc">
-        {process.env.REACT_APP_FLAGS_IS2019 === "true" ? <CocStyle /> : <CocStyleOld />}
+        <CocStyle />
         <h1>Code of Conduct</h1 >
         <h2>Codemania anti-harassment policy</h2>
         <p>Codemania is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks. Conference participants violating these rules may be sanctioned or expelled from the conference at the discretion of the conference organisers.</p>

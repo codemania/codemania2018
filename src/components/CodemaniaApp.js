@@ -45,29 +45,6 @@ const AppDiv = () => {
     );
 }
 
-/* The placeholder, just with a 'buy now' table... */
-const AppDivOld = () => {
-  return (
-    <div className="App bg">
-      <style jsx="true">{`
-            .bg {
-              background: #ff595a;
-      `}</style>
-      <div className="sidebar bg"></div>
-      <div className="content bg">
-        <Route exact path="/" component={Placeholder} />
-        <Route exact path="/about" component={About}/>
-        <Route exact path="/coc" component={CodeOfConduct}/>
-        <Route exact path="/agenda" render={(props) => (<Agenda is2019="false"/>)} />
-        <Route path="/year/:id" component={YearLayout}/>
-        <Route path="/speakers/:year/:speaker" component={SpeakerPage}/>
-      </div>
-      <div className="sidebar bg"></div>
-      <footer className="footer bg"></footer>
-    </div>
-    );
-}
-
 class CodemaniaApp extends Component<Props> {
   constructor(props: Props) {
     super(props)
@@ -75,11 +52,10 @@ class CodemaniaApp extends Component<Props> {
   }
 
   render() {
-    var flag_is2019 = process.env.REACT_APP_FLAGS_IS2019==="true";
     return (
       <Router>
         <div className="App">
-          { flag_is2019 ? <AppDiv /> : <AppDivOld /> }
+          <AppDiv />
         </div>
       </Router>
     );

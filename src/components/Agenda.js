@@ -171,11 +171,11 @@ const AgendaContent = () => {
             </td>
             <td>
               <p className="speaker"><a href="/speakers/2019/rockbot">Raquel Velez</a></p>
-              <p>TBC</p>
+              <p>The Engineering of Craft</p>
             </td>
             <td>
               <p className="speaker"><a href="/speakers/2019/andrew">Andrew Harvey</a></p>
-              <p>TBC</p>
+              <p>Your Team as a Distributed System</p>
             </td>
           </tr>
           <tr>
@@ -184,7 +184,7 @@ const AgendaContent = () => {
             </td>
             <td>
               <p className="speaker"><a href="/speakers/2019/hadi">Hadi Hariri</a></p>
-              <p>TBC</p>
+              <p>Functional Programming with Kotlin</p>
             </td>
             <td>
               <p className="speaker"><a href="/speakers/2019/holden">Holden Karau</a></p>
@@ -239,7 +239,7 @@ const AgendaContent = () => {
             </td>
             <td colSpan="2">
               <p className="speaker"><a href="/speakers/2019/te-hiku">Peter-Lucas Jones and Keoni Mahelona</a></p>
-              <p>TBC</p>
+              <p>Indigenous Digital Platforms</p>
             </td>
           </tr>
           <tr>

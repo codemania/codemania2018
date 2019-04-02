@@ -151,7 +151,7 @@ class Placeholder extends Component {
             <p>We're back for more Codemania in beautiful Auckland, New Zealand on May 15th 2019. Grab a ticket now, and we'll update with more info soon.</p>
           </div>
 
-          <Tickets is2019="false" />
+          <Tickets />
           <div className="image-break"></div>
           {/* <Sponsors /> */}
         </div>

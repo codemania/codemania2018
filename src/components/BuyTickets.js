@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 
 import tickets from "../images/2019/buy-tickets.svg";
-import tickets2018 from "../images/2018/buy-tickets.svg";
 
 const BuyTicketsStyle = () => {
   return (
@@ -34,11 +33,7 @@ export default class BuyTickets extends Component {
         <div className="ticket-mobile-sidebar"></div>
         <div className="buy-tickets-image">
           <a href="https://codemania-2019.lilregie.com/">
-          {
-            process.env.REACT_APP_FLAGS_IS2019==="true"
-              ? <img src={tickets} alt="Buy Tickets Link" />
-              : <img src={tickets2018} alt="Buy Tickets Link" />
-          }
+          <img src={tickets} alt="Buy Tickets Link" />
           </a>
         </div>
         <div className="ticket-mobile-sidebar"></div>
