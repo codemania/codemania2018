@@ -553,7 +553,7 @@ export const speakers: Speakers = {
         name: "Nick Caldwell",
         twitter: "nickcald",
         bio: "Chief Product Officer at Looker",
-        talkTopic: "Talk Topic TBC",
+        talkTopic: "Ignite the Fire: management that sparks new leaders",
         talkBlurb: `<p>Nick Caldwell is the Chief Product Officer at Looker, creating a powerful platform for building modern data experiences. Prior to joining Looker he spent 2 years at Reddit as VP of Engineering, helping quintuple the engineering team while working on a bottoms-up revamp of every part of the world's 4th most popular website. He also spent 13 years at Microsoft, culminating in a role as General Manager of the Power BI product family where he rapidly transformed the company's business intelligence suite.</p><p>Nick holds a degree in computer science and electrical engineering from MIT and an MBA from UC Berkeley. He's also a board member of /dev/color, a non-profit whose mission is to maximize the impact of Black software engineers. Nick is a native of P.G. County Maryland, but is happy to call San Francisco home.</p>`
       },
       {
