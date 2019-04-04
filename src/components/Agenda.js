@@ -145,7 +145,7 @@ const AgendaContent = () => {
             </td>
             <td colSpan="2">
               <p className="speaker"><a href="/speakers/2019/nick">Nick Caldwell</a></p>
-              <p>TBC</p>
+              <p>Ignite the fire: Management that sparks new leaders</p>
             </td>
           </tr>
           <tr>
