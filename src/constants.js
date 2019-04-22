@@ -536,7 +536,7 @@ export const speakers: Speakers = {
         name: "meriko borogove",
         twitter: "merikob",
         bio: "Creator of iPhone Cameras. Formerly Apple.",
-        talkTopic: "Talk Topic TBC",
+        talkTopic: "through my lens: how uncertainty can make stronger products & leaders",
         talkBlurb: `<p>meriko spent 22 years at Apple, most recently as Senior Director of Engineering in the super-secret Special Projects Group. She did time on QuickTime and was a founding member of the iPhone team. meriko was responsible for building the iPhone camera, turning it into a must-have capability beloved by everyday people and professional photographers alike. She is passionate about human-centric technologies, products, and diverse teams that work across the intersection of hardware, software, silicon, and design.</p>
         <p>meriko advises Sense Medical, ScanLAB Projects, and resists the patriarchy at every opportunity.</p>`
       },
