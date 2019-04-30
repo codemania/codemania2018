@@ -579,7 +579,7 @@ export const speakers: Speakers = {
         id: "peterlucas",
         name: "Peter-Lucas Jones",
         twitter: "peterlucasjones",
-        bio: "Kaiwhakahaere @ TeHikuMedia",
+        bio: "Kaiwhakahaere @ Te Hiku Media",
         talkTopic: "Indigenous Digital Platforms",
         talkBlurb: `<p>Peter-Lucas Jones is an experienced broadcaster and digital content leader. He is the Kaiwhakahaere of Te Hiku Media, the Deputy Chairman of Te Whakaruruhau o Ngā Reo Irirangi Māori (National Māori Radio Network) and also the Deputy Chairman of Māori Television. Peter-Lucas is actively involved in developing solutions for indigenous data sovereignty, data collection and Māori data licensing for speech recognition technology.</p><p>Iwi Affiliations: Te Aupōuri, Ngāi Takoto, Ngāti Kahu.</p><p><i style='font-style:italic'>He iti pioke nō Rangaunu he au tōna.</i></p>`
       },
