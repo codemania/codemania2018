@@ -248,7 +248,7 @@ const AgendaContent = () => {
             </td>
             <td colSpan="2">
               <p className="speaker meriko"><a href="/speakers/2019/meriko">meriko borogove</a></p>
-              <p>TBC</p>
+              <p>through my lens: how uncertainty can make stronger products &amp; leaders</p>
             </td>
           </tr>
           <tr>
