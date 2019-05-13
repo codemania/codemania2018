@@ -633,8 +633,9 @@ export const speakers: Speakers = {
         name: "Heather Miller",
         twitter: "heathercmiller",
         bio: "Professing things @ CMU",
-        talkTopic: "Talk Topic TBC",
-        talkBlurb: ``
+        talkTopic: "What happened to distributed programming languages?",
+        talkBlurb: `<p>Nowadays, most programs we write are in some sense distributed—making HTTP requests or serving responses over HTTP, fetching or computing data on some remote resource, building some microservice that is meant to interact with others, etc. With all of this distribution going on, one might ask, what happened to distributed programming languages? Why are we still using languages like Java or C++ for these sorts of tasks? In this talk, Heather will take us on a whirlwind tour through history up to the present of distributed programming languages as well as programming constructs meant for distribution like futures and RPC. Together, we'll try to work out what happened to all of the distributed programming languages!</p>
+        <hr/><p>Heather Miller is an Assistant Professor in the School of Computer Science at Carnegie Mellon, where she is affiliated with the Institute for Software Research. Heather first became involved in the research and development, teaching, and community building of the open source Scala programming language as a graduate student. After finishing her PhD in Computer Science at EPFL under Martin Odersky, she went on to co-found the Scala Center at EPFL and to serve as its Executive Director, while working as a research scientist at EPFL. Now at CMU, she continues to work on and around the Scala language and to pursue research in distributed and concurrent computation, including work that facilitates the construction of new, functional, and complex distributed systems. </p>`
       },
       {
         id: "andrew",
