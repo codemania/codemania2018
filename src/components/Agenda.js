@@ -217,12 +217,12 @@ const AgendaContent = () => {
               <p className="time">14.35</p>
             </td>
             <td>
-              <p className="speaker"><a href="/speakers/2019/rob">Rob Fonseca-Ensor</a></p>
-              <p>ASTEROID TIME! When Code Evolution Isn't Enough</p>
-            </td>
-            <td>
               <p className="speaker"><a href="/speakers/2019/alix">Alix Klingenberg</a></p>
               <p>Backends for Frontends</p>
+            </td>
+            <td>
+              <p className="speaker"><a href="/speakers/2019/rob">Rob Fonseca-Ensor</a></p>
+              <p>ASTEROID TIME! When Code Evolution Isn't Enough</p>
             </td>
           </tr>
           <tr>
