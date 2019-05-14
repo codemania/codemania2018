@@ -10,6 +10,7 @@ import raygun from "../images/sponsors/logo_raygun.png"
 import xero from "../images/sponsors/logo_xero.svg"
 import fraedom from "../images/sponsors/logo_fraedom.png"
 import cin7 from "../images/sponsors/logo_cin7.png"
+import lmax from "../images/sponsors/logo_lmax.svg"
 
 class SponsorBadge extends Component {
 
@@ -133,6 +134,7 @@ class Sponsors extends Component {
         <ul className="sponsor-logos sponsor-logos--silver">
           <SponsorBadge href="https://www.fraedom.com/" imgSrc={fraedom} imgAlt="Fraedom" />
           <SponsorBadge href="https://www.cin7.com/" imgSrc={cin7} imgAlt="Cin7" />
+          <SponsorBadge href="https://www.lmax.com/" imgSrc={lmax} imgAlt="LMAX Exchange" />
         </ul>
         </div>
         <div className="sponsor-section">
