@@ -77,7 +77,7 @@ class Tickets extends Component {
         <TicketsStyle />
         <a className="anchor" id="tickets-anchor"></a>
         <h1>Tickets</h1>
-        <table onClick={this.handleTicketClick.bind(this)}>
+        <table>
           <thead>
             <tr>
               <td></td>
@@ -117,10 +117,6 @@ class Tickets extends Component {
         <br />
       </div>
     );
-  }
-
-  handleTicketClick() {
-    window.location = "https://codemania-2019.lilregie.com";
   }
 }
 

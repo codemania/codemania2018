@@ -150,7 +150,7 @@ class Home extends Component {
         `}</style>
         <div className="flex-container">
           <HeaderLogo />
-          <BuyTickets />
+          {/* <BuyTickets /> */}
         </div>
         <div className="flex-container">
           <Intro />
