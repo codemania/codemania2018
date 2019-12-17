@@ -10,11 +10,12 @@ type Props = {
 class SpeakerBadge extends Component<Props> {
   render() {
     const speaker = this.props.speaker;
+    const year = this.props.year;
     var speakerImage
     try {
-      speakerImage = require("../images/2019/speakers/" + speaker.id + ".png")
+      speakerImage = require("../images/" + year + "/speakers/" + speaker.id + ".png");
     } catch (err) {
-      speakerImage = require("../images/2019/speakers/default.png")
+      speakerImage = require("../images/" + year + "/speakers/default.png");
     }
     return (
       <div className="speaker-small" onClick={this.handleSpeakerClick.bind(this)}>

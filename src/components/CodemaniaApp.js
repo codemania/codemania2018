@@ -8,12 +8,11 @@ import Home from "../components/Home";
 import SpeakerPage from "../components/SpeakerPage"
 import type Year from "../constants";
 import YearLayout from "../components/Year";
-//import YearSelector from "../components/YearSelector";
 import Navbar from "../components/Navbar";
 import About from "../components/About";
 import CodeOfConduct from "./CodeOfConduct";
 import Agenda from "./Agenda";
-import Placeholder from "./Placeholder";
+//import Placeholder from "./Placeholder";
 
 type CodemaniaAppState = {
   focusedYear: Year,
@@ -21,7 +20,7 @@ type CodemaniaAppState = {
 
 const defaultState = (): CodemaniaAppState => {
   return {
-    focusedYear: "2019"
+    focusedYear: "2020"
   }
 }
 

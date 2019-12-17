@@ -1,27 +1,22 @@
 import React, { Component } from "react";
 
 import SpeakerList from "../components/SpeakerList";
-import HeaderLogo from '../components/HeaderLogo'
-import BuyTickets from '../components/BuyTickets'
-import Intro from '../components/Intro'
-import About from '../components/About'
-import Tickets from '../components/Tickets'
-import Sponsors from '../components/Sponsors'
+import HeaderLogo from '../components/HeaderLogo';
+import BuyTickets from '../components/BuyTickets';
+import Intro from '../components/Intro';
+import About from '../components/About';
+import Tickets from '../components/Tickets';
+import Sponsors from '../components/Sponsors';
 
 
-import lost1 from '../images/2019/lost-1.svg'
-import saved1 from '../images/2019/saved-1.svg'
-import winning1 from '../images/2019/winning-1.svg'
-
-import lost2 from '../images/2019/lost-2.svg'
-import saved2 from '../images/2019/saved-2.svg'
-import winning2 from '../images/2019/winning-2.svg'
+import speakersAfter from '../images/2020/assets/speakers-after.svg';
+import aboutAfter from '../images/2020/assets/about-after.svg';
+import ticketsAfter from '../images/2020/assets/tickets-after.svg';
+import escape from '../images/2020/assets/escape.svg';
 
 
 class Home extends Component {
   render() {
-    console.log('Randomising gender representation...')
-    var choice = Math.floor(Math.random() * 2)+1
     return (
       <div className="flex-container">
         <style jsx="true">{`
@@ -60,22 +55,22 @@ class Home extends Component {
             h1 {
               background-size: 200px;
               line-height: 1.8em;
-              font-family: 'Oswald', sans-serif;
+              font-size: 2rem;
               font-weight: bold;
-              transform: rotate(-5deg);
-              background-color: #fff;
-              width: 200px;
+              transform: rotate(-3deg);
+              background-color: rgb(255,0,153);
+              width: 20rem;
               text-align: center;
               text-transform: uppercase;
               margin: 0 auto 75px auto;
-              color: #ff595a;
+              color: rgb(0,0,0);
             }
-            .speaker-container {
-              margin-top: -100px;
+            .animation {
+              animation: float 4s infinite ease-in;
             }
             .lost {
-              width: 1200px;
-              height: 400px;
+              width: 900px;
+              height: 700px;
               margin-top: -40px;
             }
             .tickets {
@@ -84,19 +79,30 @@ class Home extends Component {
             .saved {
               width: 900px;
               height: 700px;
-              margin-top: -150px;
+              margin-top: -50px;
               z-index: -10;
             }
-            .winning {
+            .escape {
               width: 900px;
-              height: 600px;
+              height: 320px;
               margin-top: 0;
               margin-bottom: -60px;
               z-index: -10;
             }
+            .tickets-after {
+              text-align: center;
+              width: 900px;
+              height: 700px;
+              margin-top: 0;
+              margin-bottom: -60px;
+              z-index: -10;
+              background-image: url(`}{ticketsAfter}{`);
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
             .footer {
               width: 100%;
-              height: 200px;
+              height: 0px;
               flex: 10 0 auto;
             }
             @media only screen
@@ -105,7 +111,7 @@ class Home extends Component {
                 width: 100%;
                 text-align: center;
               }
-              .lost, .saved, .winning {
+              .lost, .saved, .escape, .intro, .tickets-after {
                 width: 80%;
                 height: auto;
                 margin: 0 auto;
@@ -133,10 +139,11 @@ class Home extends Component {
                 .buy-tickets {
                   flex: 6 0 200px;
                   padding: 0;
-                  margin-top: -50px;
+                  margin-top: -20px;
+                  margin-bottom: 2rem;
                 }
                 .speaker-container {
-                  margin-top: -20px;
+                  margin-top: 20px;
                 }
                 .ticket-mobile-sidebar {
                   flex: 2 0 auto;
@@ -150,20 +157,20 @@ class Home extends Component {
         `}</style>
         <div className="flex-container">
           <HeaderLogo />
-          {/* <BuyTickets /> */}
+          <BuyTickets />
         </div>
         <div className="flex-container">
           <Intro />
         </div>
         <div className="flex-container">
-          <SpeakerList year="2019" />
-          <div className="image-break"><img className="lost" src={choice===1?lost1:lost2} alt="Lost" /></div>
+          <SpeakerList year="2020" />
+          <div className="image-break"><img className="lost animation" src={speakersAfter} alt="Lost" /></div>
           <About />
-          <div className="image-break"><img className="saved" src={choice===1?saved1:saved2} alt="Saved" /></div>
+          <div className="image-break"><img className="saved animation" src={aboutAfter} alt="Saved" /></div>
           <Tickets />
-          <div className="image-break"><img className="winning" src={choice===1?winning1:winning2} alt="Winning" /></div>
+          <div className="image-break"><div className="tickets-after" ><img className="escape animation" src={escape} alt="Escape" /></div></div>
           <Sponsors />
-        </div>
+          </div>
       </div>
     );
   }

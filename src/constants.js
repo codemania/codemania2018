@@ -1,4 +1,4 @@
-export type Year = "2012" | "2013" | "2014" | "2015" | "2016" | "2017" | "2018";
+//export type Year = "2012" | "2013" | "2014" | "2015" | "2016" | "2017" | "2018";
 
 export type Speaker = {
   id: string,
@@ -661,7 +661,23 @@ export const speakers: Speakers = {
         <hr/><p>Raquel Vélez is the engineering manager of the Platform App Discovery team at Slack in San Francisco, CA. Before her tenure at Slack, she was employee #1 at npm, Inc, helping the company grow to 30 people. Before that she worked at a variety of startups and institutions around the world, ranging from robotics to JavaScript. Raquel took both experiences to help found the Nodebots community, and she is a co-author of the book <a href="http://www.amazon.com/Make-JavaScript-Johnny-Five-Raspberry-BeagleBone/dp/1457186950">Make: JavaScript Robotics</a>. In her off time, you can find her sewing, driving fast cars, speaking, and hanging out with her hilarious husband and two cats dressed in dog suits.</p>`
       }
     ]
+  },
+  "2020": {
+    displayName: "2020",
+    speakers: [
+      {id: "cat", name: "Cat Swetel", twitter: "CatSwetel", bio: "TBC", talkTopic: "TBC", talkBlurb: "<p>TBC</p>"},
+      {id: "rich", name: "Rich Campbell", twitter: "richcampbell", bio: "TBC", talkTopic: "TBC", talkBlurb: "<p>TBC</p>"},
+      {id: "jennifer", name: "Jennifer Wadella", twitter: "likeOMGitsFEDAY", bio: "TBC", talkTopic: "TBC", talkBlurb: "<p>TBC</p>"},
+      {id: "avery", name: "Avery Pennarun", twitter: "apenwarr", bio: "TBC", talkTopic: "TBC", talkBlurb: "<p>TBC</p>"},
+      {id: "heather", name: "Heather Downing", twitter: "quorralyne", bio: "TBC", talkTopic: "TBC", talkBlurb: "<p>TBC</p>"},
+      {id: "simon", name: "Simon Carryer", twitter: "simoncarryer", bio: "TBC", talkTopic: "My year as a data artist", talkBlurb: "<p>TBC</p>"},
+      {id: "lena", name: "Lena Plaksina", twitter: "plaksina_lena", bio: "TBC", talkTopic: "Just my type: things I learned from writing my own programming language", talkBlurb: "<p>TBC</p>"},
+//      {id: "aaron", name: "Aaron Powell", twitter: "slace", bio: "TBC", talkTopic: "STATEFUL SERVERLESS THROUGH DURABLE FUNCTIONS", talkBlurb: "<p>TBC</p>"},
+//      {id: "ete", name: "Ete", twitter: "", bio: "TBC", talkTopic: "Being a Maori and Pasifika Woman in STEM", talkBlurb: "<p>TBC</p>"},
+      {id: "nigel", name: "Nigel Sampson", twitter: "nigelsampson", bio: "TBC", talkTopic: "API Gateways with GraphQL", talkBlurb: "<p>TBC</p>"},
+      {id: "jess", name: "Jess Budd", twitter: "jessbudd4", bio: "TBC", talkTopic: "Making Single Page Apps Accessible: It's easier than you think", talkBlurb: "<p>TBC</p>"}
+    ]
   }
 };
 
-export const years: Year[] = Object.keys(speakers);
+//export const years: Year[] = Object.keys(speakers);

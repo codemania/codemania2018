@@ -1,19 +1,20 @@
 import React, { Component } from 'react'
 
-import tickets from "../images/2019/buy-tickets.svg";
+import tickets from "../images/2020/assets/buy-large.svg";
 
 const BuyTicketsStyle = () => {
   return (
     <style jsx="true">{`
       .buy-tickets {
-        display: flex;
+        float: right;
+        animation: float 2s infinite ease-in;
       }
       .ticket-mobile-sidebar {
         display: none;
         flex: 3 0 auto;
       }
       .buy-tickets-image {
-        width: 150px;
+        width: 190px;
         flex: 2 0 150px;
       }
       @media only screen
@@ -32,7 +33,7 @@ export default class BuyTickets extends Component {
         <BuyTicketsStyle />
         <div className="ticket-mobile-sidebar"></div>
         <div className="buy-tickets-image">
-          <a href="https://codemania-2019.lilregie.com/">
+          <a href="https://codemania-2020.lilregie.com/">
           <img src={tickets} alt="Buy Tickets Link" />
           </a>
         </div>

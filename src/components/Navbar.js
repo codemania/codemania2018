@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import FontAwesome from "react-fontawesome";
 
-class NavComponent extends Component<Props> {
+class NavComponent extends Component {
   render() {
     return (
       <nav>
@@ -12,22 +12,36 @@ class NavComponent extends Component<Props> {
             background: white;
             width: 100%;
             position: fixed;
-            padding: 0 0 0.3em 0;
+            padding: 1rem;
             z-index: 999;
           }
           nav .navWide li, nav .navNarrow li {
-            color: rgb(68,0,125);;
-            font-weight: bold;
+            color: rgb(68,0,125);
             display: inline-block;
-            margin: 10px;
+            padding: 1rem 2rem .5rem 2rem;
+            font-size: 1.2rem;
+            font-weight: 600;
+            text-decoration: none;
           }
           nav .navNarrow li {
             display: block;
-            line-height: 1.4em;
+            line-height: 1.2em;
+          }
+          nav .navWide li {
+            border-bottom: solid 8px #fff;
+          }
+          nav .navWide li:hover {
+            border-bottom: solid 8px rgb(9,0,60);
+          }
+          nav a {
+            display: inline-block;
           }
           nav li a, .fa-bars {
-            color: rgb(68,0,125);;
+            color: rgb(255,153,0);
             text-decoration: none;
+          }
+          nav li:hover a, nav li a:hover {
+            color: rgb(9,0,60);
           }
           .fa-bars {
             margin: 2px;

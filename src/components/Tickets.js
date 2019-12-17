@@ -12,23 +12,20 @@ const TicketsStyle = () => {
              margin-bottom: -40px;
           }
           .tickets table {
-            margin: 10px;
+            margin: 1rem auto;
             cursor: pointer;
           }
           .tickets table td {
             padding: 20px;
           }
-          .tickets table td:hover {
-            text-decoration: underline;
-          }
           .tickets table tr {
-            background-color: rgba(255,62,0,.8);
+            background-color: rgba(51,0,255,.8);
           }
           .tickets table tr:nth-child(even) {
-            background-color: rgba(214,0,28,.8);
+            background-color: rgba(40,0,200,.8);
           }
           .tickets tbody tr:hover {
-            background-color: rgb(68,0,125);
+            background-color: rgb(255,0,153);
           }
           .tickets table thead tr {
             background-color: transparent
@@ -93,27 +90,17 @@ class Tickets extends Component {
             </tr>
             <tr>
               <td>CONVERSATIONS</td>
-              <td width="15%">$700</td>
-              <td width="15%">$800</td>
-            </tr>
-            <tr>
-              <td>CONVERSATIONS*</td>
-              <td width="15%">$500</td>
-              <td width="15%">$600</td>
-            </tr>
-            <tr>
-              <td>CONVERSATIONS OVERNIGHT</td>
               <td width="15%">$1100</td>
               <td width="15%">$1200</td>
             </tr>
             <tr>
-              <td>CONVERSATIONS OVERNIGHT*</td>
+              <td>CONVERSATIONS*</td>
               <td width="15%">$900</td>
               <td width="15%">$1000</td>
             </tr>
           </tbody>
         </table>
-        <p className="small-print">*When purchased with a conference ticket. Earlybird ends 3rd March 2019</p>
+        <p className="small-print">*When purchased with a conference ticket. Earlybird ends 29th Feb 2020</p>
         <br />
       </div>
     );
