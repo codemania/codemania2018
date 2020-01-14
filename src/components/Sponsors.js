@@ -5,11 +5,11 @@ import myob from "../images/sponsors/logo_myob.png"
 import microsoft from "../images/sponsors/logo_microsoft.png"
 import vista from "../images/sponsors/logo_vista.png"
 
-import vend from "../images/sponsors/logo_vend.svg"
 import raygun from "../images/sponsors/logo_raygun.png"
 import xero from "../images/sponsors/logo_xero.svg"
-import fraedom from "../images/sponsors/logo_fraedom.png"
-import cin7 from "../images/sponsors/logo_cin7.png"
+import karat from "../images/sponsors/logo_karat.svg"
+import serko from "../images/sponsors/logo_serko.svg"
+
 import lmax from "../images/sponsors/logo_lmax.svg"
 
 class SponsorBadge extends Component {
@@ -84,11 +84,12 @@ class Sponsors extends Component {
             padding: 5px;
           }
           .sponsors p a {
-            color: #ffcd00;
             text-decoration:  none;
           }
           .sponsors p a:hover {
-            text-decoration:  underline;
+            color: rgb(255,0,153);
+            text-decoration: none;
+            border-bottom: solid 4px rgb(255,0,153);
           }
           .image-aligner {
             display: inline-block;
@@ -126,19 +127,18 @@ class Sponsors extends Component {
           </ul>
         </div>
         <div className="sponsor-section">
-        <ul className="sponsor-logos sponsor-logos--silver">
-          <SponsorBadge href="https://www.vendhq.com/" imgSrc={vend} imgAlt="Vend" />
-          <SponsorBadge href="https://raygun.com/" imgSrc={raygun} imgAlt="Raygun" />
-          <SponsorBadge href="https://www.xero.com/" imgSrc={xero} imgAlt="Xero" />
-        </ul>
-        <ul className="sponsor-logos sponsor-logos--silver">
-          <SponsorBadge href="https://www.fraedom.com/" imgSrc={fraedom} imgAlt="Fraedom" />
-          <SponsorBadge href="https://www.cin7.com/" imgSrc={cin7} imgAlt="Cin7" />
-          <SponsorBadge href="https://www.lmax.com/" imgSrc={lmax} imgAlt="LMAX Exchange" />
-        </ul>
+          <ul className="sponsor-logos sponsor-logos--silver">
+            <SponsorBadge href="https://raygun.com/" imgSrc={raygun} imgAlt="Raygun" />
+            <SponsorBadge href="https://www.xero.com/" imgSrc={xero} imgAlt="Xero" />
+          </ul>
+          <ul className="sponsor-logos sponsor-logos--silver">
+            <SponsorBadge href="https://www.serko.com/" imgSrc={serko} imgAlt="Serko" />
+            <SponsorBadge href="https://karat.com/" imgSrc={karat} imgAlt="Karat" />
+          </ul>
         </div>
         <div className="sponsor-section">
           <ul className="sponsor-logos sponsor-logos--standard">
+          <SponsorBadge href="https://www.lmax.com/" imgSrc={lmax} imgAlt="LMAX Exchange" />
           </ul>
         </div>
         <p>If you'd like to help sponsor New Zealand's most amazing conference for software developers, please get in touch so we can discuss options. <a href="mailto:sponsors@codemania.io">sponsors@codemania.io</a></p>

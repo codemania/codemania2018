@@ -5,10 +5,10 @@ const CocStyle = () => {
   return (
     <style jsx="true">{`
       .bg {
-        background: #fff;
+        background-color: rgb(0,0,23);
       }
       .coc {
-        color: #44017d;
+        color: #ff8f00;
         margin: 40px auto;
       }
       .coc h1 {
@@ -18,8 +18,8 @@ const CocStyle = () => {
         margin-bottom: 20px;
       }
       .coc h2 {
-        background: #44017d;
-        color: #ff8f00;
+        background-color: rgba(51,0,255,.8);
+        color: #fff;
         text-transform: uppercase;
         margin-bottom: 1em;
         padding: 5px 0 25px 5px;

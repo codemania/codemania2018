@@ -17,11 +17,12 @@ const AboutStyles = () => {
         line-height: 1.1em;
       }
       .about p a, .about .hilite {
-        color: #ffcd00;
         text-decoration:  none;
       }
       .about p a:hover {
-        text-decoration:  underline;
+        color: rgb(255,0,153);
+        text-decoration: none;
+        border-bottom: solid 4px rgb(255,0,153);
       }
       @media only screen and (max-width : 600px) {
         .about p {
@@ -41,10 +42,11 @@ class About extends Component {
         <a className="anchor" id="about-anchor"></a>
         <AboutStyles />
         <h1>About</h1>
-        <p>Now in its eighth year, <a href="/agenda">Codemania</a> is Auckland's premier conference for software developers, with fantastic speakers from New Zealand and around the world. Join us on <span className="hilite">Wednesday May 15th, 2019</span> at the luxurious <a href="http://www.cordishotels.com/en/auckland/">Cordis Hotel</a> for a full day of information and inspiration from software practitioners at the top of their game.</p>
-        <p>If one day is not enough for you, you can also join our world-class speakers and an exclusive gathering of your Codemania friends for two further days after the conference. <a href="/agenda">Codemania Conversations</a> returns to the <a href="https://www.heritagehotels.co.nz/waitakere-estate-auckland/">Waitakere Estate</a>, deep in the heart of one of Auckland's most picturesque bush settings. This two-day unconference is an opportunity for you to create your own agenda, and spend quality time with our speakers.</p>
+        <p>Codemania is back and better than ever: a full day of information and inspiration from software practitioners at the top of their game. Codemania conference will be held at the luxurious Cordis Hotel on May 6th.</p>
 
-        <p>Like always, Codemania is an inclusive, safe space for all to enjoy. Please have a read of our <a href="/coc">Code of Conduct</a>.</p>
+        <p>Once again, you can also join our world-class speakers and an exclusive gathering of your Codemania family for 2 days after the Codemania conference: Codemania Conversations. This year, we will be moving to a new venue, just a 35-minute ferry trip across to Waiheke Island.</p>
+
+        <p>As always, Codemania is an inclusive, safe space for all to enjoy. Please have a read of our <a href="/coc">Code of Conduct</a>.</p>
       </div>
     );
   }

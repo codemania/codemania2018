@@ -6,10 +6,10 @@ const SpeakerPageStyle = () => {
   return (
     <style jsx="true">{`
       .bg {
-        background: #fff;
+        /*background: #fff;*/
       }
       .speaker-page {
-        color: #44017d;
+        color: #ff8f00;
         margin: 40px auto;
         display: flex;
       }
@@ -23,7 +23,7 @@ const SpeakerPageStyle = () => {
         padding: 60px 20px 0 20px;
       }
       .speaker-byline {
-        background: #44017d;
+        background: rgba(51,0,255,.8);
         color: #fff;
         text-transform: uppercase;
         margin-bottom: 1em;
@@ -32,8 +32,9 @@ const SpeakerPageStyle = () => {
         font-size: 0.9em;
         line-height: 1.1em;
       }
-      .speaker-byline p a {
-        color: #ffcd00;
+      .speaker-byline p a:hover {
+        color: #f09;
+        border-bottom: 4px solid #f09;
         text-decoration:  none;
       }
       .talk-details p {
@@ -51,9 +52,6 @@ const SpeakerPageStyle = () => {
       }
       .talk-details p a:hover {
         text-decoration:  underline;
-      }
-      .speaker-byline p a:hover {
-        text-decoration: underline;
       }
       @media only screen
         and (max-width : 600px) {
@@ -79,9 +77,9 @@ class SpeakerPage extends Component {
     var speaker = speakers[yearId].speakers.find((s) => s.id === speakerId);
     var speakerImage
     try {
-      speakerImage = require("../images/2019/speakers/round/" + speaker.id + ".png")
+      speakerImage = require("../images/2020/speakers/" + speaker.id + ".png");
     } catch(err) {
-      speakerImage = require("../images/2019/speakers/round/default.png")
+      speakerImage = require("../images/2020/speakers/default_single.png");
     }
     return (
       <div className="speaker-page">
