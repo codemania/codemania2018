@@ -672,7 +672,7 @@ export const speakers: Speakers = {
       {id: "heather", name: "Heather Downing", twitter: "quorralyne", bio: "TBC", talkTopic: "TBC", talkBlurb: "<p>TBC</p>"},
       {id: "simon", name: "Simon Carryer", twitter: "simoncarryer", bio: "TBC", talkTopic: "My year as a data artist", talkBlurb: "<p>TBC</p>"},
       {id: "lena", name: "Lena Plaksina", twitter: "plaksina_lena", bio: "TBC", talkTopic: "Just my type: things I learned from writing my own programming language", talkBlurb: "<p>TBC</p>"},
-//      {id: "aaron", name: "Aaron Powell", twitter: "slace", bio: "TBC", talkTopic: "STATEFUL SERVERLESS THROUGH DURABLE FUNCTIONS", talkBlurb: "<p>TBC</p>"},
+      {id: "aaron", name: "Aaron Powell", twitter: "slace", bio: "TBC", talkTopic: "Stateful serverless through durable functions", talkBlurb: "<p>TBC</p>"},
 //      {id: "ete", name: "Ete", twitter: "", bio: "TBC", talkTopic: "Being a Maori and Pasifika Woman in STEM", talkBlurb: "<p>TBC</p>"},
       {id: "nigel", name: "Nigel Sampson", twitter: "nigelsampson", bio: "TBC", talkTopic: "API Gateways with GraphQL", talkBlurb: "<p>TBC</p>"},
       {id: "jess", name: "Jess Budd", twitter: "jessbudd4", bio: "TBC", talkTopic: "Making Single Page Apps Accessible: It's easier than you think", talkBlurb: "<p>TBC</p>"}
