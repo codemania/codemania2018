@@ -9,6 +9,7 @@ import raygun from "../images/sponsors/logo_raygun.png"
 import xero from "../images/sponsors/logo_xero.svg"
 import karat from "../images/sponsors/logo_karat.svg"
 import serko from "../images/sponsors/logo_serko.svg"
+import flux from "../images/sponsors/logo_flux.svg"
 
 import lmax from "../images/sponsors/logo_lmax.svg"
 
@@ -122,7 +123,7 @@ class Sponsors extends Component {
             <SponsorBadge href="https://myob.com/nz" imgSrc={myob} imgAlt="MYOB" />
           </ul>
           <ul className="sponsor-logos sponsor-logos--gold">
-            <SponsorBadge href="https://msdn.microsoft.com/en-nz/" imgSrc={microsoft} imgAlt="Microsoft" />
+            {/* <SponsorBadge href="https://msdn.microsoft.com/en-nz/" imgSrc={microsoft} imgAlt="Microsoft" /> */}
             <SponsorBadge href="https://www.vista.co/" imgSrc={vista} imgAlt="Vista" />
           </ul>
         </div>
@@ -134,6 +135,9 @@ class Sponsors extends Component {
           <ul className="sponsor-logos sponsor-logos--silver">
             <SponsorBadge href="https://www.serko.com/" imgSrc={serko} imgAlt="Serko" />
             <SponsorBadge href="https://karat.com/" imgSrc={karat} imgAlt="Karat" />
+          </ul>
+          <ul className="sponsor-logos sponsor-logos--silver">
+            <SponsorBadge href="https://fluxfederation.com/" imgSrc={flux} imgAlt="Flux Federation" />
           </ul>
         </div>
         <div className="sponsor-section">
