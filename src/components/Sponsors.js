@@ -123,21 +123,18 @@ class Sponsors extends Component {
             <SponsorBadge href="https://myob.com/nz" imgSrc={myob} imgAlt="MYOB" />
           </ul>
           <ul className="sponsor-logos sponsor-logos--gold">
-            {/* <SponsorBadge href="https://msdn.microsoft.com/en-nz/" imgSrc={microsoft} imgAlt="Microsoft" /> */}
             <SponsorBadge href="https://www.vista.co/" imgSrc={vista} imgAlt="Vista" />
+            <SponsorBadge href="https://raygun.com/" imgSrc={raygun} imgAlt="Raygun" />
           </ul>
         </div>
         <div className="sponsor-section">
           <ul className="sponsor-logos sponsor-logos--silver">
-            <SponsorBadge href="https://raygun.com/" imgSrc={raygun} imgAlt="Raygun" />
             <SponsorBadge href="https://www.xero.com/" imgSrc={xero} imgAlt="Xero" />
+            <SponsorBadge href="https://fluxfederation.com/" imgSrc={flux} imgAlt="Flux Federation" />
           </ul>
           <ul className="sponsor-logos sponsor-logos--silver">
             <SponsorBadge href="https://www.serko.com/" imgSrc={serko} imgAlt="Serko" />
             <SponsorBadge href="https://karat.com/" imgSrc={karat} imgAlt="Karat" />
-          </ul>
-          <ul className="sponsor-logos sponsor-logos--silver">
-            <SponsorBadge href="https://fluxfederation.com/" imgSrc={flux} imgAlt="Flux Federation" />
           </ul>
         </div>
         <div className="sponsor-section">
