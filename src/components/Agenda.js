@@ -172,7 +172,7 @@ const AgendaContent = () => {
             <td>
               <p className="time">09.50</p>
             </td>
-            <SpeakingSlot isKeynote speaker={findSpeaker("rich")} />
+            <SpeakingSlot isKeynote speaker={findSpeaker("avery")} />
           </tr>
           <tr>
             <td>
@@ -186,15 +186,15 @@ const AgendaContent = () => {
             <td>
               <p className="time">11.15</p>
             </td>
-            <SpeakingSlot speaker={findSpeaker("nigel")} />
+            <SpeakingSlot speaker={findSpeaker("james")} />
             <SpeakingSlot speaker={findSpeaker("lena")} />
           </tr>
           <tr>
             <td>
               <p className="time">12.00</p>
             </td>
-            <SpeakingSlot speaker={findSpeaker("nigel")} />
-            <SpeakingSlot speaker={findSpeaker("lena")} />
+            <SpeakingSlot speaker={findSpeaker("heather")} />
+            <SpeakingSlot speaker={findSpeaker("simon")} />
           </tr>
           <tr>
             <td>
@@ -208,15 +208,15 @@ const AgendaContent = () => {
             <td>
               <p className="time">13.45</p>
             </td>
-            <SpeakingSlot speaker={findSpeaker("nigel")} />
-            <SpeakingSlot speaker={findSpeaker("lena")} />
+            <SpeakingSlot speaker={findSpeaker("aaron")} />
+            <SpeakingSlot speaker={findSpeaker("jess")} />
           </tr>
           <tr>
             <td>
               <p className="time">14.35</p>
             </td>
             <SpeakingSlot speaker={findSpeaker("nigel")} />
-            <SpeakingSlot speaker={findSpeaker("lena")} />
+            <SpeakingSlot speaker={findSpeaker("amber")} />
           </tr>
           <tr>
             <td>
@@ -236,7 +236,7 @@ const AgendaContent = () => {
             <td>
               <p className="time">16.50</p>
             </td>
-            <SpeakingSlot isKeynote speaker={findSpeaker("avery")} />
+            <SpeakingSlot isKeynote speaker={findSpeaker("rich")} />
           </tr>
           <tr>
             <td>
@@ -264,8 +264,7 @@ class Agenda extends Component {
           <h1>Codemania Conference</h1>
           <h2>Wednesday 6th May 2020</h2>
         </div>
-        {/* <AgendaContent /> */}
-        <p>Agenda TBC</p>
+        <AgendaContent />
         <div className="agenda-header">
           <h1>Codemania Conversations - sponsored by Xero</h1>
           <h2>Thursday 7th May - Friday 8th May 2020</h2>
