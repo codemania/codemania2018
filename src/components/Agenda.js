@@ -216,7 +216,7 @@ const AgendaContent = () => {
               <p className="time">14.35</p>
             </td>
             <SpeakingSlot speaker={findSpeaker("nigel")} />
-            <SpeakingSlot speaker={findSpeaker("amber")} />
+            <SpeakingSlot speaker={findSpeaker("jennifer")} />
           </tr>
           <tr>
             <td>
@@ -230,7 +230,7 @@ const AgendaContent = () => {
             <td>
               <p className="time">16.00</p>
             </td>
-            <SpeakingSlot isKeynote speaker={findSpeaker("jennifer")} />
+            <SpeakingSlot isKeynote speaker={findSpeaker("amber")} />
           </tr>
           <tr>
             <td>
