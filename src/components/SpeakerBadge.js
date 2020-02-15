@@ -74,7 +74,7 @@ class SpeakerBadge extends Component<Props> {
         <img src={speakerImage} alt={speaker.name} />
         <div className="speaker-byline">
           <h3>{speaker.name}</h3>
-          <p>{speaker.bio}</p>
+          <p>{speaker.byline}</p>
         </div>
       </div>
     );

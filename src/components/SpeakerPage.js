@@ -90,12 +90,14 @@ class SpeakerPage extends Component {
         <div className="speaker-details">
           <h1>{speaker.name}</h1>
           <div className="speaker-byline">
-            <p>{speaker.bio}</p>
+            <p>{speaker.byline}</p>
             <p><a href={'https://twitter.com/' + speaker.twitter} target="_blank" rel="noopener noreferrer">@{speaker.twitter}</a></p>
           </div>
           <div className="talk-details">
-            <p><b>{speaker.talkTopic}</b></p>
-            <div dangerouslySetInnerHTML={{__html: speaker.talkBlurb}}/>
+            <p><b>{speaker.talk.title}</b></p>
+            <div dangerouslySetInnerHTML={{__html: speaker.talk.blurb}}/>
+            <br />
+            <div dangerouslySetInnerHTML={{__html: speaker.bio}}/>
           </div>
         </div>
       </div>
