@@ -692,7 +692,7 @@ export const speakers: Speakers = {
         name: "Jennifer Wadella",
         twitter: "likeOMGitsFEDAY",
         byline: "JavaScript Goddess @ Bitovi",
-        bio: "",
+        bio: "Jennifer Wadella has been writing code since before she realized it was a credible career path. She currently works as the Lead Angular Consultant at Bitovi and loves building performant web applications, speaking at technical conferences, and brewing kombucha. Jennifer is an active member of the KC tech community and the founder of Kansas City Women in Technology(KCWiT), an organization aimed at growing the number of women in technology careers in Kansas City. She is the PubConf Sydney 2018 Champion, a Silicon Prairie Champion Award Nominee, Rising Trendsetter STEMMy award-winner, and is apparently Missouri's Coolest Woman according to Pure Wow.",
         talk: {
           title: "Reactive Programming, State Management, and Redux for the Modern Front End Developer",
           blurb: "<p>TBC</p>"
