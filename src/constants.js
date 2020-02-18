@@ -681,7 +681,7 @@ export const speakers: Speakers = {
         name: "Rich Campbell",
         twitter: "richcampbell",
         byline: "Visiting from the Future",
-        bio: "",
+        bio: "<p>Richard Campbell wrote his first line of code in 1977. His career has spanned the computing industry both on the hardware and software sides, development and operations. He was a co-founder of Strangeloop Networks, acquired by Radware in 2013 and was on the board of directors of Telerik that was acquired by Progress Software in 2014. Today he is a consultant and advisor to several successful technology firms and is the founder and chairman of <a href='https://www.htbox.org'>Humanitarian Toolbox</a>, a public charity that builds open-source software for disaster relief. Richard is also the host of two podcasts: <a href='https://www.dotnetrocks.com'>.NET Rocks!</a> the Internet Audio Talkshow for .NET developers and <a href='https://www.runasradio.com'>RunAs Radio</a>, a weekly show for IT Professionals",
         talk: {
           title: "The Coming Disruptions in Development (and what it means to you!)",
           blurb: "<p>While software development has always been evolving, there are inflection points that represent radical change in how and what software gets built. What is the next disruption in development? Richard Campbell digs through the thousands of interviews he’s done on .NET Rocks and RunAs Radio to explore the upcoming changes in development – what will replace the smartphone? What is the real impact of machine learning on software? What about quantum computing? We might look back on these days in development and remember when things were so calm!</p>"
@@ -757,7 +757,7 @@ export const speakers: Speakers = {
         id: "amber",
         name: "Amber Craig",
         twitter: "amscraig",
-        byline: "TBC",
+        byline: "Kaimahi @ Whare Hauora",
         bio: "<p>Amber Craig has grown up experimenting with technology since her father brought home an IBM personal computer when she was 5. She has worked across many high profile corporate technology organisations in Aotearoa for over a decade designing solutions and strategies. Her recent calling is back to her turangawaewae in Wairarapa and embracing te ao Māori. She has worked towards being vocal and active on how we break down colonial structures especially in technology spaces to ensure this world is left better for the generations to come. Amber is also known for wearing mustard, is often called a selfie queen and is known to go off adventuring with her trusty sidekick kurī.</p>",
         talk: {
           title: "Talk topic: TBC",
