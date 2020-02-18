@@ -208,14 +208,14 @@ const AgendaContent = () => {
             <td>
               <p className="time">13.45</p>
             </td>
-            <SpeakingSlot speaker={findSpeaker("aaron")} />
+            <SpeakingSlot speaker={findSpeaker("nigel")} />
             <SpeakingSlot speaker={findSpeaker("jess")} />
           </tr>
           <tr>
             <td>
               <p className="time">14.35</p>
             </td>
-            <SpeakingSlot speaker={findSpeaker("nigel")} />
+            <SpeakingSlot speaker={findSpeaker("aaron")} />
             <SpeakingSlot speaker={findSpeaker("jennifer")} />
           </tr>
           <tr>
