@@ -133,7 +133,7 @@ const SpeakingSlot = (props) => {
   return (
   <td colSpan={isKeynote ? "2" : "1"}>
     <p className="speaker"><a href={"/speakers/2020/" + speaker.id}>{speaker.name}</a></p>
-    <p>{speaker.talkTopic}</p>
+    <p>{speaker.talk.title}</p>
   </td>
   );
 }
