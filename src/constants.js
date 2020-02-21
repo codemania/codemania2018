@@ -714,7 +714,7 @@ export const speakers: Speakers = {
         name: "Heather Downing",
         twitter: "quorralyne",
         byline: "Code Whisperer @ Okta",
-        bio: "",
+        bio: "<p>Climbing the technology mountain and halfway up the side. Experience in .Net, identity management, mobile applications, and voice. Dabbles in iOT. Focusing on coding for humans and choosing the right tool for the job.</p><p>Heather is a passionate coder and entrepreneur. She has experience working with Fortune 500 companies building enterprise-level mobile and .Net applications. She spends her spare time at tech conferences supporting the growth of new developers of all genders, ages, and backgrounds. When not coding, Heather spends her time as a competitive equestrian and learning the art of mounted archery.</p>",
         talk: {
           title: "Defensive Coding Bootcamp",
           blurb: "<p>Do you build things that can be hacked? Want to lower those odds? Join us to learn the basics of security vulnerabilities and evasive coding maneuvers that can make your software more secure, every time. Geared for developers of all skill levels, this code-centric talk will be present code samples and essential fundamentals that apply to every language.</p>"
