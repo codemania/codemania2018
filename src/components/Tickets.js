@@ -1,10 +1,9 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 
 const TicketsStyle = () => {
-  return (
-    <style jsx="true">{`
+    return (
+        <style jsx="true">{`
           .tickets {
-            color: #fff;
             width: 100%;
             font-size: 0.9em;
           }
@@ -12,6 +11,7 @@ const TicketsStyle = () => {
              margin-bottom: -40px;
           }
           .tickets table {
+            color: #fff;
             margin: 1rem auto;
             cursor: pointer;
           }
@@ -68,43 +68,45 @@ const TicketsStyle = () => {
 }
 
 class Tickets extends Component {
-  render() {
-    return (
-      <div className="tickets" id="tickets">
-        <TicketsStyle />
-        <a className="anchor" id="tickets-anchor"></a>
-        <h1>Tickets</h1>
-        <table>
-          <thead>
-            <tr>
-              <td></td>
-              <td width="15%">EARLYBIRD</td>
-              <td width="15%">REGULAR</td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>CONFERENCE</td>
-              <td width="15%">$450</td>
-              <td width="15%">$550</td>
-            </tr>
-            <tr>
-              <td>CONVERSATIONS</td>
-              <td width="15%">$1100</td>
-              <td width="15%">$1200</td>
-            </tr>
-            <tr>
-              <td>CONVERSATIONS*</td>
-              <td width="15%">$900</td>
-              <td width="15%">$1000</td>
-            </tr>
-          </tbody>
-        </table>
-        <p className="small-print">*When purchased with a conference ticket. Earlybird ends 29th Feb 2020</p>
-        <br />
-      </div>
-    );
-  }
+    render() {
+        return (
+            <div className="tickets" id="tickets">
+                <TicketsStyle/>
+                <a className="anchor" id="tickets-anchor"/>
+                <h1>Tickets</h1>
+                <a href="https://codemania-2020.lilregie.com/">
+                    <table>
+                        <thead>
+                        <tr>
+                            <td></td>
+                            <td width="15%">EARLYBIRD</td>
+                            <td width="15%">REGULAR</td>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>CONFERENCE</td>
+                            <td width="15%">$450</td>
+                            <td width="15%">$550</td>
+                        </tr>
+                        <tr>
+                            <td>CONVERSATIONS</td>
+                            <td width="15%">$1100</td>
+                            <td width="15%">$1200</td>
+                        </tr>
+                        <tr>
+                            <td>CONVERSATIONS*</td>
+                            <td width="15%">$900</td>
+                            <td width="15%">$1000</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </a>
+                <p className="small-print">*When purchased with a conference ticket. Earlybird ends 29th Feb 2020</p>
+                <br/>
+            </div>
+        );
+    }
 }
 
 export default Tickets;
