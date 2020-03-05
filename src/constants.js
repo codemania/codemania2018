@@ -673,7 +673,7 @@ export const speakers: Speakers = {
         bio: "<p>Cat is an engineering manager with experience applying Agile and lean principles in a variety of settings: from startups to large enterprises, warehouses to web, etc. She is passionate about increasing diversity in STEAM as a means of creating possibilities for a more equitable human future based on generative institutions. In her leisure time, Cat enjoys hiking, making jokes about bitcoin, and reading feminist literature.</p>", 
         talk: {
           title: "Talk topic: TBC",
-          blurb: ""
+          blurb: "<p></p>"
         }
       },
       {
@@ -692,10 +692,10 @@ export const speakers: Speakers = {
         name: "Jennifer Wadella",
         twitter: "likeOMGitsFEDAY",
         byline: "JavaScript Goddess @ Bitovi",
-        bio: "Jennifer Wadella has been writing code since before she realized it was a credible career path. She currently works as the Lead Angular Consultant at Bitovi and loves building performant web applications, speaking at technical conferences, and brewing kombucha. Jennifer is an active member of the KC tech community and the founder of Kansas City Women in Technology(KCWiT), an organization aimed at growing the number of women in technology careers in Kansas City. She is the PubConf Sydney 2018 Champion, a Silicon Prairie Champion Award Nominee, Rising Trendsetter STEMMy award-winner, and is apparently Missouri's Coolest Woman according to Pure Wow.",
+        bio: "<p>Jennifer Wadella has been writing code since before she realized it was a credible career path. She currently works as the Lead Angular Consultant at Bitovi and loves building performant web applications, speaking at technical conferences, and brewing kombucha. Jennifer is an active member of the KC tech community and the founder of Kansas City Women in Technology(KCWiT), an organization aimed at growing the number of women in technology careers in Kansas City. She is the PubConf Sydney 2018 Champion, a Silicon Prairie Champion Award Nominee, Rising Trendsetter STEMMy award-winner, and is apparently Missouri's Coolest Woman according to Pure Wow.</p>",
         talk: {
           title: "Reactive Programming, State Management, and Redux for the Modern Front End Developer",
-          blurb: "<p>TBC</p>"
+          blurb: "<p>JavaScript can be a scary place where we create and change variables at will and while code can be written very quickly, it can be side-effect prone and hard to debug & maintain down the line. In this talk we’ll explore the concept of reactive programming, discuss state management and the benefits of having an immutable state, and cover one of the more popular state management approaches - the redux pattern, & look at commonly used libraries that help us with these concepts.</p><p>No matter what the JavaScript framework flavor of choice is, a good understanding of reactive programming and state management helps us write better code that is more closely tied to business logic, is easier to read, easier to debug, and easier to scale.</p>"
         }
       },
       {
@@ -760,8 +760,8 @@ export const speakers: Speakers = {
         byline: "Kaimahi @ Whare Hauora",
         bio: "<p>Amber Craig has grown up experimenting with technology since her father brought home an IBM personal computer when she was 5. She has worked across many high profile corporate technology organisations in Aotearoa for over a decade designing solutions and strategies. Her recent calling is back to her turangawaewae in Wairarapa and embracing te ao Māori. She has worked towards being vocal and active on how we break down colonial structures especially in technology spaces to ensure this world is left better for the generations to come. Amber is also known for wearing mustard, is often called a selfie queen and is known to go off adventuring with her trusty sidekick kurī.</p>",
         talk: {
-          title: "Talk topic: TBC",
-          blurb: ""
+          title: "The uncomfortable truth of digital colonisation, a pūrākau in the making",
+          blurb: "<p>Join Amber (Ngāti Kahungunu, Rangitāne & Muaūpoko) as she shares her haerenga (journey) back home, her experience with Whare Hauora and building an understanding of what digital colonisation looks like. Amber will also share how all of our work is really just telling stories and will question whose story you’re telling and whether it is your place to tell it?</p>"
         }
       },
       {
