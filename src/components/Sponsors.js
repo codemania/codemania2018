@@ -10,6 +10,7 @@ import xero from "../images/sponsors/logo_xero.svg"
 import karat from "../images/sponsors/logo_karat.svg"
 import serko from "../images/sponsors/logo_serko.svg"
 import flux from "../images/sponsors/logo_flux.svg"
+import plexure from "../images/sponsors/logo_plexure.svg"
 
 import lmax from "../images/sponsors/logo_lmax.svg"
 
@@ -129,8 +130,9 @@ class Sponsors extends Component {
         </div>
         <div className="sponsor-section">
           <ul className="sponsor-logos sponsor-logos--silver">
-            <SponsorBadge href="https://www.xero.com/" imgSrc={xero} imgAlt="Xero" />
             <SponsorBadge href="https://fluxfederation.com/" imgSrc={flux} imgAlt="Flux Federation" />
+            <SponsorBadge href="https://www.xero.com/" imgSrc={xero} imgAlt="Xero" />
+            <SponsorBadge href="https://www.plexure.com/" imgSrc={plexure} imgAlt="Plexure" />
           </ul>
           <ul className="sponsor-logos sponsor-logos--silver">
             <SponsorBadge href="https://www.serko.com/" imgSrc={serko} imgAlt="Serko" />
