@@ -154,7 +154,29 @@ class Home extends Component {
                   margin-top: -50px;
                 }
             }
+
+            .alert {
+              padding: 15px;
+              margin-bottom: 20px;
+              border: 1px solid transparent;
+              border-radius: 4px;
+            }
+
+            .alert h2 {
+              text-align: center;
+            }
+
+            .alert-info {
+              background-color: #d9edf7;
+              border-color: #bce8f1;
+              color: #31708f;
+            }
+
         `}</style>
+        <div class="alert alert-info">
+          <h2>Important Update!</h2>
+          <p>Codemania has been rescheduled for September 14th. See <a href="https://mailchi.mp/321c217535b2/codemania-important-announcement-covid-19">here</a> for more details.</p>
+        </div>
         <div className="flex-container">
           <HeaderLogo />
           <BuyTickets />
