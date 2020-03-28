@@ -7,7 +7,7 @@ import Intro from '../components/Intro';
 import About from '../components/About';
 import Tickets from '../components/Tickets';
 import Sponsors from '../components/Sponsors';
-
+import Community from '../components/Community';
 
 import speakersAfter from '../images/2020/assets/speakers-after.svg';
 import aboutAfter from '../images/2020/assets/about-after.svg';
@@ -189,7 +189,8 @@ class Home extends Component {
           <Tickets />
           <div className="image-break"><div className="tickets-after" ><img className="escape animation" src={escape} alt="Escape" /></div></div>
           <Sponsors />
-          </div>
+          <Community />
+        </div>
       </div>
     );
   }
