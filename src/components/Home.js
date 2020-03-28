@@ -7,7 +7,7 @@ import Intro from '../components/Intro';
 import About from '../components/About';
 import Tickets from '../components/Tickets';
 import Sponsors from '../components/Sponsors';
-
+import Community from '../components/Community';
 
 import speakersAfter from '../images/2020/assets/speakers-after.svg';
 import aboutAfter from '../images/2020/assets/about-after.svg';
@@ -170,7 +170,7 @@ class Home extends Component {
             }
 
         `}</style>
-        <div class="alert alert-info">
+        <div className="alert alert-info">
           <h2>Important Update!</h2>
           <p>Codemania has been rescheduled for September 14th. See <a href="https://mailchi.mp/321c217535b2/codemania-important-announcement-covid-19">here</a> for more details.</p>
         </div>
@@ -189,7 +189,8 @@ class Home extends Component {
           <Tickets />
           <div className="image-break"><div className="tickets-after" ><img className="escape animation" src={escape} alt="Escape" /></div></div>
           <Sponsors />
-          </div>
+          <Community />
+        </div>
       </div>
     );
   }
