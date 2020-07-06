@@ -42,7 +42,7 @@ class About extends Component {
         <a className="anchor" id="about-anchor"></a>
         <AboutStyles />
         <h1>About</h1>
-        <p>Codemania is back and better than ever: a full day of information and inspiration from software practitioners at the top of their game. Codemania conference will be held at the luxurious Cordis Hotel on September 14th.</p>
+        <p>Codemania is back and better than ever: a full day of information and inspiration from software practitioners at the top of their game. Codemania conference will be held at the luxurious Cordis Hotel on April 19th, 2021.</p>
 
         <p>Once again, you can also join our world-class speakers and an exclusive gathering of your Codemania family for 2 days after the Codemania conference: Codemania Conversations. This year, we will be moving to a new venue, just a 35-minute ferry trip across to Waiheke Island.</p>
 
