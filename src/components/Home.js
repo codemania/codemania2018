@@ -172,7 +172,7 @@ class Home extends Component {
         `}</style>
         <div className="alert alert-info">
           <h2>Important Update!</h2>
-          <p>Codemania has been rescheduled for September 14th. See <a href="https://mailchi.mp/321c217535b2/codemania-important-announcement-covid-19">here</a> for more details.</p>
+          <p>Codemania has been rescheduled for April 19th 2021. See <a href="https://mailchi.mp/934ac694c5e2/codemania-important-announcement-covid-3271502">here</a> for more details.</p>
         </div>
         <div className="flex-container">
           <HeaderLogo />
