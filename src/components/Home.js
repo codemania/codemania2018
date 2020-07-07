@@ -46,6 +46,7 @@ class Home extends Component {
             .buy-tickets {
               flex: 3 0 80px;
               padding-top: 100px;
+              padding-left: 40px;
               max-width: 200px;
             }
             .intro {
