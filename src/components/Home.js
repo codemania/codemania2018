@@ -1,18 +1,9 @@
 import React, { Component } from "react";
 
-import SpeakerList from "../components/SpeakerList";
-import HeaderLogo from '../components/HeaderLogo';
-import BuyTickets from '../components/BuyTickets';
-import Intro from '../components/Intro';
-import About from '../components/About';
-import Tickets from '../components/Tickets';
+import Cancellation from "../components/Cancellation";
 import Sponsors from '../components/Sponsors';
-import Community from '../components/Community';
 
-import speakersAfter from '../images/2020/assets/speakers-after.svg';
-import aboutAfter from '../images/2020/assets/about-after.svg';
 import ticketsAfter from '../images/2020/assets/tickets-after.svg';
-import escape from '../images/2020/assets/escape.svg';
 
 
 class Home extends Component {
@@ -172,25 +163,12 @@ class Home extends Component {
 
         `}</style>
         <div className="alert alert-info">
-          <h2>Important Update!</h2>
-          <p>Codemania has been rescheduled for April 19th 2021. See <a href="https://mailchi.mp/934ac694c5e2/codemania-important-announcement-covid-3271502">here</a> for more details.</p>
+          <h2>Important Update:</h2>
+          <p>Codemania 2021 has been cancelled.</p>
         </div>
         <div className="flex-container">
-          <HeaderLogo />
-          <BuyTickets />
-        </div>
-        <div className="flex-container">
-          <Intro />
-        </div>
-        <div className="flex-container">
-          <SpeakerList year="2020" />
-          <div className="image-break"><img className="lost animation" src={speakersAfter} alt="Lost" /></div>
-          <About />
-          <div className="image-break"><img className="saved animation" src={aboutAfter} alt="Saved" /></div>
-          <Tickets />
-          <div className="image-break"><div className="tickets-after" ><img className="escape animation" src={escape} alt="Escape" /></div></div>
+          <Cancellation />
           <Sponsors />
-          <Community />
         </div>
       </div>
     );

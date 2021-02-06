@@ -39,7 +39,7 @@ class Sponsors extends Component {
             margin: 0 auto;
           }
           .sponsors h2 {
-            margin: 0 auto;
+            margin: 40 auto;
             text-transform: uppercase;
             color: #fff;
             width: 200px;
@@ -101,6 +101,9 @@ class Sponsors extends Component {
           .sponsor-section {
             padding-bottom: 80px;
           }
+          .thanks {
+            margin-top: 2em;
+          }
 
           @media only screen
             and (max-width : 600px) {
@@ -118,6 +121,9 @@ class Sponsors extends Component {
             }
         `}</style>
         <a className="anchor" id="sponsors-anchor"></a>
+        <div className="thanks">
+            <h1>We remain eternally thankful to our sponsors for their support over the years...</h1>
+        </div>
         <div className="sponsor-section">
           <ul className="sponsor-logos sponsor-logos--gold">
             <SponsorBadge href="https://pushpay.com" imgSrc={pushpay} imgAlt="Pushpay" />
@@ -144,7 +150,6 @@ class Sponsors extends Component {
           <SponsorBadge href="https://www.lmax.com/" imgSrc={lmax} imgAlt="LMAX Exchange" />
           </ul>
         </div>
-        <p>If you'd like to help sponsor New Zealand's most amazing conference for software developers, please get in touch so we can discuss options. <a href="mailto:sponsors@codemania.io">sponsors@codemania.io</a></p>
       </div>
     );
   }
