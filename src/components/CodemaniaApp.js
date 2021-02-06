@@ -32,11 +32,7 @@ const AppDiv = () => {
       <div className="sidebar bg"></div>
       <div className="content bg">
         <Route exact path="/" component={Home} />
-        <Route exact path="/about" component={About} />
         <Route exact path="/coc" component={CodeOfConduct} />
-        <Route exact path="/agenda" component={Agenda} />
-        <Route path="/year/:id" component={YearLayout} />
-        <Route path="/speakers/:year/:speaker" component={SpeakerPage}/>
       </div>
       <div className="sidebar bg"></div>
       <footer className="footer bg"></footer>

@@ -80,9 +80,6 @@ class NavComponent extends Component {
           <div className="wideDiv">
               <ul>
                 <li><a href="/">HOME</a></li>
-                <li><a href="/agenda">AGENDA</a></li>
-                <li><a href="/#about-anchor">ABOUT</a></li>
-                <li><a href="/#tickets-anchor">TICKETS</a></li>
                 <li><a href="/#sponsors-anchor">SPONSORS</a></li>
               </ul>
             </div>
@@ -92,9 +89,6 @@ class NavComponent extends Component {
           <div className="narrowLinks">
             <ul>
               <li><a href="/" onClick={this.burgerToggle}>HOME</a></li>
-              <li><a href="/agenda" onClick={this.burgerToggle}>AGENDA</a></li>
-              <li><a href="/#about" onClick={this.burgerToggle}>ABOUT</a></li>
-              <li><a href="/#tickets" onClick={this.burgerToggle}>TICKETS</a></li>
               <li><a href="/#sponsors" onClick={this.burgerToggle}>SPONSORS</a></li>
             </ul>
           </div>
